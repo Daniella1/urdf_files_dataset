@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+  <!-- colours based on RAL values supplied by Staubli -->
+  <!-- all RAL colours converted using http://www.visual-graphics.de/en/customer-care/ral-colours -->
+
+  <!-- default colours for robots -->
+
+  <!-- RAL 1028 - Melon yellow - scara (non-textured) and 6-axis (textured) robots -->
+  <xacro:property name="colour_staubli_ral_melon_yellow"   value="${255/255} ${155/255} ${  0/255} 1.0" />
+
+  <!-- RAL 7035 - Light grey - scara robot ESD -->
+  <xacro:property name="colour_staubli_ral_light_grey"     value="${197/255} ${199/255} ${196/255} 1.0" />
+
+  <!-- RAL 7045 - Telegrey 1 - scara robot base (textured) -->
+  <xacro:property name="colour_staubli_ral_telegrey_1"     value="${141/255} ${146/255} ${149/255} 1.0" />
+
+  <!-- RAL 7047 - Telegrey 4 - paint (smooth) -->
+  <xacro:property name="colour_staubli_ral_telegrey_4"     value="${200/255} ${200/255} ${199/255} 1.0" />
+
+  <!-- RAL 9007 - Grey aluminium - HE (smooth) -->
+  <xacro:property name="colour_staubli_ral_grey_aluminium" value="${135/255} ${133/255} ${129/255} 1.0" />
+
+  <!-- RAL 9016 - Traffic white - CR (smooth) -->
+  <xacro:property name="colour_staubli_ral_traffic_white"  value="${241/255} ${240/255} ${234/255} 1.0" />
+</robot>

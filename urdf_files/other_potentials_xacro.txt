@@ -1,0 +1,9 @@
+- https://github.com/ros-industrial/staubli_experimental
+- https://github.com/ros-industrial/fanuc_experimental
+- https://github.com/ros-industrial/fanuc
+- https://github.com/Osaka-University-Harada-Laboratory/onrobot
+- https://github.com/juandpenan/onrobot_2FG7_gripper_description   # they also describe how they created the URDF files
+- https://github.com/ipa320/schunk_modular_robotics
+- https://github.com/ipa320/schunk_robots
+- https://github.com/dfki-ric/mir_robot
+- https://github.com/ros-industrial/universal_robot

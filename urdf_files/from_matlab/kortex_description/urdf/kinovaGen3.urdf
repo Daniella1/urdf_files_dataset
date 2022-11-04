@@ -1,0 +1,494 @@
+<robot
+  name="JACO3_URDF_V10" version="1.0">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.00077898 -4.2629E-05 0.077301"
+        rpy="0 0 0" />
+      <mass
+        value="1.661" />
+      <inertia
+        ixx="0.0046774"
+        ixy="-2.8192E-07"
+        ixz="-4.8238E-05"
+        iyy="0.0047194"
+        iyz="-4.2299E-06"
+        izz="0.0019958" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Shoulder_Link">
+    <inertial>
+      <origin
+        xyz="-2.2888E-05 -0.010511 -0.075159"
+        rpy="0 0 0" />
+      <mass
+        value="2.009" />
+      <inertia
+        ixx="0.0045081"
+        ixy="-8.5826E-07"
+        ixz="-1.8997E-06"
+        iyy="0.0047695"
+        iyz="-0.00045534"
+        izz="0.0013903" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/Shoulder_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.86667 0.8902 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/Shoulder_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Actuator1"
+    type="continuous">
+    <origin
+      xyz="0 0 0.15643"
+      rpy="3.1416 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Shoulder_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="39"
+      velocity="0.8727" />
+  </joint>
+  <link
+    name="HalfArm1_Link">
+    <inertial>
+      <origin
+        xyz="-2.7821E-05 -0.097298 -0.012693"
+        rpy="0 0 0" />
+      <mass
+        value="1.106" />
+      <inertia
+        ixx="0.0089168"
+        ixy="-2.8995E-06"
+        ixz="-1.6642E-07"
+        iyy="0.00073106"
+        iyz="0.00051768"
+        izz="0.0090416" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/HalfArm1_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/HalfArm1_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Actuator2"
+    type="revolute">
+    <origin
+      xyz="0 0.005375 -0.12838"
+      rpy="1.5708 0 0" />
+    <parent
+      link="Shoulder_Link" />
+    <child
+      link="HalfArm1_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.2000"
+      upper="2.2000"
+      effort="39"
+      velocity="0.8727" />
+  </joint>
+  <link
+    name="HalfArm2_Link">
+    <inertial>
+      <origin
+        xyz="2.9808E-05 -0.0062391 -0.11552"
+        rpy="0 0 0" />
+      <mass
+        value="1.106" />
+      <inertia
+        ixx="0.0088707"
+        ixy="2.3435E-07"
+        ixz="-3.3202E-06"
+        iyy="0.0090034"
+        iyz="-0.00050415"
+        izz="0.00071859" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/HalfArm2_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/HalfArm2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Actuator3"
+    type="continuous">
+    <origin
+      xyz="0 -0.21038 -0.006375"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="HalfArm1_Link" />
+    <child
+      link="HalfArm2_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="39"
+      velocity="0.8727" />
+  </joint>
+  <link
+    name="ForeArm_Link">
+    <inertial>
+      <origin
+        xyz="-1.1024E-05 -0.075357 -0.014085"
+        rpy="0 0 0" />
+      <mass
+        value="0.895" />
+      <inertia
+        ixx="0.0067339"
+        ixy="6.9646E-07"
+        ixz="-2.2424E-08"
+        iyy="0.00045088"
+        iyz="0.00038999"
+        izz="0.0068613" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/ForeArm_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/ForeArm_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Actuator4"
+    type="revolute">
+    <origin
+      xyz="0 0.006375 -0.21038"
+      rpy="1.5708 0 0" />
+    <parent
+      link="HalfArm2_Link" />
+    <child
+      link="ForeArm_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.5656"
+      upper="2.5656"
+      effort="39"
+      velocity="0.8727" />
+  </joint>
+  <link
+    name="Wrist1_Link">
+    <inertial>
+      <origin
+        xyz="-3.2964E-07 -0.009617 -0.062968"
+        rpy="0 0 0" />
+      <mass
+        value="0.654" />
+      <inertia
+        ixx="0.0013311"
+        ixy="-4.5849E-10"
+        ixz="-4.2678E-10"
+        iyy="0.0013282"
+        iyz="-0.00022936"
+        izz="0.00030696" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/Wrist1_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/Wrist1_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Actuator5"
+    type="continuous">
+    <origin
+      xyz="0 -0.20843 -0.006375"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="ForeArm_Link" />
+    <child
+      link="Wrist1_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="9"
+      velocity="0.8727" />
+  </joint>
+  <link
+    name="Wrist2_Link">
+    <inertial>
+      <origin
+        xyz="-3.4377E-07 -0.044043 -0.0097804"
+        rpy="0 0 0" />
+      <mass
+        value="0.654" />
+      <inertia
+        ixx="0.0013422"
+        ixy="4.9596E-10"
+        ixz="-7.3382E-10"
+        iyy="0.00031025"
+        iyz="0.00023506"
+        izz="0.001336" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/Wrist2_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/Wrist2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Actuator6"
+    type="revolute">
+    <origin
+      xyz="0 0.00017505 -0.10593"
+      rpy="1.5708 0 0" />
+    <parent
+      link="Wrist1_Link" />
+    <child
+      link="Wrist2_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.0500"
+      upper="2.0500"
+      effort="9"
+      velocity="0.8727" />
+  </joint>
+  <link
+    name="Bracelet_Link">
+    <inertial>
+      <origin
+        xyz="-2.788E-05 -0.0052162 -0.022692"
+        rpy="0 0 0" />
+      <mass
+        value="0.31408" />
+      <inertia
+        ixx="0.0002264"
+        ixy="-4.9091E-07"
+        ixz="-2.6238E-07"
+        iyy="0.00015697"
+        iyz="-4.5614E-05"
+        izz="0.00025981" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/Bracelet_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/Bracelet_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Actuator7"
+    type="continuous">
+    <origin
+      xyz="0 -0.10593 -0.00017505"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="Wrist2_Link" />
+    <child
+      link="Bracelet_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="9"
+      velocity="0.8727" />
+  </joint>
+  <link
+    name="EndEffector_Link">
+    <inertial>
+      <origin
+        xyz="-0.00017492 0.014824 -0.62969"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/EndEffector_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://JACO3_URDF_V10/meshes/EndEffector_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Endeffector"
+    type="fixed">
+    <origin
+      xyz="0 0 -0.059525"
+      rpy="3.1416 0 0" />
+    <parent
+      link="Bracelet_Link" />
+    <child
+      link="EndEffector_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

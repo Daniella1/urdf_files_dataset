@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+  <xacro:include filename="$(find staubli_resources)/urdf/common_colours.xacro"/>
+
+  <!-- default colors for robots -->
+  <xacro:macro name="material_staubli_ral_melon_yellow">
+    <material name="">
+      <color rgba="${colour_staubli_ral_melon_yellow}"/>
+    </material>
+  </xacro:macro>
+
+  <xacro:macro name="material_staubli_ral_light_grey">
+    <material name="">
+      <color rgba="${colour_staubli_ral_light_grey}"/>
+    </material>
+  </xacro:macro>
+
+  <xacro:macro name="material_staubli_ral_telegrey_1">
+    <material name="">
+      <color rgba="${colour_staubli_ral_telegrey_1}"/>
+    </material>
+  </xacro:macro>
+
+  <xacro:macro name="material_staubli_ral_telegrey_4">
+    <material name="">
+      <color rgba="${colour_staubli_ral_telegrey_4}"/>
+    </material>
+  </xacro:macro>
+
+  <xacro:macro name="material_staubli_ral_grey_aluminium">
+    <material name="">
+      <color rgba="${colour_staubli_ral_grey_aluminium}"/>
+    </material>
+  </xacro:macro>
+
+  <xacro:macro name="material_staubli_ral_traffic_white">
+    <material name="">
+      <color rgba="${colour_staubli_ral_traffic_white}"/>
+    </material>
+  </xacro:macro>
+</robot>

@@ -1,0 +1,10 @@
+newmtl Body_612SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd base_albeido.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks base_specular.png
+Ns 18.00
