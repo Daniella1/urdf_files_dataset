@@ -1,0 +1,48 @@
+joint1:
+  limit:
+    lower:      -2.3093
+    upper:       2.3093
+    velocity:    2.0
+    effort:     87.0
+
+joint2:
+  limit:
+    lower:     -1.5133
+    upper:      1.5133
+    velocity:   1.0
+    effort:    87.0
+
+joint3:
+  limit:
+    lower:     -2.4937
+    upper:      2.4937
+    velocity:   1.50
+    effort:    87.0
+
+joint4:
+  limit:
+    lower:     -2.7478
+    upper:     -0.4461
+    velocity:   1.25
+    effort:    87.0
+
+joint5:
+  limit:
+    lower:     -2.4800
+    upper:      2.4800
+    velocity:   3.00
+    effort:    12.0
+
+joint6:
+  limit:
+    lower:      0.8521
+    upper:      4.2094
+    velocity:   1.50
+    effort:    12.0
+
+joint7:
+  limit:
+    lower:     -2.6895
+    upper:      2.6895
+    velocity:   3.00
+    effort:    12.0
