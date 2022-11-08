@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<!--
+    ###################################################################################################################
+    Note that all mass/inertial values are examples values only. They are not representative of the actual components.
+    ###################################################################################################################
+-->
+
+<robot name="QARM">
+  <link name="world"/>
+	<joint name="world_base_joint" type="fixed">
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <parent link="world"/>
+        <child link="base_link"/>
+    </joint>
+  <link name="base_link">
+    <inertial>
+      <origin
+        xyz="0.000529200576288575 -2.23307396420992E-06 0.0267852902177001"
+        rpy="0 0 0" />
+      <mass
+        value="3.89847036294307" />
+      <inertia
+        ixx="0.0259717926187233"
+        ixy="7.41706820354147E-07"
+        ixz="-9.20327430275286E-08"
+        iyy="0.0237418182185852"
+        iyz="6.90408382921997E-11"
+        izz="0.048730018421969" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/base_link.STL"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/base_link.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="YAW">
+    <inertial>
+      <origin
+        xyz="9.37418676855843E-09 -3.48810780368004E-09 0.115813977186301"
+        rpy="0 0 0" />
+      <mass
+        value="0.701518504018672" />
+      <inertia
+        ixx="0.000478980181395404"
+        ixy="3.49149750193703E-12"
+        ixz="5.35348095946474E-11"
+        iyy="0.000450830880977554"
+        iyz="9.21997569253762E-11"
+        izz="0.000625067532631923" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/YAW.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/YAW.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="YAW"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="YAW" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.967"
+      upper="2.967"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="BICEP">
+    <inertial>
+      <origin
+        xyz="0.0136584263393359 -0.234778864037209 -7.06001931450219E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.706073338310231" />
+      <inertia
+        ixx="0.00242444522090698"
+        ixy="2.42682372909241E-06"
+        ixz="-6.26703067273348E-07"
+        iyy="0.000274342515078279"
+        iyz="1.69726051287685E-06"
+        izz="0.00246773570290634" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/BICEP.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/BICEP.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="SHOULDER"
+    type="revolute">
+    <origin
+      xyz="0 0 0.1397714"
+      rpy="-1.5707963267949 0 0" />
+    <parent
+      link="YAW" />
+    <child
+      link="BICEP" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.483"
+      upper="1.483"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="FOREARM">
+    <inertial>
+      <origin
+        xyz="0.0372712542033594 0.155357218514742 0.000271723941997439"
+        rpy="0 0 0" />
+      <mass
+        value="0.4296669212638" />
+      <inertia
+        ixx="0.000344487673462402"
+        ixy="-2.89506781372207E-05"
+        ixz="4.98141800994188E-07"
+        iyy="0.000149695456153606"
+        iyz="2.97325983931059E-06"
+        izz="0.000297718151262944" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/FOREARM.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/FOREARM.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="ELBOW"
+    type="revolute">
+    <origin
+      xyz="0.0500000000000004 -0.350000000000015 0"
+      rpy="0 0 -1.42889927219074" />
+    <parent
+      link="BICEP" />
+    <child
+      link="FOREARM" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.658"
+      upper="1.309"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="END-EFFECTOR">
+    <inertial>
+      <origin
+        xyz="-7.14013714436801E-05 -4.06287319420589E-05 0.0057237846257307"
+        rpy="0 0 0" />
+      <mass
+        value="0.025331269641348" />
+      <inertia
+        ixx="2.26806595610621E-06"
+        ixy="7.98741449900658E-09"
+        ixz="1.08626792635935E-08"
+        iyy="2.22929725748166E-06"
+        iyz="-5.49899749477752E-09"
+        izz="4.00602755679902E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/END-EFFECTOR.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/END-EFFECTOR.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="WRIST"
+    type="revolute">
+    <origin
+      xyz="0.0336611536380097 0.235607569369425 0"
+      rpy="-1.5707963267949 0 -0.141897054604159" />
+    <parent
+      link="FOREARM" />
+    <child
+      link="END-EFFECTOR" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.010"
+      upper="3.010"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

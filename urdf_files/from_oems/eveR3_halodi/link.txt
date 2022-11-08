@@ -1,0 +1,1 @@
+https://github.com/Halodi/halodi-robot-models/tree/main/eve_r3_description

@@ -1,0 +1,351 @@
+<?xml version="1.0" ?>
+<robot name="QCar" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <material name="Black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+    </material>
+    <material name="Blue">
+        <color rgba="0.0 0.0 0.8 1.0"/>
+    </material>
+    <material name="Green">
+        <color rgba="0.0 0.8 0.0 1.0"/>
+    </material>
+    <material name="Grey">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+    </material>
+    <material name="DarkGrey">
+        <color rgba="0.3 0.3 0.3 1.0"/>
+    </material>
+    <material name="Orange">
+        <color rgba="1.0 0.423529411765 0.0392156862745 1.0"/>
+    </material>
+    <material name="Brown">
+        <color rgba="0.870588235294 0.811764705882 0.764705882353 1.0"/>
+    </material>
+    <material name="Red">
+        <color rgba="0.8 0.0 0.0 1.0"/>
+    </material>
+    <material name="White">
+        <color rgba="1.0 1.0 1.0 1.0"/>
+    </material>
+
+<!--
+    ###################################################################################################################
+    Not that all mass/inertial values are examples values only. They are not representative of the actual components.
+    ###################################################################################################################
+-->
+<!--
+    Uncomment this if you want the robot to be anchored to the world frame/ground plane.
+    <link name="world"/>
+    <joint name="world_base_joint" type="fixed">
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <parent link="world"/>
+        <child link="base"/>
+    </joint>
+-->
+    <link name="base">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarBody.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="DarkGrey"/>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarBody.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+    <joint name="body_lidar_joint" type="continuous">
+        <parent link="base"/>
+        <child link="lidar"/>
+        <origin rpy="0 0 0" xyz="-0.01227 -0.00045 0.16152"/>
+        <axis xyz="0 0 1"/>
+    </joint>
+    <link name="lidar">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarLidar.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="Grey"/>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarLidar.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+    <joint name="base_hubfl_joint" type="revolute">
+        <parent link="base"/>
+        <child link="hubfl"/>
+        <origin rpy="0 0 0" xyz="0.12960 0.05590 0.03338"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-0.5236" upper="0.5236" effort="300" velocity="2"/>
+    </joint>
+    <link name="hubfl">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarSteeringHubL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="Grey"/>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarSteeringHubL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+    <joint name="base_hubfr_joint" type="revolute">
+        <parent link="base"/>
+        <child link="hubfr"/>
+        <origin rpy="0 0 0" xyz="0.12960 -0.05590 0.03338"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-0.5236" upper="0.5236" effort="300" velocity="2"/>
+    </joint>
+    <link name="hubfr">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarSteeringHubR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="Grey"/>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarSteeringHubR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+    <joint name="hubfl_wheelfl_joint" type="continuous">
+        <parent link="hubfl"/>
+        <child link="wheelfl"/>
+        <origin rpy="0 0 3.14" xyz="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <link name="wheelfl">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarWheel.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="Black"/>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarWheel.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+    <joint name="hubfr_wheelfr_joint" type="continuous">
+        <parent link="hubfr"/>
+        <child link="wheelfr"/>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <link name="wheelfr">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarWheel.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="Black"/>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarWheel.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+
+    <joint name="base_wheelrl_joint" type="continuous">
+        <parent link="base"/>
+        <child link="wheelrl"/>
+        <origin rpy="0 0 3.14" xyz="-0.12765 0.05610 0.03338"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <link name="wheelrl">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarWheel.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="Black"/>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarWheel.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+
+    <joint name="base_wheelrr_joint" type="continuous">
+        <parent link="base"/>
+        <child link="wheelrr"/>
+        <origin rpy="0 0 0" xyz="-0.12765 -0.05610 0.03338"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <link name="wheelrr">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>    
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarWheel.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="Black"/>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qcar/meshes/QCarWheel.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+    
+<!--
+    <gazebo>
+        <plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control">
+            <robotNamespace>/QCar</robotNamespace>
+        </plugin>
+    </gazebo>
+-->
+
+    <gazebo reference="base">
+        <material>Gazebo/DarkGrey</material>
+    </gazebo>
+    <gazebo reference="lidar">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+    <gazebo reference="hubfl">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+    <gazebo reference="hubfr">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+    <gazebo reference="wheelfl">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="wheelfr">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="wheelrl">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="wheelrr">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <transmission name="body_lidar_tran">
+        <type>>transmission_interface/SimpleTransmission</type>
+        <joint name="body_lidar_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="body_lidar_motor">
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <transmission name="base_hubfl_tran">
+        <type>>transmission_interface/SimpleTransmission</type>
+        <joint name="base_hubfl_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="base_hubfl_motor">
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="base_hubfr_tran">
+        <type>>transmission_interface/SimpleTransmission</type>
+        <joint name="base_hubfr_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="base_hubfr_motor">
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <transmission name="hubfl_wheelfl_tran">
+        <type>>transmission_interface/SimpleTransmission</type>
+        <joint name="hubfl_wheelfl_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="hubfl_wheelfl_motor">
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="hubfr_wheelfr_tran">
+        <type>>transmission_interface/SimpleTransmission</type>
+        <joint name="hubfr_wheelfr_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="hubfr_wheelfr_motor">
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <transmission name="base_wheelrl_tran">
+        <type>>transmission_interface/SimpleTransmission</type>
+        <joint name="base_wheelrl_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="base_wheelrl_motor">
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="base_wheelrr_tran">
+        <type>>transmission_interface/SimpleTransmission</type>
+        <joint name="base_wheelrr_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="base_wheelrr_motor">
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+</robot>
