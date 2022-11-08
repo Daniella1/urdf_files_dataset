@@ -1,0 +1,5 @@
+{
+    "source": "oem",
+    "link": "https://github.com/jackal/jackal/tree/noetic-devel/jackal_description/urdf",
+    "xacro-generated": true
+}
