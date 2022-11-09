@@ -1,0 +1,19 @@
+{
+    "robots": [
+        {
+            "name": "Pioneer 3AT",
+            "type": "robotic arm",
+            "manufacturer": "Adept Mobile Robots"
+        },
+    
+        {   "name": "Pioneer 3DX",
+            "type": "robotic arm",
+            "manufacturer": "Adept Mobile Robots"
+        },
+
+        {   "name": "Pioneer LX",
+            "type": "robotic arm",
+            "manufacturer": "Adept Mobile Robots"
+        }
+    ]
+}

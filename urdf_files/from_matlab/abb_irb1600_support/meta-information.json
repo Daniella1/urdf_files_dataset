@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "IRB1600",
+            "type": "robotic arm",
+            "manufacturer": "ABB"
+        }
+    ]
+}
