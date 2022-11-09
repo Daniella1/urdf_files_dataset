@@ -1,5 +1,5 @@
 {
     "name": "Spot",
-    "type": "quadrepedal robot",
+    "type": "quadrupedal robot",
     "manufacturer": "Boston Dynamics"
 }
