@@ -1,0 +1,86 @@
+solid 1
+ facet normal        0       -1 -4.42505e-05
+  outer loop
+   vertex      -10 -23.9018  13.5144
+   vertex       10 -23.9033  48.5144
+   vertex      -10 -23.9033  48.5144
+  endloop
+ endfacet
+ facet normal       -0       -1 -4.42505e-05
+  outer loop
+   vertex       10 -23.9018  13.5144
+   vertex       10 -23.9033  48.5144
+   vertex      -10 -23.9018  13.5144
+  endloop
+ endfacet
+ facet normal       -0        1 4.42505e-05
+  outer loop
+   vertex      -10 -18.9018  13.5146
+   vertex      -10 -18.9033  48.5146
+   vertex       10 -18.9018  13.5146
+  endloop
+ endfacet
+ facet normal       -0        1 4.42505e-05
+  outer loop
+   vertex      -10 -18.9033  48.5146
+   vertex       10 -18.9033  48.5146
+   vertex       10 -18.9018  13.5146
+  endloop
+ endfacet
+ facet normal       -1        0        0
+  outer loop
+   vertex      -10 -23.9033  48.5144
+   vertex      -10 -18.9033  48.5146
+   vertex      -10 -18.9018  13.5146
+  endloop
+ endfacet
+ facet normal       -1        0        0
+  outer loop
+   vertex      -10 -23.9033  48.5144
+   vertex      -10 -18.9018  13.5146
+   vertex      -10 -23.9018  13.5144
+  endloop
+ endfacet
+ facet normal        0 -4.42505e-05        1
+  outer loop
+   vertex      -10 -18.9033  48.5146
+   vertex      -10 -23.9033  48.5144
+   vertex       10 -23.9033  48.5144
+  endloop
+ endfacet
+ facet normal        0 -4.42505e-05        1
+  outer loop
+   vertex      -10 -18.9033  48.5146
+   vertex       10 -23.9033  48.5144
+   vertex       10 -18.9033  48.5146
+  endloop
+ endfacet
+ facet normal        1        0        0
+  outer loop
+   vertex       10 -18.9033  48.5146
+   vertex       10 -23.9033  48.5144
+   vertex       10 -18.9018  13.5146
+  endloop
+ endfacet
+ facet normal        1        0        0
+  outer loop
+   vertex       10 -23.9033  48.5144
+   vertex       10 -23.9018  13.5144
+   vertex       10 -18.9018  13.5146
+  endloop
+ endfacet
+ facet normal        0 4.40598e-05       -1
+  outer loop
+   vertex      -10 -23.9018  13.5144
+   vertex      -10 -18.9018  13.5146
+   vertex       10 -23.9018  13.5144
+  endloop
+ endfacet
+ facet normal        0 4.40598e-05       -1
+  outer loop
+   vertex      -10 -18.9018  13.5146
+   vertex       10 -18.9018  13.5146
+   vertex       10 -23.9018  13.5144
+  endloop
+ endfacet
+endsolid 1 written by HOOPS Exchange
