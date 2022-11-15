@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "Spot",
+            "type": "quadrupedal robot",
+            "manufacturer": "Boston Dynamics"
+        }
+    ]
+}

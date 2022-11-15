@@ -1,0 +1,19 @@
+{
+    "robots": [
+        {
+            "name": "Franka Panda",
+            "type": "robotic arm",
+            "manufacturer": "Franka Emika"
+        },
+        {
+            "name": "Dual Franka Panda",
+            "type": "dual arm robot",
+            "manufacturer": "Franka Emika"
+        },
+        {
+            "name": "FR3",
+            "type": "robotic arm",
+            "manufacturer": "Franka Emika"
+        }
+    ]
+}

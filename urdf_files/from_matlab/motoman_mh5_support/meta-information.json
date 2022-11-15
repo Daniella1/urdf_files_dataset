@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "Motoman MH5",
+            "type": "robotic arm",
+            "manufacturer": "Yaskawa Motoman"
+        }
+    ]
+}

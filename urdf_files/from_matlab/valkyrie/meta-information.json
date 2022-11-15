@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA"
+        }
+    ]
+}

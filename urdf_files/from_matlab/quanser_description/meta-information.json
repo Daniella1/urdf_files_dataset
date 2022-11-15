@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "QBot2e",
+            "type": "mobile robot",
+            "manufacturer": "Quanser"
+        },
+        {
+            "name": "QCar",
+            "type": "mobile robot",
+            "manufacturer": "Quanser"
+        }
+    ]
+}

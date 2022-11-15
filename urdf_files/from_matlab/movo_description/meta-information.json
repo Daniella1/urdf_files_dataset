@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "Movo",
+            "type": "mobile manipulator",
+            "manufacturer": "Kinova Robotics"
+        }
+    ]
+}

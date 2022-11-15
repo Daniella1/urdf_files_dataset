@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "Atlas",
+            "type": "humanoid robot",
+            "manufacturer": "Boston Dynamics"
+        }
+    ]
+}

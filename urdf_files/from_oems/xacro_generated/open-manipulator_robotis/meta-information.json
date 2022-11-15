@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Open Manipulator",
+            "type": "robotic arm",
+            "manufacturer": "ROBOTIS"
+        },
+        {
+            "name": "Open Manipulator robot",
+            "type": "robotic arm",
+            "manufacturer": "ROBOTIS"
+        }
+    ]
+}

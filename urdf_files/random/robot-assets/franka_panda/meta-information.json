@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "Franka Panda",
+            "type": "robotic arm",
+            "manufacturer": "Franka Emika"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "UR3e",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots"
+        },
+        {
+            "name": "UR5e",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots"
+        },
+        {
+            "name": "UR10e",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots"
+        },
+        {
+            "name": "UR16e",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots"
+        }
+    ]
+}

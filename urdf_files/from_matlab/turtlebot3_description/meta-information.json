@@ -1,0 +1,29 @@
+{
+    "robots": [
+        {
+            "name": "Turtlebot 3 - Burger",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS"
+        },
+        {
+            "name": "Turtlebot 3 - Waffle",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS"
+        },
+        {
+            "name": "Turtlebot 3 - Waffle for Open Manipulator",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS"
+        },
+        {
+            "name": "Turtlebot 3 - Waffle Pi",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS"
+        },
+        {
+            "name": "Turtlebot 3 - Waffle Pi for Open Manipulator",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS"
+        }
+    ]
+}

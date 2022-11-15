@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Allegro hand - left",
+            "type": "end effector",
+            "manufacturer": "Wonik Robotics"
+        },
+        {
+            "name": "Allegro hand - right",
+            "type": "end effector",
+            "manufacturer": "Wonik Robotics"
+        }
+    ]
+}

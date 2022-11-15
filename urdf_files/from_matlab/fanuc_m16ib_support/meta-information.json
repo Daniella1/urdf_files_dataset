@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "M-16iB",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc"
+        }
+    ]
+}

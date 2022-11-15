@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "EVEr3",
+            "type": "humanoid robot",
+            "manufacturer": "Halodi"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "Turtlebot",
+            "type": "mobile robot",
+            "manufacturer": "Clearpath Robotics"
+        }
+    ]
+}

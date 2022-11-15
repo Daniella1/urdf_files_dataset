@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "Kinova Gen3 V12",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics"
+        }
+    ]
+}

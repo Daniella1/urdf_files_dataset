@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "2F-85",
+            "type": "end effector",
+            "manufacturer": "Robotiq"
+        }
+    ]
+}

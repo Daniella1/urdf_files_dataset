@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "Sawyer",
+            "type": "robotic arm",
+            "manufacturer": "Rethink Robotics"
+        }
+    ]
+}

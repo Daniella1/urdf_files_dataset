@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "PR2",
+            "type": "mobile manipulator",
+            "manufacturer": "Willow Garage"
+        }
+    ]
+}

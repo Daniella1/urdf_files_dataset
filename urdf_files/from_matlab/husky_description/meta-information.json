@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "Husky",
+            "type": "rmobile robot",
+            "manufacturer": "Clearpath Robotics"
+        }
+    ]
+}

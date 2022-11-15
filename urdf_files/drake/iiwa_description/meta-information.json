@@ -7,7 +7,7 @@
         },
         {
             "name": "Dual kuka lbr iiwa 14 - polytype collision",
-            "type": "robotic arm",
+            "type": "dual arm robot",
             "manufacturer": "KUKA"
         },
         {
