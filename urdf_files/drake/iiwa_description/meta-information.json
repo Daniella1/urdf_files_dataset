@@ -1,0 +1,44 @@
+{
+    "robots": [
+        {
+            "name": "Kuka lbr iiwa 14 - spheres collision",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Dual kuka lbr iiwa 14 - polytype collision",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Kuka lbr iiwa 14 - no collision",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Kuka lbr iiwa 14 - polytype collision",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Kuka lbr iiwa 14 - primitive collision",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Kuka lbr iiwa 14 - spheres dense collision",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Kuka lbr iiwa 14 - spheres dense elbow collision",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Planer Kuka lbr iiwa 14 - spheres dense elbow collision",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        }
+    ]
+}

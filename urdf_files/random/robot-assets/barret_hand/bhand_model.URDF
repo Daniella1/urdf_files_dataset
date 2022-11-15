@@ -1,0 +1,507 @@
+<robot
+  name="bhand_model">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-1.53444878605399E-05 -0.00277693660903533 0.0352882290973172"
+        rpy="0 0 0" />
+      <mass
+        value="0.377966381303299" />
+      <inertia
+        ixx="0.000427326373018601"
+        ixy="2.6443337984506E-07"
+        ixz="-2.02908063714989E-07"
+        iyy="0.000361316175967098"
+        iyz="-3.0792687327603E-05"
+        izz="0.000376798128588446" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="finger_1_prox_link">
+    <inertial>
+      <origin
+        xyz="-0.0288648917008988 9.98379746692153E-05 0.0171253477569802"
+        rpy="0 0 0" />
+      <mass
+        value="56143.0626955765" />
+      <inertia
+        ixx="10.4484040652085"
+        ixy="-0.117861448219975"
+        ixz="-5.31613760585343"
+        iyy="33.9552353012776"
+        iyz="0.0780041192837706"
+        izz="29.3669090518615" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_1_prox_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_1_prox_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_1_prox_joint"
+    type="revolute">
+    <origin
+      xyz="0.025 0 0.0415"
+      rpy="0 2.7051E-17 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="finger_1_prox_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.141"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_1_med_liink">
+    <inertial>
+      <origin
+        xyz="-0.030918176135544 0.0019693024932544 0.000743369842666108"
+        rpy="0 0 0" />
+      <mass
+        value="31321.1214212939" />
+      <inertia
+        ixx="2.18512832127284"
+        ixy="-0.844484268309696"
+        ixz="0.0135401272401385"
+        iyy="17.3596441998536"
+        iyz="-0.001126692167519"
+        izz="17.7656644395659" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_1_med_liink.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_1_med_liink.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_1_med_joint"
+    type="revolute">
+    <origin
+      xyz="-0.05 0 0.0339"
+      rpy="1.5708 -8.8281E-17 0" />
+    <parent
+      link="finger_1_prox_link" />
+    <child
+      link="finger_1_med_liink" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.44"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_1_dist_link">
+    <inertial>
+      <origin
+        xyz="-0.018331495851456 0.017563370050582 0.000497127783315291"
+        rpy="0 0 0" />
+      <mass
+        value="19342.3312257343" />
+      <inertia
+        ixx="3.67466110522623"
+        ixy="-2.57800680786605"
+        ixz="-0.0345727635031181"
+        iyy="4.08727012680705"
+        iyz="0.0329223427372985"
+        izz="5.99395386650428" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_1_dist_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_1_dist_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_1_dist_joint"
+    type="revolute">
+    <origin
+      xyz="-0.069936 0.003 0"
+      rpy="1.6787E-18 -3.6382E-15 -6.1073E-33" />
+    <parent
+      link="finger_1_med_liink" />
+    <child
+      link="finger_1_dist_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.785"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_2_prox_link">
+    <inertial>
+      <origin
+        xyz="-0.0288648917008987 9.98379746692118E-05 0.0171253477569802"
+        rpy="0 0 0" />
+      <mass
+        value="56143.0626955765" />
+      <inertia
+        ixx="10.4484040652085"
+        ixy="-0.117861448219975"
+        ixz="-5.31613760585343"
+        iyy="33.9552353012776"
+        iyz="0.0780041192837701"
+        izz="29.3669090518615" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_2_prox_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_2_prox_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_2_prox_joint"
+    type="revolute">
+    <origin
+      xyz="-0.025 0 0.0415"
+      rpy="0 2.7051E-17 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="finger_2_prox_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="3.141"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_2_med_link">
+    <inertial>
+      <origin
+        xyz="-0.0309061378225848 0.00214997948654991 0.000743369814045599"
+        rpy="0 0 0" />
+      <mass
+        value="31321.1215499126" />
+      <inertia
+        ixx="2.19551825824831"
+        ixy="-0.933117181988174"
+        ixz="0.0135333166873642"
+        iyy="17.3492542935561"
+        iyz="-0.00120585854514789"
+        izz="17.7656644132238" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_2_med_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_2_med_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_2_med_joint"
+    type="revolute">
+    <origin
+      xyz="-0.05 0 0.0339"
+      rpy="1.5708 -8.8281E-17 0" />
+    <parent
+      link="finger_2_prox_link" />
+    <child
+      link="finger_2_med_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.44"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_2_dist_link">
+    <inertial>
+      <origin
+        xyz="-0.0181940669984822 0.017705695005231 0.000497127783261171"
+        rpy="0 0 0" />
+      <mass
+        value="19342.3313295693" />
+      <inertia
+        ixx="3.71486604025429"
+        ixy="-2.58090906930852"
+        ixz="-0.0343151446338957"
+        iyy="4.04706522522361"
+        iyz="0.0331907761165059"
+        izz="5.99395390717116" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_2_dist_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_2_dist_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_2_dist_joint"
+    type="revolute">
+    <origin
+      xyz="-0.069917 0.0034087 0"
+      rpy="-3.1382E-17 -2.3229E-16 0" />
+    <parent
+      link="finger_2_med_link" />
+    <child
+      link="finger_2_dist_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.785"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_3_med_link">
+    <inertial>
+      <origin
+        xyz="-0.0309181761355441 0.00196930249325443 0.000743369842666415"
+        rpy="0 0 0" />
+      <mass
+        value="31321.121421294" />
+      <inertia
+        ixx="2.18512832127284"
+        ixy="-0.844484268309696"
+        ixz="0.0135401272400822"
+        iyy="17.3596441998537"
+        iyz="-0.0011266921675151"
+        izz="17.7656644395659" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_3_med_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_3_med_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_3_med_joint"
+    type="revolute">
+    <origin
+      xyz="0 -0.05 0.0754"
+      rpy="1.5708 6.123E-17 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="finger_3_med_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-2.44"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="finger_3_dist_link">
+    <inertial>
+      <origin
+        xyz="-0.0183314958518909 0.0175633700501297 0.000497127783323787"
+        rpy="0 0 0" />
+      <mass
+        value="19342.3312257343" />
+      <inertia
+        ixx="3.67466110509902"
+        ixy="-2.57800680785588"
+        ixz="-0.0345727635040649"
+        iyy="4.08727012693427"
+        iyz="0.0329223427365976"
+        izz="5.99395386650428" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_3_dist_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bhand_model/meshes/finger_3_dist_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_3_dist_joint"
+    type="revolute">
+    <origin
+      xyz="-0.069936 0.003 0"
+      rpy="6.0427E-17 -6.7283E-18 -4.0657E-34" />
+    <parent
+      link="finger_3_med_link" />
+    <child
+      link="finger_3_dist_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.785"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>
