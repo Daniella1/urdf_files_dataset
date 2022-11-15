@@ -1,0 +1,29 @@
+{
+    "robots": [
+        {
+            "name": "LWA 4P",
+            "type": "robotic arm",
+            "manufacturer": "Schunk"
+        },
+        {
+            "name": "LWA 4P extended",
+            "type": "robotic arm",
+            "manufacturer": "Schunk"
+        },
+        {
+            "name": "LWA 4D",
+            "type": "robotic arm",
+            "manufacturer": "Schunk"
+        },
+        {
+            "name": "PG 70",
+            "type": "end effector",
+            "manufacturer": "Schunk"
+        },
+        {
+            "name": "PW 70",
+            "type": "end effector",
+            "manufacturer": "Schunk"
+        }
+    ]
+}

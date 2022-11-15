@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "RG2",
+            "type": "end effector",
+            "manufacturer": "Onrobot"
+        },
+        {
+            "name": "RG6",
+            "type": "end effector",
+            "manufacturer": "Onrobot"
+        },
+        {
+            "name": "VG10",
+            "type": "end effector",
+            "manufacturer": "Onrobot"
+        },
+        {
+            "name": "VGC10",
+            "type": "end effector",
+            "manufacturer": "Onrobot"
+        }
+    ]
+}

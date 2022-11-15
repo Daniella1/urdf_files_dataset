@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "MiR 100",
+            "type": "mobile robot",
+            "manufacturer": "Mobile Industrial Robots"
+        }
+    ]
+}

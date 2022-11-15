@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "Ginger",
+            "type": "humanoid robot",
+            "manufacturer": "Paaila Technology"
+        }
+    ]
+}

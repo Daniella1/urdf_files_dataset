@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Spot",
+            "type": "quadrupedal robot",
+            "manufacturer": "Boston Dynamics"
+        },
+        {
+            "name": "Spot Arm",
+            "type": "robotic arm",
+            "manufacturer": "Boston Dynamics"
+        }
+    ]
+}

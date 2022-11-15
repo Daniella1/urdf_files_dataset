@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "BarrettHand",
+            "type": "end effector",
+            "manufacturer": "Barrett Technology"
+        }
+    ]
+}

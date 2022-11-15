@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "2FG7",
+            "type": "end effector",
+            "manufacturer": "Onrobot"
+        }
+    ]
+}
