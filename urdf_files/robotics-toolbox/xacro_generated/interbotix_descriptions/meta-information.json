@@ -1,0 +1,50 @@
+{
+    "robots": [
+        {
+            "name": "PincherX-100",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics"
+       },
+       {
+        "name": "PincherX-150",
+        "type": "robotic arm",
+        "manufacturer": "Trossen Robotics"
+        },
+        {
+            "name": "ReactorX-150",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics"
+       },
+       {
+        "name": "ReactorX-200",
+        "type": "robotic arm",
+        "manufacturer": "Trossen Robotics"
+   },
+   {
+    "name": "ViperX-300",
+    "type": "robotic arm",
+    "manufacturer": "Trossen Robotics"
+},
+{
+    "name": "ViperX-300s",
+    "type": "robotic arm",
+    "manufacturer": "Trossen Robotics"
+},
+{
+    "name": "WidowX-200",
+    "type": "robotic arm",
+    "manufacturer": "Trossen Robotics"
+},
+{
+    "name": "WidowX-250",
+    "type": "robotic arm",
+    "manufacturer": "Trossen Robotics"
+},
+{
+    "name": "WidowX-250s",
+    "type": "robotic arm",
+    "manufacturer": "Trossen Robotics"
+}
+
+    ]
+}

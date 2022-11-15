@@ -1,0 +1,15 @@
+{
+    "robots": [
+
+        {
+            "name": "PhantomX Pincher",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics"
+        },
+        {
+            "name": "Turtlebot Arm",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics"
+        }
+    ]
+}

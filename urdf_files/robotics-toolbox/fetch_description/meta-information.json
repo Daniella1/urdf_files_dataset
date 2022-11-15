@@ -1,0 +1,19 @@
+{
+    "robots": [
+        {
+            "name": "Fetch",
+            "type": "mobile manipulator",
+            "manufacturer": "Fetch Robotics"
+        },
+    
+        {   "name": "Freight",
+            "type": "mobile robot",
+            "manufacturer": "Fetch Robotics"
+        },
+        {
+            "name": "Fetch Camera",
+            "type": "mobile manipulator",
+            "manufacturer": "Fetch Robotics"
+        }
+    ]
+}

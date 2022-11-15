@@ -1,0 +1,10 @@
+{
+    "robots": [
+
+        {
+            "name": "PUMA 560",
+            "type": "robotic arm",
+            "manufacturer": "Unimation"
+        }
+    ]
+}

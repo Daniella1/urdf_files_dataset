@@ -1,0 +1,9 @@
+{
+    "robots": [
+        {
+            "name": "AL5D",
+            "type": "robotic arm",
+            "manufacturer": "Lynxmotion"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Franka Panda",
+            "type": "robotic arm",
+            "manufacturer": "Franka Emika"
+       },
+       {
+        "name": "Franka Panda - Frankie",
+        "type": "robotic arm",
+        "manufacturer": "Franka Emika"
+    }
+    ]
+}
