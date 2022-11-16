@@ -36,7 +36,7 @@
             "manufacturer": "KUKA"
         },
         {
-            "name": "Planer Kuka lbr iiwa 14 - spheres dense elbow collision",
+            "name": "Planar Kuka lbr iiwa 14 - spheres dense elbow collision",
             "type": "robotic arm",
             "manufacturer": "KUKA"
         }

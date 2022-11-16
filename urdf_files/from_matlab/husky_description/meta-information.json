@@ -2,7 +2,7 @@
     "robots": [
         {
             "name": "Husky",
-            "type": "rmobile robot",
+            "type": "mobile robot",
             "manufacturer": "Clearpath Robotics"
         }
     ]
