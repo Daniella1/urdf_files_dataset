@@ -76,14 +76,6 @@ root Link: pelvis has 3 child(ren)
 
 
 -------------------------------------------------------------------
-Filename: ./atlas/urdf/robotiq_box.urdf
-
-robot name is: box_hand
----------- Successfully Parsed XML ---------------
-root Link: box_hand_1 has 0 child(ren)
-
-
--------------------------------------------------------------------
 Filename: ./atlas/urdf/atlas_minimal_contact.urdf
 
 robot name is: atlas
@@ -192,30 +184,6 @@ root Link: palm has 3 child(ren)
 
 
 -------------------------------------------------------------------
-Filename: ./atlas/urdf/door.urdf
-
-Error:   joint limit: no effort
-         at line 136 in /build/urdfdom-VnCcob/urdfdom-1.0.4+ds/urdf_parser/src/joint.cpp
-Error:   Could not parse limit element for joint [hinge]
-         at line 454 in /build/urdfdom-VnCcob/urdfdom-1.0.4+ds/urdf_parser/src/joint.cpp
-Error:   joint xml is not initialized correctly
-         at line 233 in /build/urdfdom-VnCcob/urdfdom-1.0.4+ds/urdf_parser/src/model.cpp
-ERROR: Model Parsing the xml failed
-
-
--------------------------------------------------------------------
-Filename: ./atlas/urdf/valve_wall.urdf
-
-Error:   joint limit: no effort
-         at line 136 in /build/urdfdom-VnCcob/urdfdom-1.0.4+ds/urdf_parser/src/joint.cpp
-Error:   Could not parse limit element for joint [Lever]
-         at line 454 in /build/urdfdom-VnCcob/urdfdom-1.0.4+ds/urdf_parser/src/joint.cpp
-Error:   joint xml is not initialized correctly
-         at line 233 in /build/urdfdom-VnCcob/urdfdom-1.0.4+ds/urdf_parser/src/model.cpp
-ERROR: Model Parsing the xml failed
-
-
--------------------------------------------------------------------
 Filename: ./atlas/urdf/robotiq_simple.urdf
 
 robot name is: s-model_articulated
@@ -236,14 +204,6 @@ root Link: palm has 3 child(ren)
 
 
 -------------------------------------------------------------------
-Filename: ./atlas/urdf/block_hand.urdf
-
-robot name is: block_hand
----------- Successfully Parsed XML ---------------
-root Link: block_hand_box has 0 child(ren)
-
-
--------------------------------------------------------------------
 Filename: ./atlas/urdf/robotiq_tendons.urdf
 
 Warning: link 'finger_tensioner' material 'orange' undefined.
@@ -257,15 +217,6 @@ Error:   Could not parse limit element for joint [finger_tensioner]
 Error:   joint xml is not initialized correctly
          at line 233 in /build/urdfdom-VnCcob/urdfdom-1.0.4+ds/urdf_parser/src/model.cpp
 ERROR: Model Parsing the xml failed
-
-
--------------------------------------------------------------------
-Filename: ./atlas/urdf/drill_frame.urdf
-
-robot name is: drill_frame
----------- Successfully Parsed XML ---------------
-root Link: frame has 1 child(ren)
-    child(1):  sheet_rock
 
 
 -------------------------------------------------------------------

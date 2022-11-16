@@ -43,14 +43,6 @@ root Link: world has 1 child(ren)
 
 
 -------------------------------------------------------------------
-Filename: ./xacro_generated/kinova_robotics/j2n7s300.urdf
-
-Error:   Could not find the 'robot' element in the xml file
-         at line 109 in /build/urdfdom-VnCcob/urdfdom-1.0.4+ds/urdf_parser/src/model.cpp
-ERROR: Model Parsing the xml failed
-
-
--------------------------------------------------------------------
 Filename: ./xacro_generated/kinova_robotics/m1n4s200_standalone.urdf
 
 robot name is: m1n4s200
