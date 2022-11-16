@@ -1,0 +1,10 @@
+newmtl Body_1SG4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd scapula_albeido.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks scapula_specular.png
+Ns 18.00
