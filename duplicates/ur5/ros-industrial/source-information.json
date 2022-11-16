@@ -1,4 +1,5 @@
 {
     "source": "ros-industrial",
-    "link": "https://github.com/ros-industrial/universal_robot"
+    "link": "https://github.com/ros-industrial/universal_robot",
+    "xacro-generated": false
 }

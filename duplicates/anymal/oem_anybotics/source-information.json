@@ -1,4 +1,5 @@
 {
     "source": "oem",
-    "link": "https://github.com/ANYbotics/anymal_b_simple_description"
+    "link": "https://github.com/ANYbotics/anymal_b_simple_description",
+    "xacro-generated": false
 }

@@ -1,4 +1,5 @@
 {
     "source": "matlab",
-    "link": null
+    "link": null,
+    "xacro-generated": false
 }

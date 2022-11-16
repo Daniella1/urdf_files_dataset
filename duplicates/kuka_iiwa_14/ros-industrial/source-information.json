@@ -1,4 +1,5 @@
 {
     "source": "ros-industrial",
-    "link": "https://github.com/ros-industrial/kuka_experimental"
+    "link": "https://github.com/ros-industrial/kuka_experimental",
+    "xacro-generated": false
 }

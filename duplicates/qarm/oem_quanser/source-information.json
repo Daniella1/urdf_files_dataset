@@ -1,4 +1,5 @@
 {
     "source": "oem",
-    "link": "https://github.com/quanser/qarm_description"
+    "link": "https://github.com/quanser/qarm_description",
+    "xacro-generated": false
 }
