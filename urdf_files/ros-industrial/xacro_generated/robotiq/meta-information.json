@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "2F-85 gripper",
+            "type": "end effector",
+            "manufacturer": "Robotiq"
+        },
+        {
+            "name": "2F-140 gripper",
+            "type": "end effector",
+            "manufacturer": "Robotiq"
+        },
+        {
+            "name": "C2 gripper",
+            "type": "end effector",
+            "manufacturer": "Robotiq"
+        },
+        {
+            "name": "FT sensor",
+            "type": "end effector",
+            "manufacturer": "Robotiq"
+        }
+    ]
+}

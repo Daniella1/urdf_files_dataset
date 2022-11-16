@@ -1,0 +1,57 @@
+{
+    "robots": [
+
+        {
+            "name": "Kuka kr3 R540",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        
+        {
+            "name": "Kuka kr5 ARC",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        
+        {
+            "name": "Kuka kr6 R700 sixx",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Kuka kr6 R900-2",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Kuka kr6 R900 sixx",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Kuka kr10 R900-2",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Kuka kr10 R1100 sixx",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Kuka kr10 R1420",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Kuka kr150-2",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        },
+        {
+            "name": "Kuka kr150 R3100-2",
+            "type": "robotic arm",
+            "manufacturer": "KUKA"
+        }
+    ]
+}

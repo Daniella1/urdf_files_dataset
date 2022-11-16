@@ -1,0 +1,22 @@
+{
+    "robots": [
+        {
+            "name": "IRB2400",
+            "type": "robotic arm",
+            "manufacturer": "ABB"
+        },
+    
+        {   "name": "IRB5400",
+            "type": "robotic arm",
+            "manufacturer": "ABB"
+        },
+        {   "name": "IRB6640",
+            "type": "robotic arm",
+            "manufacturer": "ABB"
+        },
+        {   "name": "IRB6640 185 280",
+            "type": "robotic arm",
+            "manufacturer": "ABB"
+        }
+    ]
+}

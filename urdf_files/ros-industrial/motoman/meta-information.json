@@ -1,0 +1,29 @@
+{
+    "robots": [
+        {
+            "name": "Motoman MH5",
+            "type": "robotic arm",
+            "manufacturer": "Yaskawa Motoman"
+        },
+        {
+            "name": "Motoman SIA5D",
+            "type": "robotic arm",
+            "manufacturer": "Yaskawa Motoman"
+        },
+        {
+            "name": "Motoman SIA10D",
+            "type": "robotic arm",
+            "manufacturer": "Yaskawa Motoman"
+        },
+        {
+            "name": "Motoman SIA10F",
+            "type": "robotic arm",
+            "manufacturer": "Yaskawa Motoman"
+        },
+        {
+            "name": "Motoman SIA20D",
+            "type": "robotic arm",
+            "manufacturer": "Yaskawa Motoman"
+        }
+    ]
+}

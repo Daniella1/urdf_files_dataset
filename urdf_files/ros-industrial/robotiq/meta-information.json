@@ -1,0 +1,19 @@
+{
+    "robots": [
+        {
+            "name": "3F gripper",
+            "type": "end effector",
+            "manufacturer": "Robotiq"
+        },
+        {
+            "name": "3F gripper - articulated",
+            "type": "end effector",
+            "manufacturer": "Robotiq"
+        },
+        {
+            "name": "C2 gripper",
+            "type": "end effector",
+            "manufacturer": "Robotiq"
+        }
+    ]
+}
