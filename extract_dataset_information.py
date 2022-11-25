@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 GENERATE_CSVS = False
-GENERATE_PLOTS = True
+GENERATE_PLOTS = False
 
 # Helper functions 
 def _get_subdirectories(dir):
@@ -63,7 +63,8 @@ for d in subdirs:
         dataset_information = pd.concat([dataset_information, meta_infos], ignore_index=True)
         
 
-
+dataset_sources_n_robots = dataset_information.groupby(by='source').count()
+dataset_sources_n_robots = dataset_sources_n_robots.reset_index().rename({'index':'source','name':'n_robots'}, axis='columns')
 
 types_information = dataset_information['type'].value_counts()
 types_information = types_information.reset_index().rename({'index':'type', 'type':'count'}, axis = 'columns')
@@ -143,6 +144,7 @@ if GENERATE_CSVS:
     robots_information.to_csv("robots_information.csv", index=False)
     mutated_robots.to_csv("mutated_robots.csv", index=False)
     robots_w_wo_mutation.to_csv("robots_w_wo_mutation.csv", index=False)
+    dataset_sources_n_robots.to_csv("dataset_sources_n_robots.csv", index=False)
 
 
 if GENERATE_PLOTS:
