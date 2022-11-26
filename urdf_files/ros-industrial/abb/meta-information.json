@@ -3,20 +3,24 @@
         {
             "name": "IRB2400",
             "type": "robotic arm",
-            "manufacturer": "ABB"
+            "manufacturer": "ABB",
+            "xacro-generated": false
         },
     
         {   "name": "IRB5400",
             "type": "robotic arm",
-            "manufacturer": "ABB"
+            "manufacturer": "ABB",
+            "xacro-generated": false
         },
         {   "name": "IRB6640",
             "type": "robotic arm",
-            "manufacturer": "ABB"
+            "manufacturer": "ABB",
+            "xacro-generated": false
         },
         {   "name": "IRB6640 185 280",
             "type": "robotic arm",
-            "manufacturer": "ABB"
+            "manufacturer": "ABB",
+            "xacro-generated": false
         }
     ]
 }

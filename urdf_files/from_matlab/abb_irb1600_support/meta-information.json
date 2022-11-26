@@ -3,7 +3,8 @@
         {
             "name": "IRB1600",
             "type": "robotic arm",
-            "manufacturer": "ABB"
+            "manufacturer": "ABB",
+            "xacro-generated": false
         }
     ]
 }

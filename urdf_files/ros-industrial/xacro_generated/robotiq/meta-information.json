@@ -3,22 +3,26 @@
         {
             "name": "2F-85 gripper",
             "type": "end effector",
-            "manufacturer": "Robotiq"
+            "manufacturer": "Robotiq",
+            "xacro-generated": true
         },
         {
             "name": "2F-140 gripper",
             "type": "end effector",
-            "manufacturer": "Robotiq"
+            "manufacturer": "Robotiq",
+            "xacro-generated": true
         },
         {
             "name": "C2 gripper",
             "type": "end effector",
-            "manufacturer": "Robotiq"
+            "manufacturer": "Robotiq",
+            "xacro-generated": true
         },
         {
             "name": "FT sensor",
             "type": "end effector",
-            "manufacturer": "Robotiq"
+            "manufacturer": "Robotiq",
+            "xacro-generated": true
         }
     ]
 }

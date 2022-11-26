@@ -3,7 +3,8 @@
         {
             "name": "Unknown",
             "type": "Unknown",
-            "manufacturer": "Unknown"
+            "manufacturer": "Unknown",
+            "xacro-generated": false
         }
     ]
 }

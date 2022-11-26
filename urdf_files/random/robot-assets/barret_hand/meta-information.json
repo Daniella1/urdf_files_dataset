@@ -3,7 +3,8 @@
         {
             "name": "BarrettHand",
             "type": "end effector",
-            "manufacturer": "Barrett Technology"
+            "manufacturer": "Barrett Technology",
+            "xacro-generated": false
         }
     ]
 }

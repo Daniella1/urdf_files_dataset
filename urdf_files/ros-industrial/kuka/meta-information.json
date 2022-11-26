@@ -3,22 +3,26 @@
         {
             "name": "Kuka kr 210 L150",
             "type": "robotic arm",
-            "manufacturer": "KUKA"
+            "manufacturer": "KUKA",
+            "xacro-generated": false
         },
         {
             "name": "Kuka lbr iiwa 14 - R820",
             "type": "robotic arm",
-            "manufacturer": "KUKA"
+            "manufacturer": "KUKA",
+            "xacro-generated": false
         },
         {
             "name": "Kuka kr 120 R2500 Pro",
             "type": "robotic arm",
-            "manufacturer": "KUKA"
+            "manufacturer": "KUKA",
+            "xacro-generated": false
         },
         {
             "name": "Kuka kr 16-2",
             "type": "robotic arm",
-            "manufacturer": "KUKA"
+            "manufacturer": "KUKA",
+            "xacro-generated": false
         }
     ]
 }

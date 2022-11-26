@@ -3,7 +3,8 @@
         {
             "name": "OP2",
             "type": "humanoid robot",
-            "manufacturer": "ROBOTIS"
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": false
         }
     ]
 }

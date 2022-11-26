@@ -3,7 +3,8 @@
         {
             "name": "MiR 100",
             "type": "mobile robot",
-            "manufacturer": "Mobile Industrial Robots"
+            "manufacturer": "Mobile Industrial Robots",
+            "xacro-generated": true
         }
     ]
 }

@@ -3,22 +3,26 @@
         {
             "name": "RG2",
             "type": "end effector",
-            "manufacturer": "Onrobot"
+            "manufacturer": "Onrobot",
+            "xacro-generated": true
         },
         {
             "name": "RG6",
             "type": "end effector",
-            "manufacturer": "Onrobot"
+            "manufacturer": "Onrobot",
+            "xacro-generated": true
         },
         {
             "name": "VG10",
             "type": "end effector",
-            "manufacturer": "Onrobot"
+            "manufacturer": "Onrobot",
+            "xacro-generated": true
         },
         {
             "name": "VGC10",
             "type": "end effector",
-            "manufacturer": "Onrobot"
+            "manufacturer": "Onrobot",
+            "xacro-generated": true
         }
     ]
 }

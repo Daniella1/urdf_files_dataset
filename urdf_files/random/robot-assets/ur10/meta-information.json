@@ -3,7 +3,8 @@
         {
             "name": "UR10",
             "type": "robotic arm",
-            "manufacturer": "Universal Robots"
+            "manufacturer": "Universal Robots",
+            "xacro-generated": false
         }
     ]
 }

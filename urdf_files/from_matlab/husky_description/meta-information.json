@@ -3,7 +3,8 @@
         {
             "name": "Husky",
             "type": "mobile robot",
-            "manufacturer": "Clearpath Robotics"
+            "manufacturer": "Clearpath Robotics",
+            "xacro-generated": false
         }
     ]
 }

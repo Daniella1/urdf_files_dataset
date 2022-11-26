@@ -3,7 +3,8 @@
         {
             "name": "EVEr3",
             "type": "humanoid robot",
-            "manufacturer": "Halodi"
+            "manufacturer": "Halodi",
+            "xacro-generated": false
         }
     ]
 }

@@ -3,7 +3,8 @@
         {
             "name": "Atlas",
             "type": "humanoid robot",
-            "manufacturer": "Boston Dynamics"
+            "manufacturer": "Boston Dynamics",
+            "xacro-generated": false
         }
     ]
 }

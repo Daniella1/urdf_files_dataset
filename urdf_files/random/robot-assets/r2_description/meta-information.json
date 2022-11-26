@@ -3,7 +3,8 @@
         {
             "name": "R2-D2",
             "type": "humanoid robot",
-            "manufacturer": "Star Wars Character"
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false
         }
     ]
 }

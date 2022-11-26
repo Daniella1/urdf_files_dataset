@@ -3,7 +3,8 @@
         {
             "name": "Franka Panda",
             "type": "robotic arm",
-            "manufacturer": "Franka Emika"
+            "manufacturer": "Franka Emika",
+            "xacro-generated": false
         }
     ]
 }

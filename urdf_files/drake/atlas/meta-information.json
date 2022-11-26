@@ -3,27 +3,32 @@
         {
             "name": "Atlas - convex hull",
             "type": "humanoid robot",
-            "manufacturer": "Boston Dynamics"
+            "manufacturer": "Boston Dynamics",
+            "xacro-generated": false
         },
         {
             "name": "Atlas - minimal contact",
             "type": "humanoid robot",
-            "manufacturer": "Boston Dynamics"
+            "manufacturer": "Boston Dynamics",
+            "xacro-generated": false
         },
         {
             "name": "3F gripper",
             "type": "end effector",
-            "manufacturer": "Robotiq"
+            "manufacturer": "Robotiq",
+            "xacro-generated": false
         },
         {
             "name": "3F gripper - articulated",
             "type": "end effector",
-            "manufacturer": "Robotiq"
+            "manufacturer": "Robotiq",
+            "xacro-generated": false
         },
         {
             "name": "3F gripper - tendons",
             "type": "end effector",
-            "manufacturer": "Robotiq"
+            "manufacturer": "Robotiq",
+            "xacro-generated": false
         }
     ]
 }

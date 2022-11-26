@@ -3,7 +3,8 @@
         {
             "name": "2FG7",
             "type": "end effector",
-            "manufacturer": "Onrobot"
+            "manufacturer": "Onrobot",
+            "xacro-generated": true
         }
     ]
 }

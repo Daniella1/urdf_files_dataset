@@ -3,7 +3,8 @@
         {
             "name": "Turtlebot",
             "type": "mobile robot",
-            "manufacturer": "Clearpath Robotics"
+            "manufacturer": "Clearpath Robotics",
+            "xacro-generated": false
         }
     ]
 }

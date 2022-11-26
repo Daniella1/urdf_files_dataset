@@ -3,17 +3,20 @@
         {
             "name": "Franka Panda",
             "type": "robotic arm",
-            "manufacturer": "Franka Emika"
+            "manufacturer": "Franka Emika",
+            "xacro-generated": true
         },
         {
             "name": "Dual Franka Panda",
             "type": "dual arm robot",
-            "manufacturer": "Franka Emika"
+            "manufacturer": "Franka Emika",
+            "xacro-generated": true
         },
         {
             "name": "FR3",
             "type": "robotic arm",
-            "manufacturer": "Franka Emika"
+            "manufacturer": "Franka Emika",
+            "xacro-generated": true
         }
     ]
 }

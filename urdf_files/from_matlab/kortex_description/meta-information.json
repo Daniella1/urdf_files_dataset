@@ -3,7 +3,8 @@
         {
             "name": "Kinova Gen3",
             "type": "robotic arm",
-            "manufacturer": "Kinova Robotics"
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": false
         }
     ]
 }

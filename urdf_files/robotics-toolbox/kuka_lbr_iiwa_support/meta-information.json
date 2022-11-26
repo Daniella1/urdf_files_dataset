@@ -4,7 +4,8 @@
         {
             "name": "Kuka lbr iiwa 14 - R820",
             "type": "robotic arm",
-            "manufacturer": "KUKA"
+            "manufacturer": "KUKA",
+            "xacro-generated": false
         }
     ]
 }

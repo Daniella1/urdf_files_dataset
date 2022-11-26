@@ -3,12 +3,14 @@
         {
             "name": "Open Manipulator",
             "type": "robotic arm",
-            "manufacturer": "ROBOTIS"
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true
         },
         {
             "name": "Open Manipulator robot",
             "type": "robotic arm",
-            "manufacturer": "ROBOTIS"
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true
         }
     ]
 }

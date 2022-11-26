@@ -3,12 +3,14 @@
         {
             "name": "Spot",
             "type": "quadrupedal robot",
-            "manufacturer": "Boston Dynamics"
+            "manufacturer": "Boston Dynamics",
+            "xacro-generated": false
         },
         {
             "name": "Spot Arm",
             "type": "robotic arm",
-            "manufacturer": "Boston Dynamics"
+            "manufacturer": "Boston Dynamics",
+            "xacro-generated": false
         }
     ]
 }

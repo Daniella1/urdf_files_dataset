@@ -3,7 +3,8 @@
         {
             "name": "Motoman MH5",
             "type": "robotic arm",
-            "manufacturer": "Yaskawa Motoman"
+            "manufacturer": "Yaskawa Motoman",
+            "xacro-generated": false
         }
     ]
 }

@@ -3,27 +3,32 @@
         {
             "name": "LWA 4P",
             "type": "robotic arm",
-            "manufacturer": "Schunk"
+            "manufacturer": "Schunk",
+            "xacro-generated": true
         },
         {
             "name": "LWA 4P extended",
             "type": "robotic arm",
-            "manufacturer": "Schunk"
+            "manufacturer": "Schunk",
+            "xacro-generated": true
         },
         {
             "name": "LWA 4D",
             "type": "robotic arm",
-            "manufacturer": "Schunk"
+            "manufacturer": "Schunk",
+            "xacro-generated": true
         },
         {
             "name": "PG 70",
             "type": "end effector",
-            "manufacturer": "Schunk"
+            "manufacturer": "Schunk",
+            "xacro-generated": true
         },
         {
             "name": "PW 70",
             "type": "end effector",
-            "manufacturer": "Schunk"
+            "manufacturer": "Schunk",
+            "xacro-generated": true
         }
     ]
 }

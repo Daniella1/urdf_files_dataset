@@ -3,12 +3,14 @@
         {
             "name": "Allegro hand - left",
             "type": "end effector",
-            "manufacturer": "Wonik Robotics"
+            "manufacturer": "Wonik Robotics",
+            "xacro-generated": false
         },
         {
             "name": "Allegro hand - right",
             "type": "end effector",
-            "manufacturer": "Wonik Robotics"
+            "manufacturer": "Wonik Robotics",
+            "xacro-generated": false
         }
     ]
 }

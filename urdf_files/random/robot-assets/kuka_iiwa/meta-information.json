@@ -3,7 +3,8 @@
         {
             "name": "Kuka lbr iiwa 7",
             "type": "robotic arm",
-            "manufacturer": "KUKA"
+            "manufacturer": "KUKA",
+            "xacro-generated": false
         }
     ]
 }

@@ -3,12 +3,14 @@
         {
             "name": "Jaco J2N4S300",
             "type": "robotic arm",
-            "manufacturer": "Kinova Robotics"
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true
         },
         {
             "name": "Kinova Gen3",
             "type": "robotic arm",
-            "manufacturer": "Kinova Robotics"
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true
         }
     ]
 }

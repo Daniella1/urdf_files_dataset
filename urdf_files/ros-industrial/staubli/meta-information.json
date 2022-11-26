@@ -3,12 +3,14 @@
         {
             "name": "RX 160",
             "type": "robotic arm",
-            "manufacturer": "Staubli"
+            "manufacturer": "Staubli",
+            "xacro-generated": false
         },
         {
             "name": "RX 160L",
             "type": "robotic arm",
-            "manufacturer": "Staubli"
+            "manufacturer": "Staubli",
+            "xacro-generated": false
         }
     ]
 }

@@ -3,7 +3,8 @@
         {
             "name": "AL5D",
             "type": "robotic arm",
-            "manufacturer": "Lynxmotion"
+            "manufacturer": "Lynxmotion",
+            "xacro-generated": false
         }
     ]
 }

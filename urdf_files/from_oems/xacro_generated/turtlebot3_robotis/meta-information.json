@@ -3,37 +3,44 @@
         {
             "name": "Turtlebot 3 - Burger",
             "type": "mobile robot",
-            "manufacturer": "ROBOTIS"
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true
         },
         {
             "name": "Turtlebot 3 - Waffle",
             "type": "mobile robot",
-            "manufacturer": "ROBOTIS"
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true
         },
         {
             "name": "Turtlebot 3 - Waffle for Open Manipulator",
             "type": "mobile robot",
-            "manufacturer": "ROBOTIS"
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true
         },
         {
             "name": "Turtlebot 3 - Waffle Pi",
             "type": "mobile robot",
-            "manufacturer": "ROBOTIS"
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true
         },
         {
             "name": "Turtlebot 3 - Waffle Pi for Open Manipulator",
             "type": "mobile robot",
-            "manufacturer": "ROBOTIS"
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true
         },
         {
             "name": "Turtlebot 3 - Burger for autorace 2020",
             "type": "mobile robot",
-            "manufacturer": "ROBOTIS"
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true
         },
         {
             "name": "Turtlebot 3 - Burger for autorace",
             "type": "mobile robot",
-            "manufacturer": "ROBOTIS"
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true
         }
     ]
 }

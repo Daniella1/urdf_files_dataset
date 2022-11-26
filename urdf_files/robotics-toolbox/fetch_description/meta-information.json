@@ -3,17 +3,20 @@
         {
             "name": "Fetch",
             "type": "mobile manipulator",
-            "manufacturer": "Fetch Robotics"
+            "manufacturer": "Fetch Robotics",
+            "xacro-generated": false
         },
     
         {   "name": "Freight",
             "type": "mobile robot",
-            "manufacturer": "Fetch Robotics"
+            "manufacturer": "Fetch Robotics",
+            "xacro-generated": false
         },
         {
             "name": "Fetch Camera",
             "type": "mobile manipulator",
-            "manufacturer": "Fetch Robotics"
+            "manufacturer": "Fetch Robotics",
+            "xacro-generated": false
         }
     ]
 }

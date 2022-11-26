@@ -3,7 +3,8 @@
         {
             "name": "QArm",
             "type": "robotic arm",
-            "manufacturer": "Quanser"
+            "manufacturer": "Quanser",
+            "xacro-generated": false
         }
     ]
 }

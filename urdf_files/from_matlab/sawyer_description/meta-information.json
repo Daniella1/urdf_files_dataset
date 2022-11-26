@@ -3,7 +3,8 @@
         {
             "name": "Sawyer",
             "type": "robotic arm",
-            "manufacturer": "Rethink Robotics"
+            "manufacturer": "Rethink Robotics",
+            "xacro-generated": false
         }
     ]
 }

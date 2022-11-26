@@ -3,7 +3,8 @@
         {
             "name": "PR2",
             "type": "mobile manipulator",
-            "manufacturer": "Willow Garage"
+            "manufacturer": "Willow Garage",
+            "xacro-generated": false
         }
     ]
 }

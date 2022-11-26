@@ -3,7 +3,8 @@
         {
             "name": "Movo",
             "type": "mobile manipulator",
-            "manufacturer": "Kinova Robotics"
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": false
         }
     ]
 }

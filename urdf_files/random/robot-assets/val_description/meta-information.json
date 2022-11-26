@@ -3,7 +3,8 @@
         {
             "name": "Valkyrie",
             "type": "humanoid robot",
-            "manufacturer": "NASA"
+            "manufacturer": "NASA",
+            "xacro-generated": false
         }
     ]
 }

@@ -3,7 +3,8 @@
         {
             "name": "Fetch",
             "type": "mobile manipulator",
-            "manufacturer": "Fetch Robotics"
+            "manufacturer": "Fetch Robotics",
+            "xacro-generated": false
         }
     ]
 }

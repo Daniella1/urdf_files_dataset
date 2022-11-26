@@ -3,7 +3,8 @@
         {
             "name": "LR Mate 200iB",
             "type": "robotic arm",
-            "manufacturer": "Fanuc"
+            "manufacturer": "Fanuc",
+            "xacro-generated": false
         }
     ]
 }

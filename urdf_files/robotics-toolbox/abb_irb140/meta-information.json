@@ -3,12 +3,14 @@
         {
             "name": "IRB140",
             "type": "robotic arm",
-            "manufacturer": "ABB"
+            "manufacturer": "ABB",
+            "xacro-generated": false
         },
     
         {   "name": "IRB140QT",
             "type": "robotic arm",
-            "manufacturer": "ABB"
+            "manufacturer": "ABB",
+            "xacro-generated": false
         }
     ]
 }

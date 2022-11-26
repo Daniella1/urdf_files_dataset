@@ -3,7 +3,8 @@
         {
             "name": "Baxter",
             "type": "dual arm robot",
-            "manufacturer": "Rethink Robotics"
+            "manufacturer": "Rethink Robotics",
+            "xacro-generated": false
         }
     ]
 }

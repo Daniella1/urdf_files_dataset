@@ -3,17 +3,20 @@
         {
             "name": "3F gripper",
             "type": "end effector",
-            "manufacturer": "Robotiq"
+            "manufacturer": "Robotiq",
+            "xacro-generated": false
         },
         {
             "name": "3F gripper - articulated",
             "type": "end effector",
-            "manufacturer": "Robotiq"
+            "manufacturer": "Robotiq",
+            "xacro-generated": false
         },
         {
             "name": "C2 gripper",
             "type": "end effector",
-            "manufacturer": "Robotiq"
+            "manufacturer": "Robotiq",
+            "xacro-generated": false
         }
     ]
 }

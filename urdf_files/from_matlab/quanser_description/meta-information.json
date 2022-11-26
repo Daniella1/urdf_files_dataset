@@ -3,12 +3,14 @@
         {
             "name": "QBot2e",
             "type": "mobile robot",
-            "manufacturer": "Quanser"
+            "manufacturer": "Quanser",
+            "xacro-generated": false
         },
         {
             "name": "QCar",
             "type": "mobile robot",
-            "manufacturer": "Quanser"
+            "manufacturer": "Quanser",
+            "xacro-generated": false
         }
     ]
 }

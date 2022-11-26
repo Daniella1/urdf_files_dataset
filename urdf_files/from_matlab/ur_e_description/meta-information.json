@@ -3,22 +3,26 @@
         {
             "name": "UR3e",
             "type": "robotic arm",
-            "manufacturer": "Universal Robots"
+            "manufacturer": "Universal Robots",
+            "xacro-generated": false
         },
         {
             "name": "UR5e",
             "type": "robotic arm",
-            "manufacturer": "Universal Robots"
+            "manufacturer": "Universal Robots",
+            "xacro-generated": false
         },
         {
             "name": "UR10e",
             "type": "robotic arm",
-            "manufacturer": "Universal Robots"
+            "manufacturer": "Universal Robots",
+            "xacro-generated": false
         },
         {
             "name": "UR16e",
             "type": "robotic arm",
-            "manufacturer": "Universal Robots"
+            "manufacturer": "Universal Robots",
+            "xacro-generated": false
         }
     ]
 }

@@ -3,7 +3,8 @@
         {
             "name": "ANYmal",
             "type": "quadrupedal robot",
-            "manufacturer": "ANYbotics"
+            "manufacturer": "ANYbotics",
+            "xacro-generated": false
         }
     ]
 }
