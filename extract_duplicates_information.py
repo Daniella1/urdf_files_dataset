@@ -103,4 +103,9 @@ for d in subdirs:
 # Save information on parsing, and duplicates
 # duplicate_information.to_csv("duplicates_parsing_information.csv", index=False)
 # sources_parsing_urdf_dataframe.to_csv("sources_parsing_information.csv", index=False)
-source_n_duplicates_dataframe.to_csv("source_n_duplicates_information.csv", index=False)
+# source_n_duplicates_dataframe.to_csv("source_n_duplicates_information.csv", index=False)
+
+
+for sourceA in source_n_duplicates_dataframe.source:
+    for robot in source_n_duplicates_dataframe.loc[source_n_duplicates_dataframe.source == sourceA].robots:
+        source_n_duplicates_dataframe.loc[robot in source_n_duplicates_dataframe.robots]

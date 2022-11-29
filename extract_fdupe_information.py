@@ -1,16 +1,15 @@
 import pandas as pd
 
 filetypes = ["obj","dae","stl","urdf"]
-dir = "urdf_files/"
+dir = "duplicates/"
 
 
-RUNNING_DUPLICATES = False
+RUNNING_DUPLICATES = True
 
 def _extract_duplicates_information(filename):
     with open(filename) as f:
         lines = f.readlines()
 
-    robots = []
     duplicates = pd.DataFrame(columns=['robot','source','n_duplicates'])
     for i in range(len(lines)-1):
         if "./" in lines[i] and "./" in lines[i+1]:
