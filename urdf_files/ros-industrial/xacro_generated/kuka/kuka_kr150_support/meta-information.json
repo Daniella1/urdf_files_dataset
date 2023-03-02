@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "Kuka kr150-2",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/kr150_2.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Kuka kr150 R3100-2",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/kr150r3100_2.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

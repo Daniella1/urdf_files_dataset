@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "3F gripper",
+            "type": "end effector",
+            "manufacturer": "Robotiq",
+            "xacro-generated": false,
+            "urdf": [
+                "cfg/robotiq-3f-gripper_mesh.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "3F gripper",
+            "type": "end effector",
+            "manufacturer": "Robotiq",
+            "xacro-generated": false,
+            "urdf": [
+                "cfg/robotiq-3f-gripper_articulated.urdf"
+            ],
+            "variant": "articulated"
+        }
+    ]
+}

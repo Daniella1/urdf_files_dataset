@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "CRx10iA",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/crx10ial.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

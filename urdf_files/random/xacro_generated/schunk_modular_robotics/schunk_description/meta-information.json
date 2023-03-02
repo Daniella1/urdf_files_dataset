@@ -1,0 +1,54 @@
+{
+    "robots": [
+        {
+            "name": "LWA 4P",
+            "type": "robotic arm",
+            "manufacturer": "Schunk",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/schunk_lwa4d.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "LWA 4P",
+            "type": "robotic arm",
+            "manufacturer": "Schunk",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/schunk_lwa4p_extended.urdf"
+            ],
+            "variant": "extended"
+        },
+        {
+            "name": "LWA 4D",
+            "type": "robotic arm",
+            "manufacturer": "Schunk",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/schunk_lwa4p.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "PG 70",
+            "type": "end effector",
+            "manufacturer": "Schunk",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/schunk_pg70.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "PW 70",
+            "type": "end effector",
+            "manufacturer": "Schunk",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/schunk_pw70.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

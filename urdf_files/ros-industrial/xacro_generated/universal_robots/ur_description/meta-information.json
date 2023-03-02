@@ -1,0 +1,64 @@
+{
+    "robots": [
+        {
+            "name": "UR3",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/ur3_robot.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "UR5",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/ur5_robot.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "UR10",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/ur10_robot.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "UR3",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/ur3_joint_limited_robot.urdf"
+            ],
+            "variant": "joint limited"
+        },
+        {
+            "name": "UR5",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/ur5_joint_limited_robot.urdf"
+            ],
+            "variant": "joint limited"
+        },
+        {
+            "name": "UR10",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/ur10_joint_limited_robot.urdf"
+            ],
+            "variant": "joint limited"
+        }
+    ]
+}

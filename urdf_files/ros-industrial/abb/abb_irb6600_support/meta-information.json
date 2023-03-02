@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "IRB6640",
+            "type": "robotic arm",
+            "manufacturer": "ABB",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/irb6640.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

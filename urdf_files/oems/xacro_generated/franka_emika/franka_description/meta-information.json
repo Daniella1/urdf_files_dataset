@@ -1,0 +1,34 @@
+{
+    "robots": [
+        {
+            "name": "Franka Panda",
+            "type": "robotic arm",
+            "manufacturer": "Franka Emika",
+            "xacro-generated": true,
+            "urdf": [
+                "robots/panda/panda.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Dual Franka Panda",
+            "type": "dual arm robot",
+            "manufacturer": "Franka Emika",
+            "xacro-generated": true,
+            "urdf": [
+                "robots/dual_panda/dual_panda.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "FR3",
+            "type": "robotic arm",
+            "manufacturer": "Franka Emika",
+            "xacro-generated": true,
+            "urdf": [
+                "robots/fr3/fr3.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

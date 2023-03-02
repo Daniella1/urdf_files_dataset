@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Jackal",
+            "type": "mobile robot",
+            "manufacturer": "Clearpath Robotics",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/clearpathJackal.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

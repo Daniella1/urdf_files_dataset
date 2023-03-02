@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "AL5D",
+            "type": "robotic arm",
+            "manufacturer": "Lynxmotion",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/al5d_robot.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

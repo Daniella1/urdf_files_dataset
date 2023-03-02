@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "RX 160",
+            "type": "robotic arm",
+            "manufacturer": "Staubli",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/rx160.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "RX 160L",
+            "type": "robotic arm",
+            "manufacturer": "Staubli",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/rx160l.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

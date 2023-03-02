@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "PhantomX Pincher",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/pincher_arm.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Turtlebot Arm",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/turtlebot_arm.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

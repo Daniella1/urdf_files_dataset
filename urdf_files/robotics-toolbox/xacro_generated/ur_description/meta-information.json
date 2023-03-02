@@ -1,0 +1,34 @@
+{
+    "robots": [
+        {
+            "name": "UR3",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/ur3.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "UR5",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/ur5.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "UR10",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/ur10.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

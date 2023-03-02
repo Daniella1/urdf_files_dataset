@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "2F-85 gripper",
+            "type": "end effector",
+            "manufacturer": "Robotiq",
+            "xacro-generated": false,
+            "urdf": [
+                "robotiq_arg85_description.URDF"
+            ],
+            "variant": null
+        }
+    ]
+}

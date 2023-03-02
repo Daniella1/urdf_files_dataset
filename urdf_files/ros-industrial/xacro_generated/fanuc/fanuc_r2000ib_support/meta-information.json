@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "R-2000iB/210F",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/r2000ib210f.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "M-430iA/2F",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/m430ia2f.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "M-430iA/2P",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/m430ia2p.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

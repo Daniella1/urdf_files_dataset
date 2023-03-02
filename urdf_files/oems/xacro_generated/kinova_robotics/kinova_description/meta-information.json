@@ -1,0 +1,114 @@
+{
+    "robots": [
+        {
+            "name": "Jaco J2N4S300",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/j2n4s300_standalone.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Jaco J2N6S200",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/j2n6s200_standalone.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Jaco J2N6S300",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/j2n6s300_standalone.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Jaco J2N7S300",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/j2n7s300_standalone.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Jaco J2S6S300",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/j2s6s300_standalone.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Jaco J2S6S200",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/j2s6s200_standalone.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Jaco J2S7S300",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/j2s7s300_standalone.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Jaco Two Arm",
+            "type": "dual arm robot",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/two_arm_robot_example_standalone.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Mico M1N4S200",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/m1n4s200_standalone.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Mico M1N6S200",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/m1n6s200_standalone.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Mico M1N6S300",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/m1n6s300_standalone.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

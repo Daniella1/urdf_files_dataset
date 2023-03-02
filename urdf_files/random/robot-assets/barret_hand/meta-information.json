@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "BarrettHand",
+            "type": "end effector",
+            "manufacturer": "Barrett Technology",
+            "xacro-generated": false,
+            "urdf": [
+                "bhand_model.URDF"
+            ],
+            "variant": null
+        }
+    ]
+}

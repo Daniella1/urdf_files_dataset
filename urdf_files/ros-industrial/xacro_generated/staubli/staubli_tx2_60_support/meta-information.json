@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "TX2-60",
+            "type": "robotic arm",
+            "manufacturer": "Staubli",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/tx2_60.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "TX2-60L",
+            "type": "robotic arm",
+            "manufacturer": "Staubli",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/tx2_60l.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Ginger",
+            "type": "humanoid robot",
+            "manufacturer": "Paaila Technology",
+            "xacro-generated": false,
+            "urdf": [
+                "gingerurdf.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

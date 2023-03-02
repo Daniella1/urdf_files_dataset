@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "IRB 6700 200 260",
+            "type": "robotic arm",
+            "manufacturer": "ABB",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/irb6700_200_260.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "IRB 6700 235 265",
+            "type": "robotic arm",
+            "manufacturer": "ABB",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/irb6700_235_265.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Kuka kr5 ARC",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/kr5_arc.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

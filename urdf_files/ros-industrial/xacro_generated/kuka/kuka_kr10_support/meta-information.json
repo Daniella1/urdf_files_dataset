@@ -1,0 +1,34 @@
+{
+    "robots": [
+        {
+            "name": "Kuka kr10 R900-2",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/kr10r900_2.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Kuka kr10 R1100 sixx",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/kr10r1100sixx.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Kuka kr10 R1420",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/kr10r1420.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

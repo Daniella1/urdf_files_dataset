@@ -1,0 +1,74 @@
+{
+    "robots": [
+        {
+            "name": "LR Mate 200iD",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200id.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "LR Mate 200iD/4S",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200id4s.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "LR Mate 200iD/4SC",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200id4sc.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "LR Mate 200iD/4SH",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200id4sh.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "LR Mate 200iD/7H",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200id7h.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "LR Mate 200iD/7L",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200id7l.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "LR Mate 200iD/7LC",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200id7lc.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

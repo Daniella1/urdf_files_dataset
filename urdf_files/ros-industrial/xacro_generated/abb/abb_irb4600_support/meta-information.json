@@ -1,0 +1,34 @@
+{
+    "robots": [
+        {
+            "name": "IRB 4600 20 250",
+            "type": "robotic arm",
+            "manufacturer": "ABB",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/irb4600_20_250.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "IRB 4600 40 255",
+            "type": "robotic arm",
+            "manufacturer": "ABB",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/irb4600_40_255.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "IRB 4600 60 205",
+            "type": "robotic arm",
+            "manufacturer": "ABB",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/irb4600_60_205.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

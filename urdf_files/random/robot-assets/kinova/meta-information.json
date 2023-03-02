@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "unknown",
+            "type": "unknown",
+            "manufacturer": "unknown",
+            "xacro-generated": false,
+            "urdf": [
+                "kinova.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

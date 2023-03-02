@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "C2 gripper",
+            "type": "end effector",
+            "manufacturer": "Robotiq",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/robotiq_c2_model.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

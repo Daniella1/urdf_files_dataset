@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Kinova Gen3",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/kinovaGen3.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

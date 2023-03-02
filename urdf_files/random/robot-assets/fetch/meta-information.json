@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Fetch",
+            "type": "mobile manipulator",
+            "manufacturer": "Fetch Robotics",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/fetch.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

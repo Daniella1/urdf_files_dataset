@@ -1,0 +1,36 @@
+{
+    "robots": [
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2b.urdf",
+                "robots/r2b_control.urdf",
+                "robots/r2b_dynamics.urdf",
+                "robots/r2b_sim_upperbody_control.urdf.urdf",
+                "robots/r2b_sim_upperbody_dynamics.urdf.urdf",
+                "robots/r2c1.urdf",
+                "robots/r2c1_control.urdf",
+                "robots/r2c1_dynamics.urdf",
+                "robots/r2c5.urdf",
+                "robots/r2c5_control.urdf",
+                "robots/r2c5_dynamics.urdf",
+                "robots/r2c6.urdf",
+                "robots/r2c6_control.urdf",
+                "robots/r2c6_dynamics.urdf",
+                "robots/r2c6_valve.urdf",
+                "robots/r2c_sim_full_control.urdf.urdf",
+                "robots/r2c_sim_full_dynamics.urdf.urdf",
+                "robots/r2c_sim_legs_control.urdf.urdf",
+                "robots/r2c_sim_legs_dynamics.urdf.urdf",
+                "robots/r2c_sim_upperbody_control.urdf.urdf",
+                "robots/r2c_sim_upperbody_dynamics.urdf.urdf",
+                "robots/r2_left_forearm.urdf",
+                "robots/r2_left_gripper.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

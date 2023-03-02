@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Baxter",
+            "type": "dual arm robot",
+            "manufacturer": "Rethink Robotics",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/baxter.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "M-6iB",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/m6ib.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "M-6iB/6S",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/m6ib6s.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

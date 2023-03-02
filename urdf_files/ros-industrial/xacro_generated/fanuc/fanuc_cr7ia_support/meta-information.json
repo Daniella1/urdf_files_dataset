@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "CR7iA",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/cr7ia.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "CR7iAL",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/cr7ial.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

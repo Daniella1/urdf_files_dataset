@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "IRB 7600",
+            "type": "robotic arm",
+            "manufacturer": "ABB",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/irb7600_150_350.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "ANYmal",
+            "type": "quadrupedal robot",
+            "manufacturer": "ANYbotics",
+            "xacro-generated": false,
+            "urdf": [
+                "anymal.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

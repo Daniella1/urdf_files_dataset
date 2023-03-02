@@ -1,0 +1,17 @@
+{
+    "source": "oems",
+    "link": [
+        "https://github.com/Kinovarobotics/kinova-ros/tree/melodic-devel/kinova_description",
+        "https://github.com/RethinkRobotics/baxter_common/tree/master/baxter_description",
+        "https://github.com/Halodi/halodi-robot-models/tree/main/eve_r3_description",
+        "https://github.com/MobileRobots/amr-ros-config/tree/master/description",
+        "https://github.com/quanser/qarm_description",
+        "https://dev.bostondynamics.com/docs/concepts/robot_services",
+        "https://frankaemika.github.io/docs/franka_ros.html",
+        "https://www.clearpathrobotics.com/assets/guides/melodic/jackal/description.html",
+        "https://github.com/Kinovarobotics/kinova-movo",
+        "https://github.com/Kinovarobotics/kinova-ros",
+        "https://github.com/ROBOTIS-GIT/open_manipulator/tree/master/open_manipulator_description/urdf",
+        "https://github.com/ROBOTIS-GIT/turtlebot3/tree/master/turtlebot3_description"
+    ]
+}

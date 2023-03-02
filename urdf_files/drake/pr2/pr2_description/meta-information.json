@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "PR2",
+            "type": "mobile manipulator",
+            "manufacturer": "Willow Garage",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/pr2_simplified.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

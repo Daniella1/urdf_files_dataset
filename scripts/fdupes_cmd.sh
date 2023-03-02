@@ -1,0 +1,1 @@
+script -c "fdupes -r . | grep -e '.dae$' -e '^$' | uniq" identical_files_dae.txt

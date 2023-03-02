@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "IRB120",
+            "type": "robotic arm",
+            "manufacturer": "ABB",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/abbIrb120.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "IRB120T",
+            "type": "robotic arm",
+            "manufacturer": "ABB",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/abbIrb120T.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

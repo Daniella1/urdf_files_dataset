@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>DesignK</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.4.1;  Revision: exported;  Platform: x64;  Configuration: Release_Max2011_static</authoring_tool>
+      <source_data>xtionpro_pole.max</source_data>
+    </contributor>
+    <created>2015-03-16T14:24:59</created>
+    <modified>2015-03-16T14:24:59</modified>
+    <unit name="millimeter" meter="0.001"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="_1_-_Default">
+      <profile_COMMON>
+        <newparam sid="xtion_pro_jpg-surface">
+          <surface type="2D">
+            <init_from>xtion_pro_jpg</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="xtion_pro_jpg-sampler">
+          <sampler2D>
+            <source>xtion_pro_jpg-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="xtion_pro_jpg-sampler" texcoord="CHANNEL1"/>
+            </diffuse>
+            <specular>
+              <color>0.9 0.9 0.9 1</color>
+            </specular>
+            <shininess>
+              <float>0</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <apply_reflection_dimming>0</apply_reflection_dimming>
+            <dim_level>0</dim_level>
+            <falloff_type>0</falloff_type>
+            <index_of_refraction>1.5</index_of_refraction>
+            <opacity_type>0</opacity_type>
+            <reflection_level>3</reflection_level>
+            <wire_size>1</wire_size>
+            <wire_units>0</wire_units>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_lock>1</ambient_diffuse_lock>
+            <ambient_diffuse_texture_lock>1</ambient_diffuse_texture_lock>
+            <diffuse_specular_lock>0</diffuse_specular_lock>
+            <soften>0.1</soften>
+            <use_self_illum_color>0</use_self_illum_color>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="_1_-_Default-material" name="_1_-_Default">
+      <instance_effect url="#_1_-_Default"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-xtion_poll" name="xtion_poll">
+      <mesh>
+        <source id="geom-xtion_poll-positions">
+          <float_array id="geom-xtion_poll-positions-array" count="144">4.936275 -42 2.849607 -4.936279 -42 2.849599 -5.7 -42 -8.9407e-8 -6 -41.7 -8.9407e-8 5.7 -42 -8.9407e-8 -4.936275 -42 -2.849607 -5.196253 -41.7 -2.999825 2.85016 -42 4.936253 -2.850167 -42 4.936248 -5.196259 -41.7 2.999815 -4.32399e-6 -42 5.699744 -3.000094 -41.7 5.196098 -6.81503e-6 -41.7 6 5.196253 -41.7 2.999825 3.000083 -41.7 5.196105 4.936279 -42 -2.849599 6 -41.7 -8.9407e-8 -2.85016 -42 -4.936253 2.850167 -42 -4.936248 5.196259 -41.7 -2.999815 4.29419e-6 -42 -5.699744 3.000094 -41.7 -5.196098 6.78523e-6 -41.7 -6 -3.000083 -41.7 -5.196105 -4.936279 42 2.849599 4.936275 42 2.849607 5.7 42 -8.9407e-8 6 41.7 -8.9407e-8 -5.7 42 -8.9407e-8 4.936279 42 -2.849599 5.196259 41.7 -2.999815 -2.850167 42 4.936248 2.85016 42 4.936253 5.196253 41.7 2.999825 -4.32399e-6 42 5.699744 3.000083 41.7 5.196105 -6.81503e-6 41.7 6 -5.196259 41.7 2.999815 -3.000094 41.7 5.196098 -4.936275 42 -2.849607 -6 41.7 -8.9407e-8 2.850167 42 -4.936248 -2.85016 42 -4.936253 -5.196253 41.7 -2.999825 4.29419e-6 42 -5.699744 -3.000083 41.7 -5.196105 6.78523e-6 41.7 -6 3.000094 41.7 -5.196098</float_array>
+          <technique_common>
+            <accessor source="#geom-xtion_poll-positions-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-xtion_poll-normals">
+          <float_array id="geom-xtion_poll-normals-array" count="324">0 -1 0 0 -1 0 0 -1 0 -0.7070925 -0.7071211 2.08149e-5 -0.7070947 -0.7071189 2.75085e-5 -0.612164 -0.7073997 0.3533285 0 -1 0 0 -1 0 -0.6121349 -0.7073791 -0.3534199 -0.6121407 -0.7074103 -0.3533474 0 -1 0 0 -1 0 -0.6121345 -0.7073925 0.3533937 -0.3535582 -0.7071226 0.6123514 0 -1 0 -0.3535205 -0.7071211 0.6123749 -2.83896e-5 -0.7073982 0.7068152 -2.27368e-5 -0.7073961 0.7068173 0.3535769 -0.7071342 0.6123272 0.6121349 -0.7073791 0.3534199 0.6121407 -0.7074103 0.3533474 0.3535437 -0.707108 0.6123766 0.7070947 -0.7071189 -2.75085e-5 0 -1 0 0.7070925 -0.7071211 -2.08149e-5 0.612164 -0.7073997 -0.3533285 0 -1 0 0 -1 0 0.6121345 -0.7073925 -0.3533937 0.3535582 -0.7071226 -0.6123514 0 -1 0 0.3535205 -0.7071211 -0.6123749 2.83896e-5 -0.7073982 -0.7068152 2.2704e-5 -0.7073961 -0.7068174 -0.3535769 -0.7071342 -0.6123271 -0.3535437 -0.707108 -0.6123766 0 1 0 0 1 0 0 1 0 0.7070925 0.7071211 2.13187e-5 0.7070947 0.7071189 2.8174e-5 0.6121641 0.7073994 0.3533287 0 1 0 0 1 0 0.6121354 0.7073794 -0.3534185 0.6121405 0.7074106 -0.3533471 0 1 0 0 1 0 0.612134 0.7073922 0.3533951 0.3535579 0.7071231 0.612351 0 1 0 0.3535185 0.7071215 0.6123757 2.8571e-5 0.7073984 0.7068151 2.03081e-5 0.707396 0.7068175 -0.3535774 0.7071338 0.6123272 -0.6121354 0.7073794 0.3534185 -0.6121405 0.7074106 0.3533471 -0.353546 0.7071075 0.6123758 -0.7070947 0.7071189 -2.8174e-5 0 1 0 -0.7070925 0.7071211 -2.13187e-5 -0.6121641 0.7073994 -0.3533287 0 1 0 0 1 0 -0.612134 0.7073922 -0.3533951 -0.3535579 0.7071231 -0.612351 0 1 0 -0.3535185 0.7071215 -0.6123757 -2.8571e-5 0.7073984 -0.7068151 -2.03395e-5 0.707396 -0.7068176 0.3535774 0.7071338 -0.6123273 0.353546 0.7071075 -0.6123759 0.8660365 0 -0.4999808 0.8660366 0 -0.4999806 1 0 5.89259e-7 1 0 3.14271e-7 0.8660358 0 0.4999821 0.7071258 0 -0.7070878 0.7071258 0 -0.7070878 0.2588284 0 -0.9659234 0.2588284 0 -0.9659234 0.2588284 0 -0.9659234 0.2588284 0 -0.9659234 -0.2588262 0 -0.9659239 -0.2588262 0 -0.965924 -0.2588262 0 -0.9659239 -0.2588262 0 -0.965924 -0.8660359 0 -0.4999819 -0.8660358 0 -0.4999821 -0.7071244 0 -0.7070892 -0.7071244 0 -0.7070892 -1 0 -3.14271e-7 -1 0 -5.89259e-7 -0.8660365 0 0.4999808 -0.8660366 0 0.4999806 0.8660359 0 0.4999819 -0.7071258 0 0.7070878 -0.7071258 0 0.7070878 -0.2588284 0 0.9659234 -0.2588284 0 0.9659234 -0.2588284 0 0.9659234 -0.2588284 0 0.9659234 0.2588262 0 0.965924 0.2588262 0 0.965924 0.2588262 0 0.965924 0.2588262 0 0.965924 0.7071244 0 0.7070892 0.7071244 0 0.7070892</float_array>
+          <technique_common>
+            <accessor source="#geom-xtion_poll-normals-array" count="108" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-xtion_poll-map1">
+          <float_array id="geom-xtion_poll-map1-array" count="240">0.282742 0.7696039 0 0.1952787 0.7454964 0 0.195471 0.7183862 0 0.1928133 0.7176536 0 0.2964664 0.7462234 0 0.2091954 0.6950058 0 0.207259 0.6930401 0 0.2591653 0.782996 0 0.2086647 0.7690765 0 0.1926087 0.7461923 0 0.2320507 0.7828002 0 0.8879973 0.9567614 0 0.1215842 0.9567614 0 0.206702 0.7710125 0 0.1215842 0.9291917 0 0.2313174 0.7854602 0 0.2846784 0.7715696 0 0.259859 0.7856641 0 0.2966587 0.7191133 0 0.2991242 0.746956 0 0.2327721 0.6816137 0 0.116769 0.6399679 0 0.883182 0.6399679 0 0.883182 0.6675375 0 0.2839703 0.7696038 0 0.1965069 0.7454964 0 0.1966993 0.7183862 0 0.1940415 0.7176536 0 0.2976946 0.7462234 0 0.2104236 0.6950058 0 0.2084872 0.6930401 0 0.2603936 0.7829959 0 0.209893 0.7690765 0 0.1938369 0.7461924 0 0.233279 0.7828002 0 0.8879973 0.9291917 0 0.8879973 0.984331 0 0.2079303 0.7710125 0 0.1215842 0.984331 0 0.2325458 0.7854602 0 0.2859067 0.7715694 0 0.2610874 0.7856641 0 0.297887 0.7191132 0 0.3003524 0.746956 0 0.2340003 0.6816136 0 0.116769 0.6675375 0 0.116769 0.6123982 0 0.883182 0.6123982 0 0.116769 0.5270075 0 0.883182 0.5270075 0 0.883182 0.5545747 0 0.116769 0.5545747 0 0.883182 0.5821419 0 0.116769 0.5068246 0 0.883182 0.5068246 0 0.116769 0.5821419 0 0.883182 0.6023248 0 0.116769 0.6023248 0 0.8868424 0.8435849 0 0.1204294 0.8435849 0 0.1204294 0.823402 0 0.8868424 0.823402 0 0.8868424 0.8711521 0 0.1204294 0.8711521 0 0.8868424 0.8987193 0 0.1204294 0.8987193 0 0.8868424 0.9189022 0 0.1204294 0.9189022 0 0.2845009 0.695533 0 0.300557 0.7184172 0 0.2611149 0.6818094 0 0.2864636 0.6935971 0 0.2618481 0.6791493 0 0.2333066 0.6789455 0 0.2832727 0.6955332 0 0.2993287 0.7184173 0 0.2598867 0.6818094 0 0.2852354 0.6935972 0 0.26062 0.6791494 0 0.2320784 0.6789455 0</float_array>
+          <technique_common>
+            <accessor source="#geom-xtion_poll-map1-array" count="80" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-xtion_poll-vertices">
+          <input semantic="POSITION" source="#geom-xtion_poll-positions"/>
+        </vertices>
+        <triangles material="_1_-_Default_1" count="92">
+          <input semantic="VERTEX" source="#geom-xtion_poll-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-xtion_poll-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-xtion_poll-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 2 4 2 1 5 1 4 6 4 0 0 0 2 2 2 5 7 5 4 6 4 2 2 2 6 8 6 5 9 5 2 4 2 6 8 6 2 4 2 3 3 3 7 10 7 8 11 8 1 1 1 9 12 9 1 5 1 8 13 8 0 0 0 7 10 7 1 1 1 9 12 9 3 3 3 1 5 1 7 10 7 10 14 10 8 11 8 11 15 13 8 13 8 10 16 10 9 12 9 8 13 8 11 15 13 12 17 15 10 16 10 7 18 7 11 15 13 10 16 10 12 17 15 13 19 16 7 18 7 0 20 0 14 21 17 7 18 7 13 19 16 12 17 15 7 18 7 14 21 17 13 19 16 0 20 0 4 22 4 5 7 5 15 23 18 4 6 4 16 24 19 4 22 4 15 25 18 13 19 16 4 22 4 16 24 19 17 26 20 18 27 74 15 23 18 19 28 75 15 25 18 18 29 74 5 7 5 17 26 20 15 23 18 16 24 19 15 25 18 19 28 75 17 26 20 20 30 76 18 27 74 21 31 77 18 29 74 20 32 76 19 28 75 18 29 74 21 31 77 22 33 78 20 32 76 17 34 20 21 31 77 20 32 76 22 33 78 6 8 6 17 34 20 5 9 5 23 35 79 17 34 20 6 8 6 22 33 78 17 34 20 23 35 79 24 36 24 25 37 25 26 38 26 27 39 27 26 40 26 25 41 25 28 42 28 24 36 24 26 38 26 29 43 29 28 42 28 26 38 26 30 44 30 29 45 29 26 40 26 30 44 30 26 40 26 27 39 27 31 46 31 32 47 32 25 37 25 33 48 33 25 41 25 32 49 32 24 36 24 31 46 31 25 37 25 33 48 33 27 39 27 25 41 25 31 46 31 34 50 34 32 47 32 35 51 37 32 49 32 34 52 34 33 48 33 32 49 32 35 51 37 36 53 39 34 52 34 31 54 31 35 51 37 34 52 34 36 53 39 37 55 40 31 54 31 24 56 24 38 57 41 31 54 31 37 55 40 36 53 39 31 54 31 38 57 41 37 55 40 24 56 24 28 58 28 29 43 29 39 59 42 28 42 28 40 60 43 28 58 28 39 61 42 37 55 40 28 58 28 40 60 43 41 62 44 42 63 68 39 59 42 43 64 69 39 61 42 42 65 68 29 43 29 41 62 44 39 59 42 40 60 43 39 61 42 43 64 69 41 62 44 44 66 70 42 63 68 45 67 71 42 65 68 44 68 70 43 64 69 42 65 68 45 67 71 46 69 72 44 68 70 41 70 44 45 67 71 44 68 70 46 69 72 30 44 30 41 70 44 29 45 29 47 71 73 41 70 44 30 44 30 46 69 72 41 70 44 47 71 73 19 72 48 30 73 49 27 74 50 16 75 51 19 72 48 27 74 50 33 76 52 16 75 51 27 74 50 21 77 53 47 78 54 30 73 49 19 72 48 21 77 53 30 73 49 22 79 21 46 80 22 47 81 23 21 82 45 22 79 21 47 81 23 23 83 46 45 84 47 46 85 22 22 86 21 23 83 46 46 85 22 6 87 58 43 88 59 45 89 60 23 90 61 6 87 58 45 89 60 3 91 62 40 92 63 43 88 59 6 87 58 3 91 62 43 88 59 9 93 64 40 92 63 3 91 62 9 93 64 37 94 65 40 92 63 13 95 55 16 75 51 33 76 52 11 96 66 38 97 67 37 94 65 9 93 64 11 96 66 37 94 65 12 98 11 36 99 12 38 100 14 11 101 35 12 98 11 38 100 14 14 102 36 35 103 38 36 104 12 12 105 11 14 102 36 36 104 12 13 95 55 33 76 52 35 106 56 14 107 57 13 95 55 35 106 56</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="xtion_pro_jpg">
+      <init_from>xtion_pro.jpg</init_from>
+    </image>
+  </library_images>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-xtion_poll" name="xtion_poll">
+        <rotate>-1 0 0 -90</rotate>
+        <instance_geometry url="#geom-xtion_poll">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_1_-_Default_1" target="#_1_-_Default-material">
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows>1</cast_shadows>
+            <primary_visibility>1</primary_visibility>
+            <receive_shadows>1</receive_shadows>
+            <secondary_visibility>1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>

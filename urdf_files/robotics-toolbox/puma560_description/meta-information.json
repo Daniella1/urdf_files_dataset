@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "PUMA 560",
+            "type": "robotic arm",
+            "manufacturer": "Unimation",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/puma560_robot.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

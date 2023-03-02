@@ -1,0 +1,94 @@
+{
+    "robots": [
+        {
+            "name": "PincherX-100",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/px100.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "PincherX-150",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/px150.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "ReactorX-150",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/rx150.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "ReactorX-200",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/rx200.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "ViperX-300",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/vx300.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "ViperX-300s",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/vx300s.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "WidowX-200",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/wx200.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "WidowX-250",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/wx250.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "WidowX-250s",
+            "type": "robotic arm",
+            "manufacturer": "Trossen Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/wx250s.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

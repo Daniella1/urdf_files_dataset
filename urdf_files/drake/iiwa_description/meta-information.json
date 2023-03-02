@@ -1,0 +1,84 @@
+{
+    "robots": [
+        {
+            "name": "Kuka lbr iiwa 14",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/iiwa14_spheres_collision.urdf"
+            ],
+            "variant": "spheres collision"
+        },
+        {
+            "name": "Dual kuka lbr iiwa 14",
+            "type": "dual arm robot",
+            "manufacturer": "KUKA",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/dual_iiwa14_polytope_collision.urdf"
+            ],
+            "variant": "polytope collision"
+        },
+        {
+            "name": "Kuka lbr iiwa 14",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/iiwa14_no_collision.urdf"
+            ],
+            "variant": "no collision"
+        },
+        {
+            "name": "Kuka lbr iiwa 14",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/iiwa14_polytope_collision.urdf"
+            ],
+            "variant": "polytope collision"
+        },
+        {
+            "name": "Kuka lbr iiwa 14",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/iiwa14_primitive_collision.urdf"
+            ],
+            "variant": "primitive collision"
+        },
+        {
+            "name": "Kuka lbr iiwa 14",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/iiwa14_spheres_dense_collision.urdf"
+            ],
+            "variant": "spheres dense collision"
+        },
+        {
+            "name": "Kuka lbr iiwa 14",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/iiwa14_spheres_dense_elbow_collision.urdf"
+            ],
+            "variant": "spheres dense elbow collision"
+        },
+        {
+            "name": "Planar Kuka lbr iiwa 14",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/planar_iiwa14_spheres_dense_elbow_collision.urdf"
+            ],
+            "variant": "spheres dense elbow collision"
+        }
+    ]
+}

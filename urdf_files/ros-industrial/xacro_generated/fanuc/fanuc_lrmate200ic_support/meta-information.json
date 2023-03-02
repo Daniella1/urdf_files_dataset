@@ -1,0 +1,54 @@
+{
+    "robots": [
+        {
+            "name": "LR Mate 200iC",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200ic.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "LR Mate 200iC/5F",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200ic5f.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "LR Mate 200iC/5H",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200ic5h.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "LR Mate 200iC/5HS",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200ic5hs.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "LR Mate 200iC/5L",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200ic5l.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

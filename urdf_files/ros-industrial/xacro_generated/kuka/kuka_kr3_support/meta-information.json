@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Kuka kr3 R540",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/kr3r540.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

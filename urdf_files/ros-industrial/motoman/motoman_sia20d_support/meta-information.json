@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Motoman SIA20D",
+            "type": "robotic arm",
+            "manufacturer": "Yaskawa Motoman",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/sia20d.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

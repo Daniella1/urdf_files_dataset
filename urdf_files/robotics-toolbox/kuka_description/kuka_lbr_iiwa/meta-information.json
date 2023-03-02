@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Kuka lbr iiwa 14",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/lbr_iiwa_14_r820.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

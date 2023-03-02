@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "LR Mate 200iB",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200ib.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "LR Mate 200iB/3L",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/lrmate200ib3l.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

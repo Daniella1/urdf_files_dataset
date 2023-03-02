@@ -1,0 +1,223 @@
+<?xml version="1.0" ?>
+<robot name="QBot2e">
+    <!-- Import Rviz colors -->
+    <material name="Black">
+        <color rgba="0.0 0.0 0.0 1.0"/>
+    </material>
+    <material name="Blue">
+        <color rgba="0.0 0.0 0.8 1.0"/>
+    </material>
+    <material name="Green">
+        <color rgba="0.0 0.8 0.0 1.0"/>
+    </material>
+    <material name="Grey">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+    </material>
+    <material name="DarkGrey">
+        <color rgba="0.3 0.3 0.3 1.0"/>
+    </material>
+    <material name="Orange">
+        <color rgba="1.0 0.423529411765 0.0392156862745 1.0"/>
+    </material>
+    <material name="Brown">
+        <color rgba="0.870588235294 0.811764705882 0.764705882353 1.0"/>
+    </material>
+    <material name="Red">
+        <color rgba="0.8 0.0 0.0 1.0"/>
+    </material>
+    <material name="White">
+        <color rgba="1.0 1.0 1.0 1.0"/>
+    </material>
+
+<!--
+    ###################################################################################################################
+    Not that all mass/inertial values are examples values only. They are not representative of the actual components.
+    ###################################################################################################################
+-->
+<!--
+    <link name="world"/>
+    <joint name="world_base_joint" type="fixed">
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <parent link="world"/>
+        <child link="base"/>
+    </joint>
+-->
+    <link name="base">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qbot2e/meshes/QBot2e_Base.dae"/>
+            </geometry>
+            <material name="DarkGrey"/>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qbot2e/meshes/QBot2e_Base.dae"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+    <joint name="base_basecomponent_joint" type="fixed">
+        <parent link="base"/>
+        <child link="basecomponent"/>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+    </joint>
+    <link name="basecomponent">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qbot2e/meshes/QBot2e_BaseComponents.stl"/>
+            </geometry>
+            <material name="DarkGrey"/>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qbot2e/meshes/QBot2e_BaseComponents.stl"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+    <joint name="basecomponent_kinect_joint" type="revolute">
+        <parent link="basecomponent"/>
+        <child link="kinect"/>
+        <origin rpy="0 0 0" xyz="0.014 0 0.248"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="0" upper="0" effort="300" velocity="0"/>
+    </joint>
+    <link name="kinect">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qbot2e/meshes/QBot2e_Kinect.stl"/>
+            </geometry>
+            <material name="Grey"/>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qbot2e/meshes/QBot2e_Kinect.stl"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+    <joint name="base_wheell_joint" type="continuous">
+        <parent link="base"/>
+        <child link="wheel_left"/>
+        <origin rpy="0 0 0" xyz="0.003 0.105 0.034"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <link name="wheel_left">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qbot2e/meshes/QBot2e_Wheel.stl"/>
+            </geometry>
+            <material name="Black"/>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qbot2e/meshes/QBot2e_Wheel.stl"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+    <joint name="base_wheelr_joint" type="continuous">
+        <parent link="base"/>
+        <child link="wheel_right"/>
+        <origin rpy="0 0 3.14" xyz="0.003 -0.105 0.034"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <link name="wheel_right">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qbot2e/meshes/QBot2e_Wheel.stl"/>
+            </geometry>
+            <material name="Black"/>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+                <mesh filename="package://qbot2e/meshes/QBot2e_Wheel.stl"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+
+<!--
+    <gazebo>
+        <plugin filename="lib/libgazebo_ros_control.so" name="gazebo_ros_control">
+            <robotNamespace>/qbot2e</robotNamespace>
+        </plugin>
+    </gazebo>
+-->
+    <gazebo reference="base">
+        <material>Gazebo/DarkGrey</material>
+        <!--
+        <material>
+            <script>
+                <name>QBot2e_BaseMaterial</name>
+                <uri>model://qbot2e/media/materials/scripts</uri>
+                <uri>model://qbot2e/media/materials/textures</uri>
+            </script>
+        </material>
+        -->
+    </gazebo>
+    <gazebo reference="basecomponent">
+        <material>Gazebo/DarkGrey</material>
+    </gazebo>
+    <gazebo reference="kinect">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+    <gazebo reference="wheel_left">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="wheel_right">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <transmission name="wheelr_tran">
+        <robotNamespace>/qbot2e</robotNamespace>
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="base_wheelr_joint">
+            <hardwareInterface>PositionJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="wheelr_motor">
+            <hardwareInterface>PositionJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="wheell_tran">
+        <robotNamespace>/qbot2e</robotNamespace>
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="base_wheell_joint">
+            <hardwareInterface>PositionJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="wheell_motor">
+            <hardwareInterface>PositionJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+</robot>

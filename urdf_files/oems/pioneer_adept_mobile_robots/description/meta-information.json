@@ -1,0 +1,44 @@
+{
+    "robots": [
+        {
+            "name": "Pioneer 3AT",
+            "type": "robotic arm",
+            "manufacturer": "Adept Mobile Robots",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/pioneer3at.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Pioneer 3DX",
+            "type": "robotic arm",
+            "manufacturer": "Adept Mobile Robots",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/pioneer3dx.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Pioneer LX",
+            "type": "robotic arm",
+            "manufacturer": "Adept Mobile Robots",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/pioneer-lx.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Pioneer LX",
+            "type": "robotic arm",
+            "manufacturer": "Adept Mobile Robots",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/pioneer-lx-devil.urdf"
+            ],
+            "variant": "Devil"
+        }
+    ]
+}

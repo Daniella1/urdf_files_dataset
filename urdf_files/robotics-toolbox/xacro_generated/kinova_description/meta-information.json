@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "Jaco J2N4S300",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/j2n4s300.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Kinova Gen3",
+            "type": "robotic arm",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/kinovaGen3.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

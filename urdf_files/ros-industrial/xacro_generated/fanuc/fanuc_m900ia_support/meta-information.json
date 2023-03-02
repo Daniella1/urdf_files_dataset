@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "M-900iA260L",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/m900ia260l.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "M-20iB",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/m20ib25.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

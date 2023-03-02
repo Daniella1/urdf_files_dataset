@@ -1,0 +1,74 @@
+{
+    "robots": [
+        {
+            "name": "Turtlebot 3 Burger",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/turtlebot3_burger.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Turtlebot 3 Waffle",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/turtlebot3_waffle.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Turtlebot 3 Waffle",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/turtlebot3_waffle_for_open_manipulator.urdf"
+            ],
+            "variant": "for Open Manipulator"
+        },
+        {
+            "name": "Turtlebot 3 Waffle",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/turtlebot3_waffle_pi.urdf"
+            ],
+            "variant": "Pi"
+        },
+        {
+            "name": "Turtlebot 3 Waffle",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/turtlebot3_waffle_pi_for_open_manipulator.urdf"
+            ],
+            "variant": "Pi for Open Manipulator"
+        },
+        {
+            "name": "Turtlebot 3 Burger",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/turtlebot3_burger_for_autorace_2020.urdf"
+            ],
+            "variant": "for autorace 2020"
+        },
+        {
+            "name": "Turtlebot 3 Burger",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/turtlebot3_burger_for_autorace.urdf"
+            ],
+            "variant": "for autorace"
+        }
+    ]
+}

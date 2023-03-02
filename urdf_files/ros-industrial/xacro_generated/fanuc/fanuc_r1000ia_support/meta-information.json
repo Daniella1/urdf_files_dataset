@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "R-1000iA/80F",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/r1000ia80f.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

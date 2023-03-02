@@ -1,0 +1,12 @@
+{
+    "source": "random",
+    "link": [
+        "https://github.com/ankurhanda/robot-assets",
+        "https://github.com/jlarraez/schunk_lwa4p",
+        "https://github.com/heuristicus/spot_ros",
+        "https://github.com/juandpenan/onrobot_2FG7_gripper_description",
+        "https://github.com/dfki-ric/mir_robot",
+        "https://github.com/Osaka-University-Harada-Laboratory/onrobot",
+        "https://github.com/ipa320/schunk_modular_robotics/tree/kinetic_dev/schunk_description"
+    ]
+}

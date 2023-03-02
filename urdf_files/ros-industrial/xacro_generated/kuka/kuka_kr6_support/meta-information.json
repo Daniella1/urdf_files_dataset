@@ -1,0 +1,34 @@
+{
+    "robots": [
+        {
+            "name": "Kuka kr6 R700 sixx",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/kr6r700sixx.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Kuka kr6 R900-2",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/kr6r900_2.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Kuka kr6 R900 sixx",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/kr6r900sixx.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

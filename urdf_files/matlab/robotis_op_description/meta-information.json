@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "OP2",
+            "type": "humanoid robot",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/robotisOP2.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

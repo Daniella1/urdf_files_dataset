@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "UR5",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots",
+            "xacro-generated": false,
+            "urdf": [
+                "ur5_gripper.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

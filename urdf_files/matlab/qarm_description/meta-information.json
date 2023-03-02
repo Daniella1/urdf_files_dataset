@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "QArm",
+            "type": "robotic arm",
+            "manufacturer": "Quanser",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/quanserQArm.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

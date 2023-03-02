@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "CRB 15000",
+            "type": "robotic arm",
+            "manufacturer": "ABB",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/crb15000_5_95.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

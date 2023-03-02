@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Meca500-R3",
+            "type": "robotic arm",
+            "manufacturer": "Mecademic Robotics",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/meca500r3.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

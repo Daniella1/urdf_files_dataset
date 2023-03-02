@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "VG10 gripper",
+            "type": "end effector",
+            "manufacturer": "Onrobot",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/onrobot_vg10_model.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

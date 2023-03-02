@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "RG6 gripper",
+            "type": "end effector",
+            "manufacturer": "Onrobot",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/onrobot_rg6_model.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

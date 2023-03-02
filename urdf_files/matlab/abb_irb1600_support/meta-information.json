@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "IRB1600",
+            "type": "robotic arm",
+            "manufacturer": "ABB",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/abbIrb1600.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

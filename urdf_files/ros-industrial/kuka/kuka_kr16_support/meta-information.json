@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Kuka kr 16-2",
+            "type": "robotic arm",
+            "manufacturer": "KUKA",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/kr16_2.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

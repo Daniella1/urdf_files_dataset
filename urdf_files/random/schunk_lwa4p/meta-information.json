@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "LWA 4P",
+            "type": "robotic arm",
+            "manufacturer": "Schunk",
+            "xacro-generated": false,
+            "urdf": [
+                "robot.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

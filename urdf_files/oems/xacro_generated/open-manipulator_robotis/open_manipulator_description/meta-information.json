@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "Open Manipulator",
+            "type": "robotic arm",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/open_manipulator.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Open Manipulator",
+            "type": "robotic arm",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/open_manipulator_robot.urdf"
+            ],
+            "variant": "robot"
+        }
+    ]
+}

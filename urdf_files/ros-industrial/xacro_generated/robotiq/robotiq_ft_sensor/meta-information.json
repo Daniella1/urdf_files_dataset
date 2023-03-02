@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "FT sensor",
+            "type": "end effector",
+            "manufacturer": "Robotiq",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/example_use_robotiq_ft300.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

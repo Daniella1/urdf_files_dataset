@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "EVEr3",
+            "type": "humanoid robot",
+            "manufacturer": "Halodi",
+            "xacro-generated": false,
+            "urdf": [
+                "eve_r3.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

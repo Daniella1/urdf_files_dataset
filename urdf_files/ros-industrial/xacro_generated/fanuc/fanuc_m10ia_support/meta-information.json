@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "M-10iA",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/m10ia.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "M-10iA/7L",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/m10ia7l.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

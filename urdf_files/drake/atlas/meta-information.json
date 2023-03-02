@@ -1,0 +1,54 @@
+{
+    "robots": [
+        {
+            "name": "Atlas",
+            "type": "humanoid robot",
+            "manufacturer": "Boston Dynamics",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/atlas_convex_hull.urdf"
+            ],
+            "variant": "convex hull"
+        },
+        {
+            "name": "Atlas",
+            "type": "humanoid robot",
+            "manufacturer": "Boston Dynamics",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/atlas_minimal_contact.urdf"
+            ],
+            "variant": "minimal contact"
+        },
+        {
+            "name": "3F gripper",
+            "type": "end effector",
+            "manufacturer": "Robotiq",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/robotiq.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "3F gripper",
+            "type": "end effector",
+            "manufacturer": "Robotiq",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/robotiq_simple.urdf"
+            ],
+            "variant": "articulated"
+        },
+        {
+            "name": "3F gripper",
+            "type": "end effector",
+            "manufacturer": "Robotiq",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/robotiq_tendons.urdf"
+            ],
+            "variant": "tendons"
+        }
+    ]
+}

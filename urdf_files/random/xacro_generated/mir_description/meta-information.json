@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "MiR 100",
+            "type": "mobile robot",
+            "manufacturer": "Mobile Industrial Robots",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/mir.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

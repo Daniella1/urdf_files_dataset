@@ -1,0 +1,34 @@
+{
+    "robots": [
+        {
+            "name": "TX2-90",
+            "type": "robotic arm",
+            "manufacturer": "Staubli",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/tx2_90.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "TX2-90L",
+            "type": "robotic arm",
+            "manufacturer": "Staubli",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/tx2_90l.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "TX2-90XL",
+            "type": "robotic arm",
+            "manufacturer": "Staubli",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/tx2_90xl.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

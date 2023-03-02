@@ -1,0 +1,24 @@
+{
+    "robots": [
+        {
+            "name": "M-710iC/50",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/m710ic50.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "M-710iC/45M",
+            "type": "robotic arm",
+            "manufacturer": "Fanuc",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/m710ic45m.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

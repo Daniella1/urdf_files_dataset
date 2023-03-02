@@ -1,0 +1,34 @@
+{
+    "robots": [
+        {
+            "name": "Fetch",
+            "type": "mobile manipulator",
+            "manufacturer": "Fetch Robotics",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/fetch.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Freight",
+            "type": "mobile robot",
+            "manufacturer": "Fetch Robotics",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/freight.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Fetch",
+            "type": "mobile manipulator",
+            "manufacturer": "Fetch Robotics",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/fetch_camera.urdf"
+            ],
+            "variant": "Camera"
+        }
+    ]
+}
