@@ -1,9 +1,0 @@
-{
-    "robots": [
-        {
-            "name": "YuMi",
-            "type": "dual arm robot",
-            "manufacturer": "ABB"
-        }
-    ]
-}

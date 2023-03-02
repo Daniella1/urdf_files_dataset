@@ -1,8 +1,0 @@
-Laptop:
-
-C:\ProgramData\MATLAB\SupportPackages\R2021b\toolbox\robotics\supportpackages\robotlibrary\ThirdPartyLicenses
-
-
-
-Library internet:
-https://au.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data
