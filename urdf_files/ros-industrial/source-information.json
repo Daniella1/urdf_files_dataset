@@ -1,4 +1,13 @@
 {
     "source": "ros-industrial",
-    "link": "github.com/ros-industrial"
+    "link": [
+        "github.com/ros-industrial",
+        "https://github.com/ros-industrial/abb",
+        "https://github.com/ros-industrial/kuka_experimental",
+        "https://github.com/ros-industrial/motoman",
+        "https://github.com/ros-industrial/robotiq",
+        "https://github.com/ros-industrial/staubli",
+        "https://github.com/ros-industrial/fanuc_experimental",
+        "https://github.com/ros-industrial/fanuc"
+    ]
 }
