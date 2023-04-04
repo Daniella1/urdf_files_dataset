@@ -1,24 +1,24 @@
 {
     "robots": [
         {
-            "name": "Allegro hand",
+            "name": "Allegro hand - left",
             "type": "end effector",
             "manufacturer": "Wonik Robotics",
             "xacro-generated": false,
             "urdf": [
                 "urdf/allegro_hand_description_left.urdf"
             ],
-            "variant": "left"
+            "variant": null
         },
         {
-            "name": "Allegro hand",
+            "name": "Allegro hand - right",
             "type": "end effector",
             "manufacturer": "Wonik Robotics",
             "xacro-generated": false,
             "urdf": [
                 "urdf/allegro_hand_description_right.urdf"
             ],
-            "variant": "right"
+            "variant": null
         }
     ]
 }

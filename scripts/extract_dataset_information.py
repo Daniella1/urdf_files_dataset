@@ -51,10 +51,10 @@ n_urdfs = list(dataset_information[['source','n_urdfs']].groupby(by='source').su
 dataset_sources_n_robots['n_urdfs'] = n_urdfs
 dataset_sources_n_robots = dataset_sources_n_robots[['source','n_urdfs','n_robots']]
 
-types_n_source_information = dataset_information[['type','source']].groupby(by='source').value_counts().rename('count')
+types_n_source_information = pd.DataFrame(dataset_information.groupby(['type','source']).count())
 types_information = dataset_information[['type']]['type'].value_counts()
 types_information = types_information.reset_index().rename({'index':'type', 'type':'count'}, axis = 'columns')
-manufacturers_n_source_information = dataset_information[['manufacturer','source']].groupby(by='source').value_counts().rename('count')
+manufacturers_n_source_information = pd.DataFrame(dataset_information.groupby(['manufacturer','source']).count())
 manufacturers_information = dataset_information['manufacturer'].value_counts()
 manufacturers_information = manufacturers_information.reset_index().rename({'index':'manufacturer', 'manufacturer':'count'}, axis = 'columns')
 robots_information = dataset_information['name'].value_counts()

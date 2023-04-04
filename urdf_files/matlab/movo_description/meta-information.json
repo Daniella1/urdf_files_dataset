@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Movo",
+            "type": "mobile manipulator",
+            "manufacturer": "Kinova Robotics",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/kinovaMovo.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

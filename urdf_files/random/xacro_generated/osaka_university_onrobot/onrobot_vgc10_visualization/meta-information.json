@@ -1,24 +1,24 @@
 {
     "robots": [
         {
-            "name": "VGC10 gripper",
+            "name": "VGC10 gripper - 1 cup model",
             "type": "end effector",
             "manufacturer": "Onrobot",
             "xacro-generated": true,
             "urdf": [
                 "urdf/onrobot_vgc10_1cup_model.urdf"
             ],
-            "variant": "1 cup model"
+            "variant": null
         },
         {
-            "name": "VGC10 gripper",
+            "name": "VGC10 gripper - 4 cups model",
             "type": "end effector",
             "manufacturer": "Onrobot",
             "xacro-generated": true,
             "urdf": [
                 "urdf/onrobot_vgc10_4cups_model.urdf"
             ],
-            "variant": "4 cup model"
+            "variant": null
         }
     ]
 }

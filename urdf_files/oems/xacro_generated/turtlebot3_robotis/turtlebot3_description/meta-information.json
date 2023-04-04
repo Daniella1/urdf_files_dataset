@@ -31,24 +31,24 @@
             "variant": "for Open Manipulator"
         },
         {
-            "name": "Turtlebot 3 Waffle",
+            "name": "Turtlebot 3 Waffle Pi",
             "type": "mobile robot",
             "manufacturer": "ROBOTIS",
             "xacro-generated": true,
             "urdf": [
                 "urdf/turtlebot3_waffle_pi.urdf"
             ],
-            "variant": "Pi"
+            "variant": null
         },
         {
-            "name": "Turtlebot 3 Waffle",
+            "name": "Turtlebot 3 Waffle Pi",
             "type": "mobile robot",
             "manufacturer": "ROBOTIS",
             "xacro-generated": true,
             "urdf": [
                 "urdf/turtlebot3_waffle_pi_for_open_manipulator.urdf"
             ],
-            "variant": "Pi for Open Manipulator"
+            "variant": "for Open Manipulator"
         },
         {
             "name": "Turtlebot 3 Burger",
