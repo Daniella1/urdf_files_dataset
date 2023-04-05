@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Motoman MH5",
+            "type": "robotic arm",
+            "manufacturer": "Yaskawa Motoman",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/yaskawaMotomanMH5.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

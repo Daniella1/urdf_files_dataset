@@ -1,0 +1,54 @@
+{
+    "robots": [
+        {
+            "name": "Turtlebot 3 - Burger",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/robotisTurtleBot3Burger.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Turtlebot 3 - Waffle",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/robotisTurtleBot3Waffle.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Turtlebot 3 - Waffle for Open Manipulator",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/robotisTurtleBot3WaffleForOpenManipulator.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Turtlebot 3 - Waffle Pi",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/robotisTurtleBot3WafflePi.urdf"
+            ],
+            "variant": null
+        },
+        {
+            "name": "Turtlebot 3 - Waffle Pi for Open Manipulator",
+            "type": "mobile robot",
+            "manufacturer": "ROBOTIS",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/robotisTurtleBot3WafflePiForOpenManipulator.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

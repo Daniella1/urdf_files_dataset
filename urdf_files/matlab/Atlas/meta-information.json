@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "Atlas",
+            "type": "humanoid robot",
+            "manufacturer": "Boston Dynamics",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/atlas.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}

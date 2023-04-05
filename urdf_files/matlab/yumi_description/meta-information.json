@@ -1,0 +1,14 @@
+{
+    "robots": [
+        {
+            "name": "YuMi",
+            "type": "dual arm robot",
+            "manufacturer": "ABB",
+            "xacro-generated": false,
+            "urdf": [
+                "urdf/abbYuMi.urdf"
+            ],
+            "variant": null
+        }
+    ]
+}
