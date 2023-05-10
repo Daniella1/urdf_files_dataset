@@ -9,7 +9,7 @@ import os
 import subprocess
 
 
-URDF_LINK = True
+URDF_LINK = False
 
 def extract_urdf_path(row):
     full_path = row.urdf_path.strip('][').replace('"','')
@@ -90,32 +90,16 @@ df_id_robots['id'] = ids
 
 # perform a check to see that the number of variant robots is correct
 
-    
-df_id_robots.to_csv("df_id_robots.csv", index=False)
+if not URDF_LINK:
+    df_id_robots.to_csv("df_id_robots.csv", index=False)    
+else:
+    df_id_robots.to_csv("df_id_robots_md.csv", index=False)
 
 
 with open("robot_index.md", 'w') as md:
   df_id_robots.to_markdown(buf=md, index=False, tablefmt='unsafehtml', stralign=None, numalign=None)
 
 
-# file_content = [line for line in open('README.md')]
-# writer = open('README.md','w')
-
-# for line in file_content:
-#     # We search for the correct section
-#     if line.startswith("##"):
-#         section = line.strip()
-
-#         # Re-write the file at each iteration
-#         writer.write(line)
-
-#         # Once we arrive at the correct position, write the new entry
-#         if section == "## Robots":
-#             writer.write("\n")
-#             df_id_robots.to_markdown(buf=writer, tablefmt="html")
-
-# writer.close()
-
-for line in fileinput.input("README.md", inplace = 1): 
-    print(line.replace("## Robots", f"## Robots\n{df_id_robots.to_markdown(index=False, tablefmt='unsafehtml', stralign=None, numalign=None)}\n").rstrip())
-fileinput.close()
+# for line in fileinput.input("README.md", inplace = 1): 
+#     print(line.replace("## Robots", f"## Robots\n{df_id_robots.to_markdown(index=False, tablefmt='unsafehtml', stralign=None, numalign=None)}\n").rstrip())
+# fileinput.close()

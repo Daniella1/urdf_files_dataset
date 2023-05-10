@@ -37,7 +37,7 @@ for robot in duplicates:
                 else:
                     sources_passing['sources_failed'].append(source)
                     sources_passing['failed_files'].append(urdf_file)
-                    sources_passing['all_sources'].append(source)
+                sources_passing['all_sources'].append(source)
 
         duplicates_parsing_information = pd.concat([duplicates_parsing_information, pd.Series(sources_passing).to_frame().T], ignore_index=True)
                 
