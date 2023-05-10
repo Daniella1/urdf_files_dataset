@@ -1,17 +1,21 @@
 # extract all unique robots
 # group robots depending on source
 # plot venn diagram
-
-
-import json
+import fileinput
+import sys
 import pandas as pd
-from helper_functions import _get_files_with, _get_subdirectories
 import numpy as np
 import os
-from pathlib import Path
 import subprocess
 
 
+URDF_LINK = True
+
+def extract_urdf_path(row):
+    full_path = row.urdf_path.strip('][').replace('"','')
+    full_path = full_path.strip("WindowsPath('")
+    full_path = full_path.strip("')")
+    return full_path
 
 # if dataset information not available, then generate
 filename_dataset_information = "dataset_information.csv"
@@ -30,22 +34,29 @@ unique_variants = df_variant_robots.variant.unique()
 
 df_id_robots = pd.DataFrame(columns=["name","variant","id","sources","type"])
 
+# <a href="urdf_files/ros-industrial/xacro_generated/robotiq/robotiq_2f_140_gripper_visualization/urdf/robotiq_arg2f_140_model.urdf">ros-industrial</a>
 
 ids = 0
 for index, row in df_original_robots.iterrows():
     # check if robot exists in dataframe, if not then add it
     if len(df_id_robots[df_id_robots.name == row["name"]]) < 1:
         # add robot to df
-        urdf_path = row.urdf_path.strip('][').replace('"','')
-        urdf_path = urdf_path.strip("WindowsPath('")
-        urdf_path = urdf_path.strip("')")
+        urdf_path = extract_urdf_path(row)
         source = urdf_path.split("/")[1]
-        new_row = {'name': row["name"], 'variant': 'none', 'id': ids, 'sources': [source], 'type': row.type}
-        df_id_robots = df_id_robots.append(new_row, ignore_index=True)
+        if not URDF_LINK:
+            new_row = {'name': row["name"], 'variant': 'none', 'id': ids, 'sources': [source], 'type': row.type}
+        else:
+            new_row = {'name': row["name"], 'variant': 'none', 'id': ids, 'sources': [f"<a href=\"{urdf_path}\">{source}</a>"], 'type': row.type} # f"[{source}]({urdf_path})"
+        
+        df_id_robots = pd.concat([df_id_robots, pd.DataFrame([new_row])], axis=0, ignore_index=True)
+        # df_id_robots = df_id_robots.append(new_row, ignore_index=True)
         ids += 1
     else:
         updated_sources = list(df_id_robots.loc[df_id_robots[df_id_robots.name == row["name"]].index,"sources"])[0]
-        updated_sources.append(row["source"])
+        if not URDF_LINK:
+            updated_sources.append(row["source"])
+        else:
+            updated_sources.append(f"<a href=\"{extract_urdf_path(row)}\">{row['source']}</a>") # f"[{row['source']}]({extract_urdf_path(row)})" 
     
 df_id_robots = df_id_robots.sort_values('name',ascending=True)
 
@@ -55,16 +66,21 @@ for index, row in df_variant_robots.iterrows():
     # if len(df_id_robots.loc[(df_id_robots.name == row["name"]) & (df_id_robots.variant == row["variant"])]) < 1:
     if len(df_id_robots.loc[(df_id_robots.name == row["name"]) & (df_id_robots.variant == row["variant"])]) < 1:
         # add robot to df
-        urdf_path = row.urdf_path.strip('][').replace('"','')
-        urdf_path = urdf_path.strip("WindowsPath('")
-        urdf_path = urdf_path.strip("')")
+        urdf_path = extract_urdf_path(row)
         source = urdf_path.split("/")[1]
-        new_row = {'name': row["name"], 'variant': row["variant"], 'id': ids, 'sources': [source], 'type': row.type}
-        df_id_robots = df_id_robots.append(new_row, ignore_index=True)
+        if not URDF_LINK:
+            new_row = {'name': row["name"], 'variant': row["variant"], 'id': ids, 'sources': [source], 'type': row.type}
+        else:
+            new_row = {'name': row["name"], 'variant': row["variant"], 'id': ids, 'sources': [f"<a href=\"{urdf_path}\">{source}</a>"], 'type': row.type} # [f"[{source}]({urdf_path})"]
+        df_id_robots = pd.concat([df_id_robots, pd.DataFrame([new_row])], axis=0, ignore_index=True)
+        # df_id_robots = df_id_robots.append(new_row, ignore_index=True)
         ids += 1
     else:
         updated_sources = list(df_id_robots.loc[df_id_robots[(df_id_robots.name == row["name"]) & (df_id_robots.variant == row["variant"])].index,"sources"])[0]
-        updated_sources.append(row["source"])
+        if not URDF_LINK:
+            updated_sources.append(row["source"])
+        else:
+            updated_sources.append(f"<a href=\"{extract_urdf_path(row)}\">{row['source']}</a>")
     
 df_id_robots[-len(df_variant_robots):] = df_id_robots[-len(df_variant_robots):].sort_values('name',ascending=True)
 
@@ -73,6 +89,33 @@ ids = np.linspace(0,ids-1,ids,dtype=int)
 df_id_robots['id'] = ids
 
 # perform a check to see that the number of variant robots is correct
+
     
 df_id_robots.to_csv("df_id_robots.csv", index=False)
 
+
+with open("robot_index.md", 'w') as md:
+  df_id_robots.to_markdown(buf=md, index=False, tablefmt='unsafehtml', stralign=None, numalign=None)
+
+
+# file_content = [line for line in open('README.md')]
+# writer = open('README.md','w')
+
+# for line in file_content:
+#     # We search for the correct section
+#     if line.startswith("##"):
+#         section = line.strip()
+
+#         # Re-write the file at each iteration
+#         writer.write(line)
+
+#         # Once we arrive at the correct position, write the new entry
+#         if section == "## Robots":
+#             writer.write("\n")
+#             df_id_robots.to_markdown(buf=writer, tablefmt="html")
+
+# writer.close()
+
+for line in fileinput.input("README.md", inplace = 1): 
+    print(line.replace("## Robots", f"## Robots\n{df_id_robots.to_markdown(index=False, tablefmt='unsafehtml', stralign=None, numalign=None)}\n").rstrip())
+fileinput.close()
