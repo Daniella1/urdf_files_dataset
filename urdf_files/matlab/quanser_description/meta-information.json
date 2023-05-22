@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/quanserQBot2e.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "QCar",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/quanserQCar.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         }
     ]
 }

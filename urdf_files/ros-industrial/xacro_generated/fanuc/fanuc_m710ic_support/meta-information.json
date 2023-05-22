@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/m710ic50.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_m710ic_support"
         },
         {
             "name": "M-710iC/45M",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/m710ic45m.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_m710ic_support"
         }
     ]
 }

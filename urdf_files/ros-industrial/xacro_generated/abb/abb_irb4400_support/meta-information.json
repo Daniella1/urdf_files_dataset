@@ -1,14 +1,15 @@
 {
     "robots": [
         {
-            "name": "IRB 4400",
+            "name": "IRB 4400L/30",
             "type": "robotic arm",
             "manufacturer": "ABB",
             "xacro-generated": true,
             "urdf": [
                 "urdf/irb4400l_30_243.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/abb/tree/4a35d76115a18e5390fd7387109625c6144e41b6/abb_irb4400_support"
         }
     ]
 }

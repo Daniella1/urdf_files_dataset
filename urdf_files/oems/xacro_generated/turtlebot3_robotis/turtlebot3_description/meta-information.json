@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/turtlebot3_burger.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description"
         },
         {
             "name": "Turtlebot 3 Waffle",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/turtlebot3_waffle.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description"
         },
         {
             "name": "Turtlebot 3 Waffle",
@@ -28,7 +30,8 @@
             "urdf": [
                 "urdf/turtlebot3_waffle_for_open_manipulator.urdf"
             ],
-            "variant": "for Open Manipulator"
+            "variant": "for Open Manipulator",
+            "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description"
         },
         {
             "name": "Turtlebot 3 Waffle Pi",
@@ -38,7 +41,8 @@
             "urdf": [
                 "urdf/turtlebot3_waffle_pi.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description"
         },
         {
             "name": "Turtlebot 3 Waffle Pi",
@@ -48,7 +52,8 @@
             "urdf": [
                 "urdf/turtlebot3_waffle_pi_for_open_manipulator.urdf"
             ],
-            "variant": "for Open Manipulator"
+            "variant": "for Open Manipulator",
+            "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description"
         },
         {
             "name": "Turtlebot 3 Burger",
@@ -58,7 +63,8 @@
             "urdf": [
                 "urdf/turtlebot3_burger_for_autorace_2020.urdf"
             ],
-            "variant": "for autorace 2020"
+            "variant": "for autorace 2020",
+            "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description"
         },
         {
             "name": "Turtlebot 3 Burger",
@@ -68,7 +74,8 @@
             "urdf": [
                 "urdf/turtlebot3_burger_for_autorace.urdf"
             ],
-            "variant": "for autorace"
+            "variant": "for autorace",
+            "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description"
         }
     ]
 }

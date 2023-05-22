@@ -1,14 +1,15 @@
 {
     "robots": [
         {
-            "name": "IRB 7600",
+            "name": "IRB 7600-150/3.50",
             "type": "robotic arm",
             "manufacturer": "ABB",
             "xacro-generated": true,
             "urdf": [
                 "urdf/irb7600_150_350.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb7600_support"
         }
     ]
 }

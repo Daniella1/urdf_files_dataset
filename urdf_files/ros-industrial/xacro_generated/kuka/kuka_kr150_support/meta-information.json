@@ -1,24 +1,26 @@
 {
     "robots": [
         {
-            "name": "Kuka kr150-2",
+            "name": "KR 150-2",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": true,
             "urdf": [
                 "urdf/kr150_2.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399/kuka_kr150_support"
         },
         {
-            "name": "Kuka kr150 R3100-2",
+            "name": "KR 150 R3100-2",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": true,
             "urdf": [
                 "urdf/kr150r3100_2.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399/kuka_kr150_support"
         }
     ]
 }

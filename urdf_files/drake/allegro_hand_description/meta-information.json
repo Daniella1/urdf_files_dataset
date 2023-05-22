@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/allegro_hand_description_left.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/manipulation/models/allegro_hand_description"
         },
         {
             "name": "Allegro hand - right",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/allegro_hand_description_right.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/manipulation/models/allegro_hand_description"
         }
     ]
 }

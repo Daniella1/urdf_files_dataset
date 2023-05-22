@@ -1,14 +1,15 @@
 {
     "robots": [
         {
-            "name": "ANYmal",
+            "name": "ANYmal B",
             "type": "quadrupedal robot",
             "manufacturer": "ANYbotics",
             "xacro-generated": false,
             "urdf": [
                 "urdf/anymal.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ANYbotics/anymal_b_simple_description/tree/988b5df22b84761bdf08111b1c2ccc883793f456"
         }
     ]
 }

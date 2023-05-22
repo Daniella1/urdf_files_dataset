@@ -1,24 +1,26 @@
 {
     "robots": [
         {
-            "name": "CR7iA",
+            "name": "CR-7iA",
             "type": "robotic arm",
             "manufacturer": "Fanuc",
             "xacro-generated": true,
             "urdf": [
                 "urdf/cr7ia.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_cr7ia_support"
         },
         {
-            "name": "CR7iAL",
+            "name": "CR-7iA/L",
             "type": "robotic arm",
             "manufacturer": "Fanuc",
             "xacro-generated": true,
             "urdf": [
                 "urdf/cr7ial.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_cr7ia_support"
         }
     ]
 }

@@ -1,24 +1,26 @@
 {
     "robots": [
         {
-            "name": "IRB 1200 5 90",
+            "name": "IRB 1200-5/0.9",
             "type": "robotic arm",
             "manufacturer": "ABB",
             "xacro-generated": true,
             "urdf": [
                 "urdf/irb1200_5_90.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb1200_support"
         },
         {
-            "name": "IRB 1200 7 70",
+            "name": "IRB 1200-7/0.7",
             "type": "robotic arm",
             "manufacturer": "ABB",
             "xacro-generated": true,
             "urdf": [
                 "urdf/irb1200_7_70.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb1200_support"
         }
     ]
 }

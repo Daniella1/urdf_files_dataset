@@ -8,7 +8,8 @@
             "urdf": [
                 "cfg/robotiq-3f-gripper_mesh.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/robotiq/tree/45196f6558fe8ba9d89bc8a105396c68c3e7e892/robotiq_3f_gripper_visualization"
         },
         {
             "name": "3F gripper",
@@ -18,7 +19,8 @@
             "urdf": [
                 "cfg/robotiq-3f-gripper_articulated.urdf"
             ],
-            "variant": "articulated"
+            "variant": "articulated",
+            "source-link": "https://github.com/ros-industrial/robotiq/tree/45196f6558fe8ba9d89bc8a105396c68c3e7e892/robotiq_3f_gripper_visualization"
         }
     ]
 }

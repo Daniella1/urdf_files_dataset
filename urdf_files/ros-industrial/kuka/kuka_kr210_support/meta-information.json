@@ -1,14 +1,15 @@
 {
     "robots": [
         {
-            "name": "Kuka kr 210 L150",
+            "name": "KR 210 L150",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": false,
             "urdf": [
                 "urdf/kr210l150.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399/kuka_kr210_support"
         }
     ]
 }

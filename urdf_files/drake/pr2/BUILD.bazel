@@ -1,0 +1,55 @@
+load(
+    "@drake//tools/skylark:drake_cc.bzl",
+    "drake_cc_googletest",
+)
+load("//tools/lint:lint.bzl", "add_lint_tests")
+load("//tools/skylark:drake_data.bzl", "models_filegroup")
+load("//tools/install:install_data.bzl", "install_data")
+
+package(default_visibility = ["//visibility:public"])
+
+# Convert the *.stl meshes to *.obj meshes, because many geometry and
+# visualization tools in Drake only support *.obj meshes.
+
+_STLS = glob(
+    ["models/**/*.stl"],
+    allow_empty = False,
+)
+
+_OBJS = [x[:-3] + "obj" for x in _STLS]
+
+[
+    genrule(
+        name = obj + "_genrule",
+        srcs = [stl],
+        outs = [obj],
+        cmd = "$(location //manipulation/util:stl2obj) --input $< --output $@",
+        tools = ["//manipulation/util:stl2obj"],
+        visibility = ["//visibility:private"],
+    )
+    for stl, obj in zip(_STLS, _OBJS)
+]
+
+models_filegroup(
+    name = "models",
+    extra_srcs = _OBJS + [
+        "README.md",
+    ],
+)
+
+install_data(
+    name = "install_data",
+    data = [":models"],
+)
+
+# === test/ ===
+
+drake_cc_googletest(
+    name = "load_pr2_simplified_test",
+    data = [":models"],
+    deps = [
+        "//multibody/parsing",
+    ],
+)
+
+add_lint_tests()

@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/eve_r3.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/Halodi/halodi-robot-models/tree/1ac3e9a746d378786329d071bfb23c0f9b22947f/eve_r3_description"
         }
     ]
 }

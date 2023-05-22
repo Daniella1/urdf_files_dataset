@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/px100.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/interbotix_descriptions"
         },
         {
             "name": "PincherX-150",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/px150.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/interbotix_descriptions"
         },
         {
             "name": "ReactorX-150",
@@ -28,7 +30,8 @@
             "urdf": [
                 "urdf/rx150.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/interbotix_descriptions"
         },
         {
             "name": "ReactorX-200",
@@ -38,7 +41,8 @@
             "urdf": [
                 "urdf/rx200.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/interbotix_descriptions"
         },
         {
             "name": "ViperX-300",
@@ -48,7 +52,8 @@
             "urdf": [
                 "urdf/vx300.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/interbotix_descriptions"
         },
         {
             "name": "ViperX-300s",
@@ -58,7 +63,8 @@
             "urdf": [
                 "urdf/vx300s.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/interbotix_descriptions"
         },
         {
             "name": "WidowX-200",
@@ -68,7 +74,8 @@
             "urdf": [
                 "urdf/wx200.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/interbotix_descriptions"
         },
         {
             "name": "WidowX-250",
@@ -78,7 +85,8 @@
             "urdf": [
                 "urdf/wx250.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/interbotix_descriptions"
         },
         {
             "name": "WidowX-250s",
@@ -88,7 +96,8 @@
             "urdf": [
                 "urdf/wx250s.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/interbotix_descriptions"
         }
     ]
 }

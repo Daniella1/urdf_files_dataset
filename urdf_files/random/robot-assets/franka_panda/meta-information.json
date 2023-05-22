@@ -1,14 +1,15 @@
 {
     "robots": [
         {
-            "name": "Franka Panda",
+            "name": "Panda",
             "type": "robotic arm",
             "manufacturer": "Franka Emika",
             "xacro-generated": false,
             "urdf": [
                 "panda.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/franka_panda"
         }
     ]
 }

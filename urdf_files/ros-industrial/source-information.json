@@ -2,12 +2,16 @@
     "source": "ros-industrial",
     "link": [
         "github.com/ros-industrial",
-        "https://github.com/ros-industrial/abb",
-        "https://github.com/ros-industrial/kuka_experimental",
-        "https://github.com/ros-industrial/motoman",
-        "https://github.com/ros-industrial/robotiq",
-        "https://github.com/ros-industrial/staubli",
-        "https://github.com/ros-industrial/fanuc_experimental",
-        "https://github.com/ros-industrial/fanuc"
+        {"abb": "https://github.com/ros-industrial/abb/tree/4a35d76115a18e5390fd7387109625c6144e41b6"},
+        {"xacro_generated/abb": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb"},
+        {"kuka": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399"},
+        {"xacro_generated/kuka": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399"},
+        {"motoman": "https://github.com/ros-industrial/motoman/tree/7860ff545106d98ed6a3fa0121f2fb60891f69bd"},
+        {"robotiq": "https://github.com/ros-industrial/robotiq/tree/45196f6558fe8ba9d89bc8a105396c68c3e7e892"},
+        {"xacro_generated/robotiq": "https://github.com/ros-industrial/robotiq/tree/45196f6558fe8ba9d89bc8a105396c68c3e7e892"},
+        {"staubli": "https://github.com/ros-industrial/staubli/tree/367d92ec7432867d9ba87c3399d49a940c4afc67"},
+        {"xacro_generated/staubli": "https://github.com/ros-industrial/staubli_experimental/tree/256a71acea2161b64e12af1a6b925a7f26695007"},
+        {"xacro_generated/fanuc": ["https://github.com/ros-industrial/fanuc_experimental/tree/faf8a758f7b25ae7b31ee836933102bd066dc528","https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8"]},
+        {"xacro_generated/universal_robots": ""}
     ]
 }

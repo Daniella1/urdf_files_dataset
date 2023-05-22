@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/jackal.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/jackal/jackal/tree/96578277a93d977895f916b8362cef0f0b326ca6/jackal_description"
         }
     ]
 }

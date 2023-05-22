@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/lrmate200id.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200id_support"
         },
         {
             "name": "LR Mate 200iD/4S",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/lrmate200id4s.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200id_support"
         },
         {
             "name": "LR Mate 200iD/4SC",
@@ -28,7 +30,8 @@
             "urdf": [
                 "urdf/lrmate200id4sc.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200id_support"
         },
         {
             "name": "LR Mate 200iD/4SH",
@@ -38,7 +41,8 @@
             "urdf": [
                 "urdf/lrmate200id4sh.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200id_support"
         },
         {
             "name": "LR Mate 200iD/7H",
@@ -48,7 +52,8 @@
             "urdf": [
                 "urdf/lrmate200id7h.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200id_support"
         },
         {
             "name": "LR Mate 200iD/7L",
@@ -58,7 +63,8 @@
             "urdf": [
                 "urdf/lrmate200id7l.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200id_support"
         },
         {
             "name": "LR Mate 200iD/7LC",
@@ -68,7 +74,8 @@
             "urdf": [
                 "urdf/lrmate200id7lc.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200id_support"
         }
     ]
 }

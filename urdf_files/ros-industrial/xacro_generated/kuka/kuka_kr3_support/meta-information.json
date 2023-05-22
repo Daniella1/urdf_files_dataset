@@ -1,14 +1,15 @@
 {
     "robots": [
         {
-            "name": "Kuka kr3 R540",
+            "name": "KR 3 R540",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": true,
             "urdf": [
                 "urdf/kr3r540.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399/kuka_kr3_support"
         }
     ]
 }

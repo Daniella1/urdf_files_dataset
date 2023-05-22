@@ -1,24 +1,26 @@
 {
     "robots": [
         {
-            "name": "Franka Panda",
+            "name": "Panda",
             "type": "robotic arm",
             "manufacturer": "Franka Emika",
             "xacro-generated": true,
             "urdf": [
                 "robots/panda/panda.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/frankaemika/franka_ros/tree/a58d3052a241304392847df6464234c83d728a38/franka_description"
         },
         {
-            "name": "Dual Franka Panda",
+            "name": "Dual Panda",
             "type": "dual arm robot",
             "manufacturer": "Franka Emika",
             "xacro-generated": true,
             "urdf": [
                 "robots/dual_panda/dual_panda.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/frankaemika/franka_ros/tree/a58d3052a241304392847df6464234c83d728a38/franka_description"
         },
         {
             "name": "FR3",
@@ -28,7 +30,8 @@
             "urdf": [
                 "robots/fr3/fr3.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/frankaemika/franka_ros/tree/a58d3052a241304392847df6464234c83d728a38/franka_description"
         }
     ]
 }

@@ -1,24 +1,26 @@
 {
     "robots": [
         {
-            "name": "IRB 6700 200 260",
+            "name": "IRB 6700-200/2.60",
             "type": "robotic arm",
             "manufacturer": "ABB",
             "xacro-generated": true,
             "urdf": [
                 "urdf/irb6700_200_260.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb6700_support"
         },
         {
-            "name": "IRB 6700 235 265",
+            "name": "IRB 6700-235/2.65",
             "type": "robotic arm",
             "manufacturer": "ABB",
             "xacro-generated": true,
             "urdf": [
                 "urdf/irb6700_235_265.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb6700_support"
         }
     ]
 }

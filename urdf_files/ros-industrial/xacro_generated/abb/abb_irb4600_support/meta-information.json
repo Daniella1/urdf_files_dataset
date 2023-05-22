@@ -1,34 +1,37 @@
 {
     "robots": [
         {
-            "name": "IRB 4600 20 250",
+            "name": "IRB 4600-20/2.50",
             "type": "robotic arm",
             "manufacturer": "ABB",
             "xacro-generated": true,
             "urdf": [
                 "urdf/irb4600_20_250.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb4600_support"
         },
         {
-            "name": "IRB 4600 40 255",
+            "name": "IRB 4600-40/2.55",
             "type": "robotic arm",
             "manufacturer": "ABB",
             "xacro-generated": true,
             "urdf": [
                 "urdf/irb4600_40_255.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb4600_support"
         },
         {
-            "name": "IRB 4600 60 205",
+            "name": "IRB 4600-60/2.05",
             "type": "robotic arm",
             "manufacturer": "ABB",
             "xacro-generated": true,
             "urdf": [
                 "urdf/irb4600_60_205.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb4600_support"
         }
     ]
 }

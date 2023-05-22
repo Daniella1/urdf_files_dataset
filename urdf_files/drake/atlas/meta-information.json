@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/atlas_convex_hull.urdf"
             ],
-            "variant": "convex hull"
+            "variant": "convex hull",
+            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas"
         },
         {
             "name": "Atlas",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/atlas_minimal_contact.urdf"
             ],
-            "variant": "minimal contact"
+            "variant": "minimal contact",
+            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas"
         },
         {
             "name": "3F gripper",
@@ -28,7 +30,8 @@
             "urdf": [
                 "urdf/robotiq.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas"
         },
         {
             "name": "3F gripper",
@@ -38,7 +41,8 @@
             "urdf": [
                 "urdf/robotiq_simple.urdf"
             ],
-            "variant": "articulated"
+            "variant": "articulated",
+            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas"
         },
         {
             "name": "3F gripper",
@@ -48,7 +52,8 @@
             "urdf": [
                 "urdf/robotiq_tendons.urdf"
             ],
-            "variant": "tendons"
+            "variant": "tendons",
+            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas"
         }
     ]
 }

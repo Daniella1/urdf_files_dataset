@@ -1,14 +1,15 @@
 {
     "robots": [
         {
-            "name": "IRB6640",
+            "name": "IRB 6640-185/2.8",
             "type": "robotic arm",
             "manufacturer": "ABB",
             "xacro-generated": false,
             "urdf": [
                 "urdf/irb6640_185_280.urdf"
             ],
-            "variant": "185 280"
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/abb/tree/4a35d76115a18e5390fd7387109625c6144e41b6/abb_irb6640_support"
         }
     ]
 }

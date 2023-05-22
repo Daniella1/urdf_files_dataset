@@ -6,9 +6,10 @@
             "manufacturer": "Schunk",
             "xacro-generated": true,
             "urdf": [
-                "urdf/schunk_lwa4d.urdf"
+                "urdf/schunk_lwa4p.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ipa320/schunk_modular_robotics/tree/b2d73bdd333eceda0e91b4f8d4e8881433dc243a/schunk_description"
         },
         {
             "name": "LWA 4P",
@@ -26,9 +27,10 @@
             "manufacturer": "Schunk",
             "xacro-generated": true,
             "urdf": [
-                "urdf/schunk_lwa4p.urdf"
+                "urdf/schunk_lwa4d.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ipa320/schunk_modular_robotics/tree/b2d73bdd333eceda0e91b4f8d4e8881433dc243a/schunk_description"
         },
         {
             "name": "PG 70",
@@ -38,7 +40,8 @@
             "urdf": [
                 "urdf/schunk_pg70.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ipa320/schunk_modular_robotics/tree/b2d73bdd333eceda0e91b4f8d4e8881433dc243a/schunk_description"
         },
         {
             "name": "PW 70",
@@ -48,7 +51,8 @@
             "urdf": [
                 "urdf/schunk_pw70.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ipa320/schunk_modular_robotics/tree/b2d73bdd333eceda0e91b4f8d4e8881433dc243a/schunk_description"
         }
     ]
 }

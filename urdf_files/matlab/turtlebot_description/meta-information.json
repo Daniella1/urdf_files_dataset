@@ -1,14 +1,15 @@
 {
     "robots": [
         {
-            "name": "Turtlebot",
+            "name": "Turtlebot 2",
             "type": "mobile robot",
             "manufacturer": "Clearpath Robotics",
             "xacro-generated": false,
             "urdf": [
                 "robots/clearpathTurtleBot2.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         }
     ]
 }

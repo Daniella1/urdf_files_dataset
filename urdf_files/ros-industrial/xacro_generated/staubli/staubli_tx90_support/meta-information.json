@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/tx90.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/staubli_experimental/tree/256a71acea2161b64e12af1a6b925a7f26695007/staubli_tx90_support"
         },
         {
             "name": "TX-90L",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/tx90l.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/staubli_experimental/tree/256a71acea2161b64e12af1a6b925a7f26695007/staubli_tx90_support"
         },
         {
             "name": "TX-90XL",
@@ -28,7 +30,8 @@
             "urdf": [
                 "urdf/tx90xl.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/staubli_experimental/tree/256a71acea2161b64e12af1a6b925a7f26695007/staubli_tx90_support"
         }
     ]
 }

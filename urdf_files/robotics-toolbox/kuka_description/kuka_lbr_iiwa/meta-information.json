@@ -1,14 +1,15 @@
 {
     "robots": [
         {
-            "name": "Kuka lbr iiwa 14",
+            "name": "LBR iiwa 14 R820",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": false,
             "urdf": [
                 "urdf/lbr_iiwa_14_r820.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/kuka_description/kuka_lbr_iiwa"
         }
     ]
 }

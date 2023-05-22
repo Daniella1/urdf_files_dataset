@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/onrobot_vgc10_1cup_model.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/Osaka-University-Harada-Laboratory/onrobot/tree/4016460d8bd53ab17917ebb7ace0fbd8dc849ad3/onrobot_vgc10_visualization"
         },
         {
             "name": "VGC10 gripper - 4 cups model",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/onrobot_vgc10_4cups_model.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/Osaka-University-Harada-Laboratory/onrobot/tree/4016460d8bd53ab17917ebb7ace0fbd8dc849ad3/onrobot_vgc10_visualization"
         }
     ]
 }

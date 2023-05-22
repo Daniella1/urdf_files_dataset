@@ -1,14 +1,15 @@
 {
     "robots": [
         {
-            "name": "Kuka kr 120 R2500 Pro",
+            "name": "KR 120 R2500 pro",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": false,
             "urdf": [
                 "urdf/kr120r2500pro.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399/kuka_kr120_support"
         }
     ]
 }

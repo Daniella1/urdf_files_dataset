@@ -1,14 +1,15 @@
 {
     "robots": [
         {
-            "name": "IRB1600",
+            "name": "IRB 1600",
             "type": "robotic arm",
             "manufacturer": "ABB",
             "xacro-generated": false,
             "urdf": [
                 "urdf/abbIrb1600.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         }
     ]
 }

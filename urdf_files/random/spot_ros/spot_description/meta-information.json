@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/spot.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/heuristicus/spot_ros/tree/3f89ebedb2062e22282948333cb48fa6e478641b/spot_description"
         },
         {
             "name": "Spot Arm",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/spot_arm.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/heuristicus/spot_ros/tree/3f89ebedb2062e22282948333cb48fa6e478641b/spot_description"
         }
     ]
 }

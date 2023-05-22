@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/robotisTurtleBot3Burger.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "Turtlebot 3 - Waffle",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/robotisTurtleBot3Waffle.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "Turtlebot 3 - Waffle for Open Manipulator",
@@ -28,7 +30,8 @@
             "urdf": [
                 "urdf/robotisTurtleBot3WaffleForOpenManipulator.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "Turtlebot 3 - Waffle Pi",
@@ -38,7 +41,8 @@
             "urdf": [
                 "urdf/robotisTurtleBot3WafflePi.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "Turtlebot 3 - Waffle Pi for Open Manipulator",
@@ -48,7 +52,8 @@
             "urdf": [
                 "urdf/robotisTurtleBot3WafflePiForOpenManipulator.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         }
     ]
 }

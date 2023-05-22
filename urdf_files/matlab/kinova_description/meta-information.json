@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/kinovaJacoJ2N6S200.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "Jaco J2N6S300",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/kinovaJacoJ2N6S300.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "Jaco J2N7S300",
@@ -28,7 +30,8 @@
             "urdf": [
                 "urdf/kinovaJacoJ2N7S300.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "Jaco J2S6S300",
@@ -38,7 +41,8 @@
             "urdf": [
                 "urdf/kinovaJacoJ2S6S300.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "Jaco J2S7S300",
@@ -48,7 +52,8 @@
             "urdf": [
                 "urdf/kinovaJacoJ2S7S300.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "Jaco Two Arm",
@@ -58,7 +63,8 @@
             "urdf": [
                 "urdf/kinovaJacoTwoArmExample.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "Mico M1N4S200",
@@ -68,7 +74,8 @@
             "urdf": [
                 "urdf/kinovaMicoM1N4S200.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "Mico M1N6S200",
@@ -78,7 +85,8 @@
             "urdf": [
                 "urdf/kinovaMicoM1N6S200.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "Mico M1N6S300",
@@ -88,7 +96,8 @@
             "urdf": [
                 "urdf/kinovaMicoM1N6S300.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         }
     ]
 }

@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/onrobot_vg10_model.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/Osaka-University-Harada-Laboratory/onrobot/tree/4016460d8bd53ab17917ebb7ace0fbd8dc849ad3/onrobot_vg10_visualization"
         }
     ]
 }

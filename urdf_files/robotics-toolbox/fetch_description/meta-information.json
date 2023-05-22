@@ -8,7 +8,8 @@
             "urdf": [
                 "robots/fetch.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/fetch_description"
         },
         {
             "name": "Freight",
@@ -18,17 +19,19 @@
             "urdf": [
                 "robots/freight.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/fetch_description"
         },
         {
-            "name": "Fetch",
+            "name": "Fetch Camera",
             "type": "mobile manipulator",
             "manufacturer": "Fetch Robotics",
             "xacro-generated": false,
             "urdf": [
                 "robots/fetch_camera.urdf"
             ],
-            "variant": "Camera"
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/fetch_description"
         }
     ]
 }

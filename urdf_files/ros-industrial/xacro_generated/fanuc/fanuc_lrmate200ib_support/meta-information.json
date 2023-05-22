@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/lrmate200ib.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200ib_support"
         },
         {
             "name": "LR Mate 200iB/3L",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/lrmate200ib3l.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200ib_support"
         }
     ]
 }

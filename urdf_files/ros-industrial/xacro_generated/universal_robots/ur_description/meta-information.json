@@ -6,9 +6,10 @@
             "manufacturer": "Universal Robots",
             "xacro-generated": true,
             "urdf": [
-                "urdf/ur3_robot.urdf"
+                "urdf/ur3.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
         },
         {
             "name": "UR5",
@@ -16,9 +17,10 @@
             "manufacturer": "Universal Robots",
             "xacro-generated": true,
             "urdf": [
-                "urdf/ur5_robot.urdf"
+                "urdf/ur5.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
         },
         {
             "name": "UR10",
@@ -26,39 +28,54 @@
             "manufacturer": "Universal Robots",
             "xacro-generated": true,
             "urdf": [
-                "urdf/ur10_robot.urdf"
+                "urdf/ur10.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
         },
         {
-            "name": "UR3",
+            "name": "UR3e",
             "type": "robotic arm",
             "manufacturer": "Universal Robots",
             "xacro-generated": true,
             "urdf": [
-                "urdf/ur3_joint_limited_robot.urdf"
+                "urdf/ur3e.urdf"
             ],
-            "variant": "joint limited"
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
         },
         {
-            "name": "UR5",
+            "name": "UR5e",
             "type": "robotic arm",
             "manufacturer": "Universal Robots",
             "xacro-generated": true,
             "urdf": [
-                "urdf/ur5_joint_limited_robot.urdf"
+                "urdf/ur5e.urdf"
             ],
-            "variant": "joint limited"
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
         },
         {
-            "name": "UR10",
+            "name": "UR10e",
             "type": "robotic arm",
             "manufacturer": "Universal Robots",
             "xacro-generated": true,
             "urdf": [
-                "urdf/ur10_joint_limited_robot.urdf"
+                "urdf/ur10e.urdf"
             ],
-            "variant": "joint limited"
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
+        },
+        {
+            "name": "UR16e",
+            "type": "robotic arm",
+            "manufacturer": "Universal Robots",
+            "xacro-generated": true,
+            "urdf": [
+                "urdf/ur16e.urdf"
+            ],
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
         }
     ]
 }

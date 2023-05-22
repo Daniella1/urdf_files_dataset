@@ -1,24 +1,26 @@
 {
     "robots": [
         {
-            "name": "Franka Panda",
+            "name": "Panda",
             "type": "robotic arm",
             "manufacturer": "Franka Emika",
             "xacro-generated": true,
             "urdf": [
                 "robots/panda.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/franka_description"
         },
         {
-            "name": "Franka Panda",
+            "name": "Panda",
             "type": "robotic arm",
             "manufacturer": "Franka Emika",
             "xacro-generated": true,
             "urdf": [
                 "robots/frankie.urdf"
             ],
-            "variant": "Frankie"
+            "variant": "Frankie",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/franka_description"
         }
     ]
 }

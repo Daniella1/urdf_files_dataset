@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/universalUR3.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "UR5",
@@ -18,7 +19,8 @@
             "urdf": [
                 "urdf/universalUR5.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
             "name": "UR10",
@@ -28,7 +30,8 @@
             "urdf": [
                 "urdf/universalUR10.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         }
     ]
 }

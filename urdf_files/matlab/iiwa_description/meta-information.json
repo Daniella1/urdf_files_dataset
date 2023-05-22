@@ -1,24 +1,26 @@
 {
     "robots": [
         {
-            "name": "Kuka lbr iiwa 7",
+            "name": "LBR iiwa 7",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": false,
             "urdf": [
                 "urdf/kukaIiwa7.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         },
         {
-            "name": "Kuka lbr iiwa 14",
+            "name": "LBR iiwa 14",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": false,
             "urdf": [
                 "urdf/kukaIiwa14.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
         }
     ]
 }

@@ -8,7 +8,8 @@
             "urdf": [
                 "urdf/sia20d.urdf"
             ],
-            "variant": null
+            "variant": null,
+            "source-link": "https://github.com/ros-industrial/motoman/tree/7860ff545106d98ed6a3fa0121f2fb60891f69bd/motoman_sia20d_support"
         }
     ]
 }
