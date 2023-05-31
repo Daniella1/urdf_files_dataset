@@ -329,6 +329,13 @@ Would the drake/allegro_hand_description/urdf/ be a modification or variation --
 ### Contributing
 Create a pull request with the URDF Collection or source.
 
-Suggestions for a new structure of the dataset are welcome.
 
+
+### Other
+
+We are not sure if the names of the following robots are correct:
+* Frankie from robotics-toolbox
+* ViperX-300S from robotics-toolbox
+* Jaco Jxxxxxxx from robotics-toolbox, matlab, oems
+* Kinova Gen3 V12 from matlab
 
