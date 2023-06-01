@@ -1,20 +1,12 @@
 import json
 import pandas as pd
 from helper_functions import _get_files_with, _get_subdirectories
-import numpy as np
-import os
-from pathlib import Path
-
-GENERATE_CSVS = True
-GENERATE_PLOTS = False
-
 
 def _extract_meta_information(filename, columns):
     meta_infos = pd.DataFrame(columns=columns)
     with open(filename, 'r') as f:
         data = json.load(f)
     robots = data['robots']
-    urdf_path = os.path.dirname(filename)
     for robot in robots:
         meta_infos = pd.concat([meta_infos, pd.Series({'name':robot['name'], 'manufacturer':robot['manufacturer']}).to_frame().T], ignore_index=True)
     return meta_infos
