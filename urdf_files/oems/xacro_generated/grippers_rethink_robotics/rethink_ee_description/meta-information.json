@@ -4,7 +4,7 @@
             "name": "Electric gripper",
             "type": "end effector",
             "manufacturer": "Rethink Robotics",
-            "xacro-generated": false,
+            "xacro-generated": true,
             "urdf": [
                 "urdf/electric_gripper/rethink_electric_gripper.urdf"
             ],
@@ -15,7 +15,7 @@
             "name": "Pneumatic gripper",
             "type": "end effector",
             "manufacturer": "Rethink Robotics",
-            "xacro-generated": false,
+            "xacro-generated": true,
             "urdf": [
                 "urdf/pneumatic_gripper/rethink_pneumatic_gripper.urdf"
             ],
