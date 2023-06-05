@@ -52,6 +52,8 @@ root_dir = os.getcwd()
 
 df_errors = pd.DataFrame(columns=["errors","count","urdf file","source"])
 df_warnings = pd.DataFrame(columns=["warnings","count","urdf file","source"])
+n_urdfs_with_errors = 0
+n_urdfs_with_warnings = 0
 
 for d in subdirs:
     urdf_files = _get_files_with(d, "*.urdf")
@@ -64,9 +66,33 @@ for d in subdirs:
                 df_errors = capture_issues(df_errors, "errors", err, urdf_file)
             for warn in warnings:
                 df_warnings = capture_issues(df_warnings, "warnings", warn, urdf_file)
+            if len(list(errors)) > 0:
+                n_urdfs_with_errors += 1
+            if len(list(warnings)) > 0:
+                n_urdfs_with_warnings += 1
 
+defined_error_categories = {"Issue with joint limits":"limit", 
+                                "No link elements found in URDF file":"no link element",
+                                "Non-unique link": "not unique",
+                                "No name given for robot": "no name",
+                                "Parent link not found": "parent link",
+                                "XML parsing failed": "parsing the xml"}
+defined_errors = list(defined_error_categories.values())
+
+quanitified_errors = pd.DataFrame(index=[list(defined_error_categories.keys())],columns=["n_urdfs","sources"])
+quanitified_errors = quanitified_errors.fillna(0)
+
+for index, row in df_errors.iterrows():
+    for error, category in list(defined_error_categories.items()):
+     if category in row['errors']:
+        quanitified_errors.loc[error,"n_urdfs"] += row['count']
+        quanitified_errors.loc[error,"sources"] = str(row['source'])
+
+
+quanitified_errors.to_csv("table_vii_parsing_errors.csv")
 df_errors.to_csv("ros_parsing_errors.csv", index=False)
 df_warnings.to_csv("ros_parsing_warnings.csv", index=False)
 
-# TODO: remove the variable names (e.g. link name, joint name, material name), so it is easier to group the issues
+print(f"total number of urdf files with errors: {n_urdfs_with_errors}")
+print(f"total number of urdf files with warnings: {n_urdfs_with_warnings}")
 
