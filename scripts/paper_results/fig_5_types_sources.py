@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+import altair as alt
 from helper_functions import _get_files_with, _get_subdirectories
 
 def _extract_meta_information(filename, columns):
@@ -40,3 +41,30 @@ types_sources = pd.DataFrame(dataset_information.groupby(['type','source']).coun
 types_sources = types_sources.reset_index().rename({'name':'count'},axis='columns')
 
 types_sources.to_csv("fig_5_types_sources.csv",index=False)
+
+sorted_sources = ["ros-industrial","matlab","robotics-toolbox","drake","oems","random"]
+types_sources.source = types_sources.source.astype("category")
+types_sources.source = types_sources.source.cat.set_categories(sorted_sources)
+types_sources.sort_values(['source'])
+
+
+df = types_sources
+bars = alt.Chart(df).mark_bar().encode(
+    y=alt.Y('type:N', sort='-x',title=''),
+    x=alt.X("count:Q",title='number of robots'), 
+    color=alt.Color('source:N',sort=sorted_sources,
+            scale=alt.Scale(
+                range=['#96ceb4', '#ffcc5c','#ff6f69', '#AADBFF', '#51A8E1','#B97231'],
+            ),
+            legend=alt.Legend(
+    orient='none',
+    legendX=300, legendY=60,
+    direction='vertical',
+    titleAnchor='start',
+    fillColor='white')
+            
+),
+order=alt.Order('color_source_sort_index:Q')) # for sorting the color in the chart https://stackoverflow.com/questions/66347857/sort-a-normalized-stacked-bar-chart-with-altair/66355902#66355902
+
+
+(bars).properties(title='Distribution of robot types from sources in dataset').show()

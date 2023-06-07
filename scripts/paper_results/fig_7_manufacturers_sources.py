@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+import altair as alt
 from helper_functions import _get_files_with, _get_subdirectories
 
 def _extract_meta_information(filename, columns):
@@ -44,3 +45,34 @@ manufacturer_n_robots = manufacturer_n_robots.reset_index().rename({'index':'man
 
 manufacturer_n_robots.to_csv("manufacturer_n_robots.csv",index=False)
 manufacturers_n_source_information.to_csv("fig_7_manufacturers_n_source_information.csv",index=False)
+
+
+
+sorted_sources = ["ros-industrial","matlab","robotics-toolbox","drake","oems","random"]
+manufacturers_n_source_information.source = manufacturers_n_source_information.source.astype("category")
+manufacturers_n_source_information.source = manufacturers_n_source_information.source.cat.set_categories(sorted_sources)
+manufacturers_n_source_information.sort_values(['source'])
+
+df = manufacturers_n_source_information
+bars = alt.Chart(df).mark_bar().encode(
+    y=alt.Y('manufacturer:N', sort='x',title=''),
+    x=alt.X("count:Q",title='number of robots'),
+
+    color=alt.Color('source:N',sort=sorted_sources,
+            scale=alt.Scale(
+                # make it look pretty with an enjoyable color pallet
+                range=['#96ceb4', '#ffcc5c','#ff6f69', '#AADBFF', '#51A8E1','#B97231'],
+            ),
+            legend=alt.Legend(
+    orient='none',
+    legendX=300, legendY=5,
+    direction='vertical',
+    titleAnchor='start',
+    fillColor='white')
+            
+),
+order=alt.Order('color_source_sort_index:Q')) # for sorting the color in the chart https://stackoverflow.com/questions/66347857/sort-a-normalized-stacked-bar-chart-with-altair/66355902#66355902
+
+
+(bars).properties(title='Distribution of robots from different manufacturers in dataset').show()
+
