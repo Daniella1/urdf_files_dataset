@@ -1,13 +1,14 @@
 import os
 import re
 import json
+import shutil
 import subprocess
 import numpy as np
 import pandas as pd
 from pathlib import Path
 from itertools import combinations_with_replacement
 from helper_functions import _get_files_with, _get_subdirectories
-
+from urdf_analyzer import api
 
 
 def _find_issue_and_description_rosparser(output_string, issue_word):
@@ -100,7 +101,43 @@ for index, row in multiply_defined_robots.iterrows():
             multiply_defined_robots_df.loc[src,"erroneous robots"] += 1
 
 
-multiply_defined_robots_df.to_csv("multiply_defined_robots_df.csv")
+multiply_defined_robots_df.to_csv("table_viii_multiply_defined_robots.csv")
 
 # duplicate_robots.to_csv("duplicate_robots.csv",index=False)
 # n_multiply_defined_robots.to_csv("n_multiply_defined_robots.csv",index=False)
+
+
+meta_info_columns = ["name","variant"]
+duplicates_information_columns = meta_info_columns + ["source","n_urdf_files","n_joints","n_links","visual_meshes","collision_meshes","n_lines"]
+duplicates_comparisons_columns = meta_info_columns + ["sources","joints_diff","links_diff","mesh_diff","fk_diff","n_lines_diff","urdf_files"]
+duplicates_information = pd.DataFrame(columns=duplicates_information_columns)
+duplicates_comparisons = pd.DataFrame(columns=duplicates_comparisons_columns)
+
+# TODO fix this so that we don't need to create a file and read it
+d = multiply_defined_robots.groupby('name')['variant','data'].apply(lambda x: x.set_index('variant')['data'].to_dict()).to_json().replace("\\","")
+with open("duplicates.json", 'w') as f:
+    json.dump(eval(d), f)
+duplicates_filename = "duplicates.json" 
+with open(duplicates_filename, 'r') as f:
+    duplicates = json.load(f)
+
+duplicates_information, duplicates_comparisons = api._get_duplicates_information(duplicates, ".", duplicates_information, duplicates_comparisons, None)
+
+# delete created json file and results
+os.remove(duplicates_filename)
+shutil.rmtree("results")
+
+
+multiply_defined_robots_feature_differences = pd.DataFrame(index=["n_joints","n_links","cad_file_type","forward_kin","n_lines"],columns=["n_robots"])
+multiply_defined_robots_feature_differences = multiply_defined_robots_feature_differences.fillna(0)
+
+multiply_defined_robots_feature_differences.loc["n_joints"] = duplicates_comparisons['joints_diff'].value_counts()[True]
+multiply_defined_robots_feature_differences.loc["n_links"] = duplicates_comparisons['links_diff'].value_counts()[True]
+multiply_defined_robots_feature_differences.loc["cad_file_type"] = duplicates_comparisons['mesh_diff'].value_counts()[True]
+multiply_defined_robots_feature_differences.loc["forward_kin"] = duplicates_comparisons['fk_diff'].value_counts()[True]
+multiply_defined_robots_feature_differences.loc["n_lines"] = duplicates_comparisons['n_lines_diff'].value_counts()[True]
+
+multiply_defined_robots_feature_differences.to_csv("table_ix_multiply_defined_robots_feature_differences.csv")
+
+# duplicates_information.to_csv("duplicates_information.csv")
+# duplicates_comparisons.to_csv("duplicates_comparisons.csv")

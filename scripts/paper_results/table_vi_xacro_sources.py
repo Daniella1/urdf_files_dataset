@@ -119,6 +119,6 @@ for d in subdirs:
             source_xacro_information = _xacro_generated_info(source_xacro_information, row, 'source', xacro_in_file)
 
 
-source_xacro_information.to_csv("source_xacro_information.csv",index=False)
+source_xacro_information.to_csv("table_vi_xacro_sources.csv",index=False)
 
 
