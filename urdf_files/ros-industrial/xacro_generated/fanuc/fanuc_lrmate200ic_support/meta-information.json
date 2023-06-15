@@ -9,7 +9,8 @@
                 "urdf/lrmate200ic.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200ic_support"
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200ic_support",
+            "id": 184
         },
         {
             "name": "LR Mate 200iC/5F",
@@ -20,7 +21,8 @@
                 "urdf/lrmate200ic5f.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200ic_support"
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200ic_support",
+            "id": 185
         },
         {
             "name": "LR Mate 200iC/5H",
@@ -31,7 +33,8 @@
                 "urdf/lrmate200ic5h.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200ic_support"
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200ic_support",
+            "id": 186
         },
         {
             "name": "LR Mate 200iC/5HS",
@@ -42,7 +45,8 @@
                 "urdf/lrmate200ic5hs.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200ic_support"
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200ic_support",
+            "id": 187
         },
         {
             "name": "LR Mate 200iC/5L",
@@ -53,7 +57,8 @@
                 "urdf/lrmate200ic5l.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200ic_support"
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200ic_support",
+            "id": 188
         }
     ]
 }

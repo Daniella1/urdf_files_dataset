@@ -9,7 +9,8 @@
                 "pr2_description/urdf/pr2_simplified.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/pr2"
+            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/pr2",
+            "id": 3
         }
     ]
 }

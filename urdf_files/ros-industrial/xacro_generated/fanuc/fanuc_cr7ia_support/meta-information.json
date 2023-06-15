@@ -9,7 +9,8 @@
                 "urdf/cr7ia.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_cr7ia_support"
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_cr7ia_support",
+            "id": 179
         },
         {
             "name": "CR-7iA/L",
@@ -20,7 +21,8 @@
                 "urdf/cr7ial.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_cr7ia_support"
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_cr7ia_support",
+            "id": 180
         }
     ]
 }

@@ -9,7 +9,8 @@
                 "urdf/irb1600_6_12.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb1600_support"
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb1600_support",
+            "id": 163
         },
         {
             "name": "IRB 1600-8/1.45",
@@ -20,7 +21,8 @@
                 "urdf/irb1600_8_145.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb1600_support"
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb1600_support",
+            "id": 164
         }
     ]
 }

@@ -9,7 +9,8 @@
                 "urdf/onrobot_rg6_model.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/Osaka-University-Harada-Laboratory/onrobot/tree/4016460d8bd53ab17917ebb7ace0fbd8dc849ad3/onrobot_rg6_visualization"
+            "source-link": "https://github.com/Osaka-University-Harada-Laboratory/onrobot/tree/4016460d8bd53ab17917ebb7ace0fbd8dc849ad3/onrobot_rg6_visualization",
+            "id": 105
         }
     ]
 }

@@ -9,7 +9,8 @@
                 "urdf/electric_gripper/rethink_electric_gripper.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/RethinkRobotics/baxter_common/tree/6c4b0f375fe4e356a3b12df26ef7c0d5e58df86e/rethink_ee_description"
+            "source-link": "https://github.com/RethinkRobotics/baxter_common/tree/6c4b0f375fe4e356a3b12df26ef7c0d5e58df86e/rethink_ee_description",
+            "id": 67
         },
         {
             "name": "Pneumatic gripper",
@@ -20,7 +21,8 @@
                 "urdf/pneumatic_gripper/rethink_pneumatic_gripper.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/RethinkRobotics/baxter_common/tree/6c4b0f375fe4e356a3b12df26ef7c0d5e58df86e/rethink_ee_description"
+            "source-link": "https://github.com/RethinkRobotics/baxter_common/tree/6c4b0f375fe4e356a3b12df26ef7c0d5e58df86e/rethink_ee_description",
+            "id": 68
         }
     ]
 }

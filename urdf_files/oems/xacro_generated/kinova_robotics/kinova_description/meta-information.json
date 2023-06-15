@@ -9,7 +9,8 @@
                 "urdf/j2n4s300_standalone.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description"
+            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description",
+            "id": 70
         },
         {
             "name": "Jaco J2N6S200",
@@ -20,7 +21,8 @@
                 "urdf/j2n6s200_standalone.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description"
+            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description",
+            "id": 71
         },
         {
             "name": "Jaco J2N6S300",
@@ -31,7 +33,8 @@
                 "urdf/j2n6s300_standalone.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description"
+            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description",
+            "id": 72
         },
         {
             "name": "Jaco J2N7S300",
@@ -42,7 +45,8 @@
                 "urdf/j2n7s300_standalone.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description"
+            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description",
+            "id": 73
         },
         {
             "name": "Jaco J2S6S300",
@@ -53,7 +57,8 @@
                 "urdf/j2s6s300_standalone.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description"
+            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description",
+            "id": 74
         },
         {
             "name": "Jaco J2S6S200",
@@ -64,7 +69,8 @@
                 "urdf/j2s6s200_standalone.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description"
+            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description",
+            "id": 75
         },
         {
             "name": "Jaco J2S7S300",
@@ -75,7 +81,8 @@
                 "urdf/j2s7s300_standalone.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description"
+            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description",
+            "id": 76
         },
         {
             "name": "Jaco Two Arm",
@@ -86,7 +93,8 @@
                 "urdf/two_arm_robot_example_standalone.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description"
+            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description",
+            "id": 77
         },
         {
             "name": "Mico M1N4S200",
@@ -97,7 +105,8 @@
                 "urdf/m1n4s200_standalone.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description"
+            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description",
+            "id": 78
         },
         {
             "name": "Mico M1N6S200",
@@ -108,7 +117,8 @@
                 "urdf/m1n6s200_standalone.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description"
+            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description",
+            "id": 79
         },
         {
             "name": "Mico M1N6S300",
@@ -119,7 +129,8 @@
                 "urdf/m1n6s300_standalone.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description"
+            "source-link": "https://github.com/Kinovarobotics/kinova-ros/tree/09521579f49ffc8af88aafd749450ae9ed718ec9/kinova_description",
+            "id": 80
         }
     ]
 }

@@ -9,7 +9,8 @@
                 "urdf/atlas_convex_hull.urdf"
             ],
             "variant": "convex hull",
-            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas"
+            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas",
+            "id": 248
         },
         {
             "name": "Atlas",
@@ -20,7 +21,8 @@
                 "urdf/atlas_minimal_contact.urdf"
             ],
             "variant": "minimal contact",
-            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas"
+            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas",
+            "id": 249
         },
         {
             "name": "3F gripper",
@@ -31,7 +33,8 @@
                 "urdf/robotiq.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas"
+            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas",
+            "id": 2
         },
         {
             "name": "3F gripper",
@@ -42,7 +45,8 @@
                 "urdf/robotiq_simple.urdf"
             ],
             "variant": "articulated",
-            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas"
+            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas",
+            "id": 250
         },
         {
             "name": "3F gripper",
@@ -53,7 +57,8 @@
                 "urdf/robotiq_tendons.urdf"
             ],
             "variant": "tendons",
-            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas"
+            "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas",
+            "id": 251
         }
     ]
 }

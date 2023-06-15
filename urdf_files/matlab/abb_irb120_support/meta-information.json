@@ -9,10 +9,11 @@
                 "urdf/abbIrb120.urdf"
             ],
             "variant": null,
-            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
+            "id": 4
         },
-    
-        {   "name": "IRB 120T",
+        {
+            "name": "IRB 120T",
             "type": "robotic arm",
             "manufacturer": "ABB",
             "xacro-generated": false,
@@ -20,7 +21,8 @@
                 "urdf/abbIrb120T.urdf"
             ],
             "variant": null,
-            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
+            "id": 5
         }
     ]
 }

@@ -9,7 +9,8 @@
                 "urdf/lbr_iiwa_14_r820.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399/kuka_lbr_iiwa_support"
+            "source-link": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399/kuka_lbr_iiwa_support",
+            "id": 148
         }
     ]
 }

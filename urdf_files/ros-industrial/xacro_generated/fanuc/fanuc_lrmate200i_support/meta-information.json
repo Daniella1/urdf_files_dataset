@@ -9,7 +9,8 @@
                 "urdf/lrmate200i.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200i_support"
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_lrmate200i_support",
+            "id": 196
         }
     ]
 }

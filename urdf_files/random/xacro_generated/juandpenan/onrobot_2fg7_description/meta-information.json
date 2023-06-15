@@ -9,7 +9,8 @@
                 "urdf/onrobot_2fg7_upload.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/juandpenan/onrobot_2FG7_gripper_description/tree/0fdc88a0378c376cb5e576a12a03bf8fa918ccc2"
+            "source-link": "https://github.com/juandpenan/onrobot_2FG7_gripper_description/tree/0fdc88a0378c376cb5e576a12a03bf8fa918ccc2",
+            "id": 102
         }
     ]
 }

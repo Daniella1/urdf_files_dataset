@@ -9,7 +9,8 @@
                 "urdf/m6ib.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_m6ib_support"
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_m6ib_support",
+            "id": 205
         },
         {
             "name": "M-6iB/6S",
@@ -20,7 +21,8 @@
                 "urdf/m6ib6s.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_m6ib_support"
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_m6ib_support",
+            "id": 206
         }
     ]
 }

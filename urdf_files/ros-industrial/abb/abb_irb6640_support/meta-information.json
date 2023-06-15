@@ -9,7 +9,8 @@
                 "urdf/irb6640_185_280.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/abb/tree/4a35d76115a18e5390fd7387109625c6144e41b6/abb_irb6640_support"
+            "source-link": "https://github.com/ros-industrial/abb/tree/4a35d76115a18e5390fd7387109625c6144e41b6/abb_irb6640_support",
+            "id": 144
         }
     ]
 }

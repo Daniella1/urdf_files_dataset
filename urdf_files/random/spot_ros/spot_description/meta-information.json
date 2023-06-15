@@ -9,7 +9,8 @@
                 "urdf/spot.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/heuristicus/spot_ros/tree/3f89ebedb2062e22282948333cb48fa6e478641b/spot_description"
+            "source-link": "https://github.com/heuristicus/spot_ros/tree/3f89ebedb2062e22282948333cb48fa6e478641b/spot_description",
+            "id": 100
         },
         {
             "name": "Spot Arm",
@@ -20,7 +21,8 @@
                 "urdf/spot_arm.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/heuristicus/spot_ros/tree/3f89ebedb2062e22282948333cb48fa6e478641b/spot_description"
+            "source-link": "https://github.com/heuristicus/spot_ros/tree/3f89ebedb2062e22282948333cb48fa6e478641b/spot_description",
+            "id": 101
         }
     ]
 }

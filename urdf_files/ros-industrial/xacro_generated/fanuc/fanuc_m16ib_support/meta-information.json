@@ -9,7 +9,8 @@
                 "urdf/m16ib20.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_m16ib_support"
+            "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_m16ib_support",
+            "id": 199
         }
     ]
 }

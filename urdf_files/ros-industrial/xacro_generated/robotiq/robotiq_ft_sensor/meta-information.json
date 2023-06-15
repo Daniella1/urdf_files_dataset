@@ -9,7 +9,8 @@
                 "urdf/example_use_robotiq_ft300.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/robotiq/tree/kinetic-devel/robotiq_ft_sensor"
+            "source-link": "https://github.com/ros-industrial/robotiq/tree/kinetic-devel/robotiq_ft_sensor",
+            "id": 230
         }
     ]
 }

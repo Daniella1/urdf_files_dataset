@@ -9,7 +9,8 @@
                 "urdf/irb4600_20_250.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb4600_support"
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb4600_support",
+            "id": 167
         },
         {
             "name": "IRB 4600-40/2.55",
@@ -20,7 +21,8 @@
                 "urdf/irb4600_40_255.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb4600_support"
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb4600_support",
+            "id": 168
         },
         {
             "name": "IRB 4600-60/2.05",
@@ -31,7 +33,8 @@
                 "urdf/irb4600_60_205.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb4600_support"
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb4600_support",
+            "id": 169
         }
     ]
 }

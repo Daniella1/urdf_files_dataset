@@ -9,7 +9,8 @@
                 "urdf/tx2_60.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/staubli_experimental/tree/256a71acea2161b64e12af1a6b925a7f26695007/staubli_tx2_60_support"
+            "source-link": "https://github.com/ros-industrial/staubli_experimental/tree/256a71acea2161b64e12af1a6b925a7f26695007/staubli_tx2_60_support",
+            "id": 231
         },
         {
             "name": "TX2-60L",
@@ -20,7 +21,8 @@
                 "urdf/tx2_60l.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/staubli_experimental/tree/256a71acea2161b64e12af1a6b925a7f26695007/staubli_tx2_60_support"
+            "source-link": "https://github.com/ros-industrial/staubli_experimental/tree/256a71acea2161b64e12af1a6b925a7f26695007/staubli_tx2_60_support",
+            "id": 232
         }
     ]
 }

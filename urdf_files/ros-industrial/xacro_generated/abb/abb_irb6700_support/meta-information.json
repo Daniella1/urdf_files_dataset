@@ -9,7 +9,8 @@
                 "urdf/irb6700_200_260.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb6700_support"
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb6700_support",
+            "id": 175
         },
         {
             "name": "IRB 6700-235/2.65",
@@ -20,7 +21,8 @@
                 "urdf/irb6700_235_265.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb6700_support"
+            "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb6700_support",
+            "id": 176
         }
     ]
 }

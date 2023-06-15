@@ -9,7 +9,8 @@
                 "robots/fetch.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/fetch_description"
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/fetch_description",
+            "id": 116
         },
         {
             "name": "Freight",
@@ -20,7 +21,8 @@
                 "robots/freight.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/fetch_description"
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/fetch_description",
+            "id": 117
         },
         {
             "name": "Fetch Camera",
@@ -31,7 +33,8 @@
                 "robots/fetch_camera.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/fetch_description"
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/fetch_description",
+            "id": 118
         }
     ]
 }

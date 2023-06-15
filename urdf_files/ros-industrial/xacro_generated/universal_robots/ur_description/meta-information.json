@@ -9,7 +9,8 @@
                 "urdf/ur3.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
+            "id": 241
         },
         {
             "name": "UR5",
@@ -20,7 +21,8 @@
                 "urdf/ur5.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
+            "id": 242
         },
         {
             "name": "UR10",
@@ -31,7 +33,8 @@
                 "urdf/ur10.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
+            "id": 243
         },
         {
             "name": "UR3e",
@@ -42,7 +45,8 @@
                 "urdf/ur3e.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
+            "id": 244
         },
         {
             "name": "UR5e",
@@ -53,7 +57,8 @@
                 "urdf/ur5e.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
+            "id": 245
         },
         {
             "name": "UR10e",
@@ -64,7 +69,8 @@
                 "urdf/ur10e.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
+            "id": 246
         },
         {
             "name": "UR16e",
@@ -75,7 +81,8 @@
                 "urdf/ur16e.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description"
+            "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
+            "id": 247
         }
     ]
 }

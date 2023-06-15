@@ -9,10 +9,11 @@
                 "urdf/amrPioneer3AT.urdf"
             ],
             "variant": null,
-            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
+            "id": 7
         },
-    
-        {   "name": "Pioneer 3-DX",
+        {
+            "name": "Pioneer 3-DX",
             "type": "robotic arm",
             "manufacturer": "Adept Mobile Robots",
             "xacro-generated": false,
@@ -20,10 +21,11 @@
                 "urdf/amrPioneer3DX.urdf"
             ],
             "variant": null,
-            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
+            "id": 8
         },
-
-        {   "name": "Pioneer LX",
+        {
+            "name": "Pioneer LX",
             "type": "robotic arm",
             "manufacturer": "Adept Mobile Robots",
             "xacro-generated": false,
@@ -31,7 +33,8 @@
                 "urdf/amrPioneerLX.urdf"
             ],
             "variant": null,
-            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data"
+            "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
+            "id": 9
         }
     ]
 }

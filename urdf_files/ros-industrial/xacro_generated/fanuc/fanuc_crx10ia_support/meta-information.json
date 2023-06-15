@@ -9,7 +9,8 @@
                 "urdf/crx10ial.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/fanuc_experimental/tree/faf8a758f7b25ae7b31ee836933102bd066dc528/fanuc_crx10ia_support"
+            "source-link": "https://github.com/ros-industrial/fanuc_experimental/tree/faf8a758f7b25ae7b31ee836933102bd066dc528/fanuc_crx10ia_support",
+            "id": 181
         }
     ]
 }

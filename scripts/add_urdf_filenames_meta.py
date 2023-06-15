@@ -10,8 +10,8 @@ def _check_tag_in_meta_information(filename, tag):
         data = json.load(f)
     tag_in_meta = 0
     for robot in data['robots']:
-        if urdf_tag in robot:
-            tag_in_meta += 1 # in case  we in the future want to check if not all robots are missing a tag, then we can use the count
+        if tag in robot:
+            tag_in_meta += 1 # in case we in the future want to check if not all robots are missing a tag, then we can use the count
     if len(data['robots']) != tag_in_meta:
         return False, len(data['robots']), data
     return True, len(data['robots']), data

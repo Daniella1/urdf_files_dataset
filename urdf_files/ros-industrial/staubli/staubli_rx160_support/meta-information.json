@@ -9,7 +9,8 @@
                 "urdf/rx160.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/staubli/tree/367d92ec7432867d9ba87c3399d49a940c4afc67/staubli_rx160_support"
+            "source-link": "https://github.com/ros-industrial/staubli/tree/367d92ec7432867d9ba87c3399d49a940c4afc67/staubli_rx160_support",
+            "id": 156
         },
         {
             "name": "RX 160L",
@@ -20,7 +21,8 @@
                 "urdf/rx160l.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/staubli/tree/367d92ec7432867d9ba87c3399d49a940c4afc67/staubli_rx160_support"
+            "source-link": "https://github.com/ros-industrial/staubli/tree/367d92ec7432867d9ba87c3399d49a940c4afc67/staubli_rx160_support",
+            "id": 157
         }
     ]
 }

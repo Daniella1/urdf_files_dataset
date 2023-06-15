@@ -9,7 +9,8 @@
                 "urdf/kr6r700sixx.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399/kuka_kr6_support"
+            "source-link": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399/kuka_kr6_support",
+            "id": 225
         },
         {
             "name": "KR 6 R900-2",
@@ -20,7 +21,8 @@
                 "urdf/kr6r900_2.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399/kuka_kr6_support"
+            "source-link": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399/kuka_kr6_support",
+            "id": 226
         },
         {
             "name": "KR 6 R900 sixx",
@@ -31,7 +33,8 @@
                 "urdf/kr6r900sixx.urdf"
             ],
             "variant": null,
-            "source-link": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399/kuka_kr6_support"
+            "source-link": "https://github.com/ros-industrial/kuka_experimental/tree/e906e76700cec944c3f04728157f487b771cf399/kuka_kr6_support",
+            "id": 227
         }
     ]
 }
