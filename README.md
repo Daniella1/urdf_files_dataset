@@ -238,6 +238,84 @@ Scripts for producing analysis results on the dataset, can be found in the _scri
 Source and meta information files describe the source of the URDF Collection, a link to the source origin, name of the robot, manufacturer, and whether or not the file was manually xacro generated.
 
 ### Obtaining Analysis Results
+#### From URDF dataset paper
+
+
+<table>
+    <tr>
+        <td><b>Table/Figure</b></td>
+        <td><b>Script (.py)</b></td>
+        <td><b>Results CSV</b></td>
+    </tr>
+    <tr>
+        <td>Table II</td>
+        <td><tt><a href="scripts/paper_results/table_ii_sources_n_robots.py">table_ii_sources_n_robots</a></tt></td>
+        <td><em>table_ii_sources_n_robots</em></td>
+    </tr>
+    <tr>
+        <td>Table VI</td>
+        <td><tt><a href="scripts/paper_results/table_vi_xacro_sources.py">table_vi_xacro_sources</a></tt></td>
+        <td><em>table_vi_xacro_sources</em></td>
+    </tr>
+    <tr>
+        <td>Table VII</td>
+        <td><tt><a href="scripts/paper_results/table_vii_urdf_parsing_errors.py">table_vii_urdf_parsing_errors</a></tt></td>
+        <td><em>table_vii_parsing_errors</em></td>
+    </tr>
+    <tr>
+        <td>Table VIII</td>
+        <td><tt><a href="scripts/paper_results/table_viii_ix_multiply_defined_robots.py">table_viii_ix_multiply_defined_robots</a></tt></td>
+        <td><em>table_viii_multiply_defined_robots</em></td>
+    </tr>
+    <tr>
+        <td>Table IX</td>
+        <td><tt><a href="scripts/paper_results/table_viii_ix_multiply_defined_robots.py">table_viii_ix_multiply_defined_robots</a></tt></td>
+        <td><em>table_ix_multiply_defined_robots_feature_differences</em></td>
+    </tr>
+    <tr>
+        <td>Table X</td>
+        <td><tt><a href="scripts/paper_results/table_x_xi_fdupes.py">table_x_xi_fdupes</a></tt></td>
+        <td><em>table_x_fdupes_filetypes</em></td>
+    </tr>
+    <tr>
+        <td>Table XI</td>
+        <td><tt><a href="scripts/paper_results/table_x_xi_fdupes.py">table_x_xi_fdupes</a></tt></td>
+        <td><em>table_xi_fdupes_sources</em></td>
+    </tr>
+    <tr>
+        <td>Table XII</td>
+        <td><tt><a href="scripts/paper_results/table_xii_xiii_joints_links.py">table_xii_xiii_joints_links</a></tt></td>
+        <td><em>table_xii_avg_links_joints</em></td>
+    </tr>
+    <tr>
+        <td>Table XIII</td>
+        <td><tt><a href="scripts/paper_results/table_xii_xiii_joints_links.py">table_xii_xiii_joints_links</a></tt></td>
+        <td><em>table_xiii_world_flange_links_joints</em></td>
+    </tr>
+    <tr>
+        <td>Table XV</td>
+        <td><tt><a href="scripts/paper_results/table_xv_urdf_parsers.py">table_xv_urdf_parsers</a></tt></td>
+        <td><em>table_xv_urdf_parsers</em></td>
+    </tr>
+    <tr>
+        <td>Figure 5</td>
+        <td><tt><a href="scripts/paper_results/fig_5_types_sources.py">fig_5_types_sources</a></tt></td>
+        <td><em>-</em></td>
+    </tr>
+    <tr>
+        <td>Figure 7</td>
+        <td><tt><a href="scripts/paper_results/fig_7_manufacturers_sources.py">fig_7_manufacturers_sources</a></tt></td>
+        <td><em>-</em></td>
+    </tr>
+    <tr>
+        <td>Figure 9</td>
+        <td><tt><a href="scripts/paper_results/fig_9_cad_types_sources.py">fig_9_cad_types_sources</a></tt></td>
+        <td><em>-</em></td>
+    </tr>
+</table>
+
+
+#### Other
 The following table shows the information, which scripts to generate the information, and the resulting CSV file that contains the results.
 
 <table>
