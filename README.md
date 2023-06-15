@@ -211,18 +211,18 @@ Scripts for producing analysis results on the dataset, can be found in the _scri
 <tr><td>3F gripper</td><td>tendons</td><td>{251: '<a href="urdf_files/drake/atlas/urdf/robotiq_tendons.urdf">drake</a>'}</td><td>end effector</td></tr>
 <tr><td>Atlas</td><td>convex hull</td><td>{248: '<a href="urdf_files/drake/atlas/urdf/atlas_convex_hull.urdf">drake</a>'}</td><td>humanoid robot</td></tr>
 <tr><td>Atlas</td><td>minimal contact</td><td>{249: '<a href="urdf_files/drake/atlas/urdf/atlas_minimal_contact.urdf">drake</a>'}</td><td>humanoid robot</td></tr>
-<tr><td>Dual kuka lbr iiwa 14</td><td>polytope collision</td><td>{253: '<a href="urdf_files/drake/iiwa_description/urdf/dual_iiwa14_polytope_collision.urdf">drake</a>'}</td><td>dual arm robot</td></tr>
-<tr><td>Kuka lbr iiwa 14</td><td>spheres dense collision</td><td>{257: '<a href="urdf_files/drake/iiwa_description/urdf/iiwa14_spheres_dense_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
-<tr><td>Kuka lbr iiwa 14</td><td>spheres collision</td><td>{252: '<a href="urdf_files/drake/iiwa_description/urdf/iiwa14_spheres_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
-<tr><td>Kuka lbr iiwa 14</td><td>no collision</td><td>{254: '<a href="urdf_files/drake/iiwa_description/urdf/iiwa14_no_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
-<tr><td>Kuka lbr iiwa 14</td><td>polytope collision</td><td>{255: '<a href="urdf_files/drake/iiwa_description/urdf/iiwa14_polytope_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
-<tr><td>Kuka lbr iiwa 14</td><td>primitive collision</td><td>{256: '<a href="urdf_files/drake/iiwa_description/urdf/iiwa14_primitive_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
-<tr><td>Kuka lbr iiwa 14</td><td>spheres dense elbow collision</td><td>{258: '<a href="urdf_files/drake/iiwa_description/urdf/iiwa14_spheres_dense_elbow_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
+<tr><td>Dual LBR iiwa 14</td><td>polytope collision</td><td>{253: '<a href="urdf_files/drake/iiwa_description/urdf/dual_iiwa14_polytope_collision.urdf">drake</a>'}</td><td>dual arm robot</td></tr>
+<tr><td>LBR iiwa 14</td><td>spheres dense collision</td><td>{257: '<a href="urdf_files/drake/iiwa_description/urdf/iiwa14_spheres_dense_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
+<tr><td>LBR iiwa 14</td><td>spheres collision</td><td>{252: '<a href="urdf_files/drake/iiwa_description/urdf/iiwa14_spheres_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
+<tr><td>LBR iiwa 14</td><td>no collision</td><td>{254: '<a href="urdf_files/drake/iiwa_description/urdf/iiwa14_no_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
+<tr><td>LBR iiwa 14</td><td>polytope collision</td><td>{255: '<a href="urdf_files/drake/iiwa_description/urdf/iiwa14_polytope_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
+<tr><td>LBR iiwa 14</td><td>primitive collision</td><td>{256: '<a href="urdf_files/drake/iiwa_description/urdf/iiwa14_primitive_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
+<tr><td>LBR iiwa 14</td><td>spheres dense elbow collision</td><td>{258: '<a href="urdf_files/drake/iiwa_description/urdf/iiwa14_spheres_dense_elbow_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
+<tr><td>LBR iiwa 14</td><td>planar spheres dense elbow collision</td><td>{259: '<a href="urdf_files/drake/iiwa_description/urdf/planar_iiwa14_spheres_dense_elbow_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
 <tr><td>LWA 4P</td><td>extended</td><td>{267: '<a href="urdf_files/random/xacro_generated/schunk_modular_robotics/schunk_description/urdf/schunk_lwa4p_extended.urdf">random</a>'}</td><td>robotic arm</td></tr>
 <tr><td>Open Manipulator</td><td>robot</td><td>{261: '<a href="urdf_files/oems/xacro_generated/open-manipulator_robotis/open_manipulator_description/urdf/open_manipulator_robot.urdf">oems</a>'}</td><td>robotic arm</td></tr>
 <tr><td>Panda</td><td>Frankie</td><td>{268: '<a href="urdf_files/robotics-toolbox/xacro_generated/franka_description/robots/frankie.urdf">robotics-toolbox</a>'}</td><td>robotic arm</td></tr>
 <tr><td>Pioneer LX</td><td>Devil</td><td>{260: '<a href="urdf_files/oems/pioneer_adept_mobile_robots/description/urdf/pioneer-lx-devil.urdf">oems</a>'}</td><td>robotic arm</td></tr>
-<tr><td>Planar Kuka lbr iiwa 14</td><td>spheres dense elbow collision</td><td>{259: '<a href="urdf_files/drake/iiwa_description/urdf/planar_iiwa14_spheres_dense_elbow_collision.urdf">drake</a>'}</td><td>robotic arm</td></tr>
 <tr><td>Turtlebot 3 Burger</td><td>for autorace 2020</td><td>{264: '<a href="urdf_files/oems/xacro_generated/turtlebot3_robotis/turtlebot3_description/urdf/turtlebot3_burger_for_autorace_2020.urdf">oems</a>'}</td><td>mobile robot</td></tr>
 <tr><td>Turtlebot 3 Burger</td><td>for autorace</td><td>{265: '<a href="urdf_files/oems/xacro_generated/turtlebot3_robotis/turtlebot3_description/urdf/turtlebot3_burger_for_autorace.urdf">oems</a>'}</td><td>mobile robot</td></tr>
 <tr><td>Turtlebot 3 Waffle</td><td>for Open Manipulator</td><td>{262: '<a href="urdf_files/oems/xacro_generated/turtlebot3_robotis/turtlebot3_description/urdf/turtlebot3_waffle_for_open_manipulator.urdf">oems</a>'}</td><td>mobile robot</td></tr>
@@ -231,6 +231,7 @@ Scripts for producing analysis results on the dataset, can be found in the _scri
 <tr><td>unknown</td><td>none</td><td>{91: '<a href="urdf_files/random/robot-assets/kinova/kinova.urdf">random</a>'}</td><td>unknown</td></tr>
 </tbody>
 </table>
+
 
 
 ### Source and Meta Information

@@ -1,7 +1,7 @@
 {
     "robots": [
         {
-            "name": "Kuka lbr iiwa 14",
+            "name": "LBR iiwa 14",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": false,
@@ -13,7 +13,7 @@
             "id": 252
         },
         {
-            "name": "Dual kuka lbr iiwa 14",
+            "name": "Dual LBR iiwa 14",
             "type": "dual arm robot",
             "manufacturer": "KUKA",
             "xacro-generated": false,
@@ -25,7 +25,7 @@
             "id": 253
         },
         {
-            "name": "Kuka lbr iiwa 14",
+            "name": "LBR iiwa 14",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": false,
@@ -37,7 +37,7 @@
             "id": 254
         },
         {
-            "name": "Kuka lbr iiwa 14",
+            "name": "LBR iiwa 14",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": false,
@@ -49,7 +49,7 @@
             "id": 255
         },
         {
-            "name": "Kuka lbr iiwa 14",
+            "name": "LBR iiwa 14",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": false,
@@ -61,7 +61,7 @@
             "id": 256
         },
         {
-            "name": "Kuka lbr iiwa 14",
+            "name": "LBR iiwa 14",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": false,
@@ -73,7 +73,7 @@
             "id": 257
         },
         {
-            "name": "Kuka lbr iiwa 14",
+            "name": "LBR iiwa 14",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": false,
@@ -85,14 +85,14 @@
             "id": 258
         },
         {
-            "name": "Planar Kuka lbr iiwa 14",
+            "name": "LBR iiwa 14",
             "type": "robotic arm",
             "manufacturer": "KUKA",
             "xacro-generated": false,
             "urdf": [
                 "urdf/planar_iiwa14_spheres_dense_elbow_collision.urdf"
             ],
-            "variant": "spheres dense elbow collision",
+            "variant": "planar spheres dense elbow collision",
             "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/manipulation/models/iiwa_description",
             "id": 259
         }
