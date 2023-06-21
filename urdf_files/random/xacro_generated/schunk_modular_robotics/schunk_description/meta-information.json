@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ipa320/schunk_modular_robotics/tree/b2d73bdd333eceda0e91b4f8d4e8881433dc243a/schunk_description",
-            "id": 109
+            "id": 107
         },
         {
             "name": "LWA 4P",
@@ -33,7 +33,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ipa320/schunk_modular_robotics/tree/b2d73bdd333eceda0e91b4f8d4e8881433dc243a/schunk_description",
-            "id": 110
+            "id": 108
         },
         {
             "name": "PG 70",
@@ -45,7 +45,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ipa320/schunk_modular_robotics/tree/b2d73bdd333eceda0e91b4f8d4e8881433dc243a/schunk_description",
-            "id": 111
+            "id": 109
         },
         {
             "name": "PW 70",
@@ -57,7 +57,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ipa320/schunk_modular_robotics/tree/b2d73bdd333eceda0e91b4f8d4e8881433dc243a/schunk_description",
-            "id": 112
+            "id": 110
         }
     ]
 }

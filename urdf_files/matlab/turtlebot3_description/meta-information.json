@@ -34,7 +34,7 @@
             ],
             "variant": "for Open Manipulator",
             "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
-            "id": 43
+            "id": 259
         },
         {
             "name": "Turtlebot 3 Waffle Pi",
@@ -46,7 +46,7 @@
             ],
             "variant": null,
             "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
-            "id": 44
+            "id": 43
         },
         {
             "name": "Turtlebot 3 Waffle Pi",
@@ -58,7 +58,7 @@
             ],
             "variant": "for Open Manipulator",
             "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
-            "id": 45
+            "id": 260
         }
     ]
 }

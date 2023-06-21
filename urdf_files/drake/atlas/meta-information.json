@@ -10,7 +10,7 @@
             ],
             "variant": "convex hull",
             "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas",
-            "id": 249
+            "id": 247
         },
         {
             "name": "Atlas",
@@ -22,7 +22,7 @@
             ],
             "variant": "minimal contact",
             "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas",
-            "id": 250
+            "id": 248
         },
         {
             "name": "3F gripper",
@@ -46,7 +46,7 @@
             ],
             "variant": "articulated",
             "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas",
-            "id": 251
+            "id": 249
         },
         {
             "name": "3F gripper",
@@ -58,7 +58,7 @@
             ],
             "variant": "tendons",
             "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/examples/atlas",
-            "id": 252
+            "id": 250
         }
     ]
 }

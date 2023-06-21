@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/fanuc_experimental/tree/faf8a758f7b25ae7b31ee836933102bd066dc528/fanuc_r2000ic_support",
-            "id": 214
+            "id": 212
         },
         {
             "name": "R-2000iC/165F",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/fanuc_experimental/tree/faf8a758f7b25ae7b31ee836933102bd066dc528/fanuc_r2000ic_support",
-            "id": 215
+            "id": 213
         },
         {
             "name": "R-2000iC/210F",
@@ -34,7 +34,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/fanuc_experimental/tree/faf8a758f7b25ae7b31ee836933102bd066dc528/fanuc_r2000ic_support",
-            "id": 216
+            "id": 214
         },
         {
             "name": "R-2000iC/210L",
@@ -46,7 +46,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/fanuc_experimental/tree/faf8a758f7b25ae7b31ee836933102bd066dc528/fanuc_r2000ic_support",
-            "id": 217
+            "id": 215
         },
         {
             "name": "R-2000iC/270F",
@@ -58,7 +58,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/fanuc_experimental/tree/faf8a758f7b25ae7b31ee836933102bd066dc528/fanuc_r2000ic_support",
-            "id": 218
+            "id": 216
         }
     ]
 }

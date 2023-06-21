@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/frankaemika/franka_ros/tree/a58d3052a241304392847df6464234c83d728a38/franka_description",
-            "id": 64
+            "id": 62
         },
         {
             "name": "Dual Panda",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/frankaemika/franka_ros/tree/a58d3052a241304392847df6464234c83d728a38/franka_description",
-            "id": 65
+            "id": 63
         },
         {
             "name": "FR3",
@@ -34,7 +34,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/frankaemika/franka_ros/tree/a58d3052a241304392847df6464234c83d728a38/franka_description",
-            "id": 66
+            "id": 64
         }
     ]
 }

@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/MobileRobots/amr-ros-config/tree/43715c9a5880d0d2f6354ad7ea5d2f6ac65def40",
-            "id": 59
+            "id": 57
         },
         {
             "name": "Pioneer 3-DX",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/MobileRobots/amr-ros-config/tree/43715c9a5880d0d2f6354ad7ea5d2f6ac65def40",
-            "id": 60
+            "id": 58
         },
         {
             "name": "Pioneer LX",
@@ -34,7 +34,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/MobileRobots/amr-ros-config/tree/43715c9a5880d0d2f6354ad7ea5d2f6ac65def40",
-            "id": 61
+            "id": 59
         },
         {
             "name": "Pioneer LX",

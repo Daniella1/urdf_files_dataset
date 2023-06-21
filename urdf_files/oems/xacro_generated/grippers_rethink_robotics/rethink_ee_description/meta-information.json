@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/RethinkRobotics/baxter_common/tree/6c4b0f375fe4e356a3b12df26ef7c0d5e58df86e/rethink_ee_description",
-            "id": 67
+            "id": 65
         },
         {
             "name": "Pneumatic gripper",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/RethinkRobotics/baxter_common/tree/6c4b0f375fe4e356a3b12df26ef7c0d5e58df86e/rethink_ee_description",
-            "id": 68
+            "id": 66
         }
     ]
 }

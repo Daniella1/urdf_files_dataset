@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description",
-            "id": 82
+            "id": 80
         },
         {
             "name": "Turtlebot 3 Waffle",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description",
-            "id": 83
+            "id": 81
         },
         {
             "name": "Turtlebot 3 Waffle",
@@ -46,7 +46,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description",
-            "id": 84
+            "id": 82
         },
         {
             "name": "Turtlebot 3 Waffle Pi",

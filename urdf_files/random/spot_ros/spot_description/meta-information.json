@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/heuristicus/spot_ros/tree/3f89ebedb2062e22282948333cb48fa6e478641b/spot_description",
-            "id": 100
+            "id": 98
         },
         {
             "name": "Spot Arm",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/heuristicus/spot_ros/tree/3f89ebedb2062e22282948333cb48fa6e478641b/spot_description",
-            "id": 101
+            "id": 99
         }
     ]
 }

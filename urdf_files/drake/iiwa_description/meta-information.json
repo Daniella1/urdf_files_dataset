@@ -10,7 +10,7 @@
             ],
             "variant": "spheres collision",
             "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/manipulation/models/iiwa_description",
-            "id": 253
+            "id": 251
         },
         {
             "name": "Dual LBR iiwa 14",
@@ -22,7 +22,7 @@
             ],
             "variant": "polytope collision",
             "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/manipulation/models/iiwa_description",
-            "id": 254
+            "id": 252
         },
         {
             "name": "LBR iiwa 14",
@@ -34,7 +34,7 @@
             ],
             "variant": "no collision",
             "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/manipulation/models/iiwa_description",
-            "id": 255
+            "id": 253
         },
         {
             "name": "LBR iiwa 14",
@@ -46,7 +46,7 @@
             ],
             "variant": "polytope collision",
             "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/manipulation/models/iiwa_description",
-            "id": 256
+            "id": 254
         },
         {
             "name": "LBR iiwa 14",
@@ -58,7 +58,7 @@
             ],
             "variant": "primitive collision",
             "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/manipulation/models/iiwa_description",
-            "id": 257
+            "id": 255
         },
         {
             "name": "LBR iiwa 14",
@@ -70,7 +70,7 @@
             ],
             "variant": "spheres dense collision",
             "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/manipulation/models/iiwa_description",
-            "id": 258
+            "id": 256
         },
         {
             "name": "LBR iiwa 14",
@@ -82,7 +82,7 @@
             ],
             "variant": "spheres dense elbow collision",
             "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/manipulation/models/iiwa_description",
-            "id": 259
+            "id": 257
         },
         {
             "name": "LBR iiwa 14",
@@ -94,7 +94,7 @@
             ],
             "variant": "planar spheres dense elbow collision",
             "source-link": "https://github.com/RobotLocomotion/drake/tree/a037acf09ae797fb1d4ea850dd847337a98b7f26/manipulation/models/iiwa_description",
-            "id": 260
+            "id": 258
         }
     ]
 }

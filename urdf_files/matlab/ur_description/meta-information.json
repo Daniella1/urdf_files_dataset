@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
-            "id": 47
+            "id": 45
         },
         {
             "name": "UR5",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
-            "id": 48
+            "id": 46
         },
         {
             "name": "UR10",
@@ -34,7 +34,7 @@
             ],
             "variant": null,
             "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
-            "id": 49
+            "id": 47
         }
     ]
 }

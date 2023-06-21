@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/franka_description",
-            "id": 125
+            "id": 123
         },
         {
             "name": "Panda",

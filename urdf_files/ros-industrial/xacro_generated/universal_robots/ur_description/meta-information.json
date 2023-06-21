@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
-            "id": 242
+            "id": 240
         },
         {
             "name": "UR5",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
-            "id": 243
+            "id": 241
         },
         {
             "name": "UR10",
@@ -34,7 +34,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
-            "id": 244
+            "id": 242
         },
         {
             "name": "UR3e",
@@ -46,7 +46,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
-            "id": 245
+            "id": 243
         },
         {
             "name": "UR5e",
@@ -58,7 +58,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
-            "id": 246
+            "id": 244
         },
         {
             "name": "UR10e",
@@ -70,7 +70,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
-            "id": 247
+            "id": 245
         },
         {
             "name": "UR16e",
@@ -82,7 +82,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/universal_robot/tree/6507bb6756d0065d49b76230ff55f875f099a827/ur_description",
-            "id": 248
+            "id": 246
         }
     ]
 }
