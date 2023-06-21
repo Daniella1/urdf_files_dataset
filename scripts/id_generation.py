@@ -11,7 +11,7 @@ from helper_functions import _get_files_with
 
 
 URDF_LINK = True
-ADD_TO_META_INFO = True
+ADD_TO_META_INFO = False
 
 def extract_urdf_path(row):
     full_path = row.urdf_path.strip('][').replace('"','')
@@ -93,6 +93,17 @@ if len(list({k: v for d in list(df_id_robots['id:source']) for k, v in d.items()
     print(f"ERROR: the length of the ids for the robots {len(list({k: v for d in list(df_id_robots['id:source']) for k, v in d.items()}.keys()))} is not equal to the number of robots {len(df)}")
 
 
+# Print number of unique robots, and number of variants
+n_unique_original_robots_across_sources = len(df_id_robots.loc[df_id_robots['variant'] == 'none'])
+n_unique_variant_robots_across_sources = len(df_id_robots.loc[df_id_robots['variant'] != 'none'])
+n_original_robots_in_total = len(df_original_robots)
+n_variant_robots_in_total = len(df_variant_robots)
+
+print(f"n_unique_original_robots_across_sources: {n_unique_original_robots_across_sources}")
+print(f"n_unique_variant_robots_across_sources: {n_unique_variant_robots_across_sources}")
+print(f"n_original_robots_in_total: {n_original_robots_in_total}")
+print(f"n_variant_robots_in_total: {n_variant_robots_in_total}")
+
 # add to meta files
 if ADD_TO_META_INFO:
     df_all_robots = pd.concat([df_original_robots, df_variant_robots])
@@ -125,7 +136,7 @@ if ADD_TO_META_INFO:
 #   df_id_robots.to_markdown(buf=md, index=False, tablefmt='unsafehtml', stralign=None, numalign=None)
 
 
-## add id's to readme
-for line in fileinput.input("README.md", inplace = 1): 
-    print(line.replace("## Robots", f"## Robots\n{df_id_robots.to_markdown(index=False, tablefmt='unsafehtml', stralign=None, numalign=None)}\n").rstrip())
-fileinput.close()
+# ## add id's to readme
+# for line in fileinput.input("README.md", inplace = 1): 
+#     print(line.replace("## Robots", f"## Robots\n{df_id_robots.to_markdown(index=False, tablefmt='unsafehtml', stralign=None, numalign=None)}\n").rstrip())
+# fileinput.close()
