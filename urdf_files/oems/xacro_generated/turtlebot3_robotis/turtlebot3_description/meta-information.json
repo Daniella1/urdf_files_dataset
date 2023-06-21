@@ -34,7 +34,7 @@
             ],
             "variant": "for Open Manipulator",
             "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description",
-            "id": 262
+            "id": 263
         },
         {
             "name": "Turtlebot 3 Waffle Pi",
@@ -58,7 +58,7 @@
             ],
             "variant": "for Open Manipulator",
             "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description",
-            "id": 263
+            "id": 264
         },
         {
             "name": "Turtlebot 3 Burger",
@@ -70,7 +70,7 @@
             ],
             "variant": "for autorace 2020",
             "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description",
-            "id": 264
+            "id": 265
         },
         {
             "name": "Turtlebot 3 Burger",
@@ -82,7 +82,7 @@
             ],
             "variant": "for autorace",
             "source-link": "https://github.com/ROBOTIS-GIT/turtlebot3/tree/66681b33749c44e7d9022253ac210ef2da7843a0/turtlebot3_description",
-            "id": 265
+            "id": 266
         }
     ]
 }

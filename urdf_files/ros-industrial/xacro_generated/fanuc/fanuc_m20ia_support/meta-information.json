@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_m20ia_support",
-            "id": 200
+            "id": 201
         },
         {
             "name": "M-20iA/10L",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_m20ia_support",
-            "id": 201
+            "id": 202
         }
     ]
 }

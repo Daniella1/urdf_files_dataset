@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/ur_description",
-            "id": 137
+            "id": 138
         },
         {
             "name": "UR5",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/ur_description",
-            "id": 138
+            "id": 139
         },
         {
             "name": "UR10",
@@ -34,7 +34,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/ur_description",
-            "id": 139
+            "id": 140
         }
     ]
 }

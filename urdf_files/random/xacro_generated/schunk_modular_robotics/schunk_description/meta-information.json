@@ -21,7 +21,7 @@
                 "urdf/schunk_lwa4p_extended.urdf"
             ],
             "variant": "extended",
-            "id": 267
+            "id": 305
         },
         {
             "name": "LWA 4D",

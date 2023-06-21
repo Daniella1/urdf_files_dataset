@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_m10ia_support",
-            "id": 197
+            "id": 198
         },
         {
             "name": "M-10iA/7L",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/fanuc/tree/74d7d441311590d3950b03da9a1a86409332c2e8/fanuc_m10ia_support",
-            "id": 198
+            "id": 199
         }
     ]
 }

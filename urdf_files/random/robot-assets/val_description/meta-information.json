@@ -6,26 +6,191 @@
             "manufacturer": "NASA",
             "xacro-generated": false,
             "urdf": [
-                "model/robots/forearm_left.urdf",
-                "model/robots/forearm_right.urdf",
-                "model/robots/imu_test.urdf",
-                "model/robots/test_bench.urdf",
-                "model/robots/valkyrie_A.urdf",
-                "model/robots/valkyrie_A_arm_mass_sims.urdf",
-                "model/robots/valkyrie_B.urdf",
-                "model/robots/valkyrie_B_arm_mass_sims.urdf",
-                "model/robots/valkyrie_C.urdf",
-                "model/robots/valkyrie_C_arm_mass_sims.urdf",
-                "model/robots/valkyrie_D.urdf",
-                "model/robots/valkyrie_D_arm_mass_sims.urdf",
-                "model/robots/valkyrie_sim.urdf",
-                "model/robots/valkyrie_sim_angled_legj1s.urdf",
-                "model/robots/valkyrie_sim_arm_mass_sims.urdf",
-                "model/robots/valkyrie_sim_gazebo_sync.urdf"
+                "model/robots/forearm_left.urdf"
+            ],
+            "variant": "forearm left",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 291
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/forearm_right.urdf"
+            ],
+            "variant": "forearm right",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 292
+        },
+        {
+            "name": "imu test",
+            "type": "unknown",
+            "manufacturer": "unknown",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/imu_test.urdf"
+            ],
+            "variant": null,
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 96
+        },
+        {
+            "name": "test bench",
+            "type": "unknown",
+            "manufacturer": "unknown",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/test_bench.urdf"
             ],
             "variant": null,
             "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
             "id": 97
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_A.urdf"
+            ],
+            "variant": "A",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 293
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_A_arm_mass_sims.urdf"
+            ],
+            "variant": "A arm mass sims",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 294
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_B.urdf"
+            ],
+            "variant": "B",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 295
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_B_arm_mass_sims.urdf"
+            ],
+            "variant": "B arm mass sims",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 296
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_C.urdf"
+            ],
+            "variant": "C",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 297
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_C_arm_mass_sims.urdf"
+            ],
+            "variant": "C arm mass sims",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 298
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_D.urdf"
+            ],
+            "variant": "D",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 299
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_D_arm_mass_sims.urdf"
+            ],
+            "variant": "D arm mass sims",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 300
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_sim.urdf"
+            ],
+            "variant": "sim",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 301
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_sim_angled_legj1s.urdf"
+            ],
+            "variant": "sim angled legj1s",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 302
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_sim_arm_mass_sims.urdf"
+            ],
+            "variant": "sim arm mass sims",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 303
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_sim_gazebo_sync.urdf"
+            ],
+            "variant": "sim gazebo sync",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/val_description/model",
+            "id": 304
         }
     ]
 }

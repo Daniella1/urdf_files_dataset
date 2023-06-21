@@ -1,7 +1,7 @@
 {
     "robots": [
         {
-            "name": "Turtlebot 3 - Burger",
+            "name": "Turtlebot 3 Burger",
             "type": "mobile robot",
             "manufacturer": "ROBOTIS",
             "xacro-generated": false,
@@ -13,7 +13,7 @@
             "id": 41
         },
         {
-            "name": "Turtlebot 3 - Waffle",
+            "name": "Turtlebot 3 Waffle",
             "type": "mobile robot",
             "manufacturer": "ROBOTIS",
             "xacro-generated": false,
@@ -25,19 +25,19 @@
             "id": 42
         },
         {
-            "name": "Turtlebot 3 - Waffle for Open Manipulator",
+            "name": "Turtlebot 3 Waffle",
             "type": "mobile robot",
             "manufacturer": "ROBOTIS",
             "xacro-generated": false,
             "urdf": [
                 "urdf/robotisTurtleBot3WaffleForOpenManipulator.urdf"
             ],
-            "variant": null,
+            "variant": "for Open Manipulator",
             "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
             "id": 43
         },
         {
-            "name": "Turtlebot 3 - Waffle Pi",
+            "name": "Turtlebot 3 Waffle Pi",
             "type": "mobile robot",
             "manufacturer": "ROBOTIS",
             "xacro-generated": false,
@@ -49,14 +49,14 @@
             "id": 44
         },
         {
-            "name": "Turtlebot 3 - Waffle Pi for Open Manipulator",
+            "name": "Turtlebot 3 Waffle Pi",
             "type": "mobile robot",
             "manufacturer": "ROBOTIS",
             "xacro-generated": false,
             "urdf": [
                 "urdf/robotisTurtleBot3WafflePiForOpenManipulator.urdf"
             ],
-            "variant": null,
+            "variant": "for Open Manipulator",
             "source-link": "https://se.mathworks.com/matlabcentral/fileexchange/98714-robotics-system-toolbox-robot-library-data",
             "id": 45
         }

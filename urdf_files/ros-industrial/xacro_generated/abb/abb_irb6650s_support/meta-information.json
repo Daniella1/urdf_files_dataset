@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb6650s_support",
-            "id": 173
+            "id": 174
         },
         {
             "name": "IRB 6650S-125/3.50",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb6650s_support",
-            "id": 174
+            "id": 175
         }
     ]
 }

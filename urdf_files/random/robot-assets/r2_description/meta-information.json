@@ -6,33 +6,275 @@
             "manufacturer": "Star Wars Character",
             "xacro-generated": false,
             "urdf": [
-                "robots/r2b.urdf",
-                "robots/r2b_control.urdf",
-                "robots/r2b_dynamics.urdf",
-                "robots/r2b_sim_upperbody_control.urdf.urdf",
-                "robots/r2b_sim_upperbody_dynamics.urdf.urdf",
-                "robots/r2c1.urdf",
-                "robots/r2c1_control.urdf",
-                "robots/r2c1_dynamics.urdf",
-                "robots/r2c5.urdf",
-                "robots/r2c5_control.urdf",
-                "robots/r2c5_dynamics.urdf",
-                "robots/r2c6.urdf",
-                "robots/r2c6_control.urdf",
-                "robots/r2c6_dynamics.urdf",
-                "robots/r2c6_valve.urdf",
-                "robots/r2c_sim_full_control.urdf.urdf",
-                "robots/r2c_sim_full_dynamics.urdf.urdf",
-                "robots/r2c_sim_legs_control.urdf.urdf",
-                "robots/r2c_sim_legs_dynamics.urdf.urdf",
-                "robots/r2c_sim_upperbody_control.urdf.urdf",
-                "robots/r2c_sim_upperbody_dynamics.urdf.urdf",
-                "robots/r2_left_forearm.urdf",
+                "robots/r2b.urdf"
+            ],
+            "variant": "b",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 267
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2b_control.urdf"
+            ],
+            "variant": "b control",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 268
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2b_dynamics.urdf"
+            ],
+            "variant": "b dynamics",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 269
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2b_sim_upperbody_control.urdf.urdf"
+            ],
+            "variant": "b sim upperbody control",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 270
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2b_sim_upperbody_dynamics.urdf.urdf"
+            ],
+            "variant": "b sim upperbody dynamics",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 271
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c1.urdf"
+            ],
+            "variant": "c1",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 272
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c1_control.urdf"
+            ],
+            "variant": "c1 control",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 273
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c1_dynamics.urdf"
+            ],
+            "variant": "c1 dynamics",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 274
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c5.urdf"
+            ],
+            "variant": "c5",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 275
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c5_control.urdf"
+            ],
+            "variant": "c5 control",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 276
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c5_dynamics.urdf"
+            ],
+            "variant": "c5 dynamics",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 277
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c6.urdf"
+            ],
+            "variant": "c6",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 278
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c6_control.urdf"
+            ],
+            "variant": "c6 control",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 279
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c6_dynamics.urdf"
+            ],
+            "variant": "c6 dynamics",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 280
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c6_valve.urdf"
+            ],
+            "variant": "c6 valve",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 281
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c_sim_full_control.urdf.urdf"
+            ],
+            "variant": "c sim full control",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 282
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c_sim_full_dynamics.urdf.urdf"
+            ],
+            "variant": "c sim full dynamics",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 283
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c_sim_legs_control.urdf.urdf"
+            ],
+            "variant": "c sim legs control",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 284
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c_sim_legs_dynamics.urdf.urdf"
+            ],
+            "variant": "c sim legs dynamics",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 285
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c_sim_upperbody_control.urdf.urdf"
+            ],
+            "variant": "c sim upperbody control",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 286
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2c_sim_upperbody_dynamics.urdf.urdf"
+            ],
+            "variant": "c sim upperbody dynamics",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 287
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
+                "robots/r2_left_forearm.urdf"
+            ],
+            "variant": "left forearm",
+            "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
+            "id": 288
+        },
+        {
+            "name": "R2-D2",
+            "type": "humanoid robot",
+            "manufacturer": "Star Wars Character",
+            "xacro-generated": false,
+            "urdf": [
                 "robots/r2_left_gripper.urdf"
             ],
-            "variant": null,
+            "variant": "left gripper",
             "source-link": "https://github.com/ankurhanda/robot-assets/tree/12f1a3c89c9975194551afaed0dfae1e09fdb27c/urdfs/robots/r2_description",
-            "id": 94
+            "id": 289
         }
     ]
 }

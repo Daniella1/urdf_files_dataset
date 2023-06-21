@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb1200_support",
-            "id": 159
+            "id": 160
         },
         {
             "name": "IRB 1200-7/0.7",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/abb_experimental/tree/97cdd97b5d7882d349d8b2674eb74c110a78cccb/abb_irb1200_support",
-            "id": 160
+            "id": 161
         }
     ]
 }

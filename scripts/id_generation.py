@@ -34,7 +34,7 @@ df_variant_robots = df[df.variant != "none"] # non-original
 unique_robots = df_original_robots.name.unique() # extract robots without a variant
 unique_variants = df_variant_robots.variant.unique()
 
-df_id_robots = pd.DataFrame(columns=["name","variant","id:source","type"])
+df_id_robots = pd.DataFrame(columns=["name","variant","id:source","type","manufacturer"])
 
 df_original_robots['id'] = np.nan
 ids = 0
@@ -45,9 +45,9 @@ for index, row in df_original_robots.iterrows():
         urdf_path = extract_urdf_path(row)
         source = urdf_path.split("/")[1]
         if not URDF_LINK:
-            new_row = {'name': row["name"], 'variant': 'none', 'id:source': {ids:source}, 'type': row.type}
+            new_row = {'name': row["name"], 'variant': 'none', 'id:source': {ids:source}, 'type': row.type, 'manufacturer': row.manufacturer}
         else:
-            new_row = {'name': row["name"], 'variant': 'none', 'id:source': {ids:f"<a href=\"{urdf_path}\">{source}</a>"}, 'type': row.type} # f"[{source}]({urdf_path})"
+            new_row = {'name': row["name"], 'variant': 'none', 'id:source': {ids:f"<a href=\"{urdf_path}\">{source}</a>"}, 'type': row.type, 'manufacturer': row.manufacturer} # f"[{source}]({urdf_path})"
         
         df_id_robots = pd.concat([df_id_robots, pd.DataFrame([new_row])], axis=0, ignore_index=True)
     else:
@@ -69,9 +69,9 @@ for index, row in df_variant_robots.iterrows():
         urdf_path = extract_urdf_path(row)
         source = urdf_path.split("/")[1]
         if not URDF_LINK:
-            new_row = {'name': row["name"], 'variant': row["variant"], 'id:source': {ids:source}, 'type': row.type}
+            new_row = {'name': row["name"], 'variant': row["variant"], 'id:source': {ids:source}, 'type': row.type, 'manufacturer': row.manufacturer}
         else:
-            new_row = {'name': row["name"], 'variant': row["variant"], 'id:source': {ids:f"<a href=\"{urdf_path}\">{source}</a>"}, 'type': row.type} # [f"[{source}]({urdf_path})"]
+            new_row = {'name': row["name"], 'variant': row["variant"], 'id:source': {ids:f"<a href=\"{urdf_path}\">{source}</a>"}, 'type': row.type, 'manufacturer': row.manufacturer} # [f"[{source}]({urdf_path})"]
         df_id_robots = pd.concat([df_id_robots, pd.DataFrame([new_row])], axis=0, ignore_index=True)    
     else:
         updated_sources = list(df_id_robots.loc[df_id_robots[(df_id_robots.name == row["name"]) & (df_id_robots.variant == row["variant"])].index,"id:source"])[0]

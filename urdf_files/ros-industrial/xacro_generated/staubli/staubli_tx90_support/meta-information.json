@@ -10,7 +10,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/staubli_experimental/tree/256a71acea2161b64e12af1a6b925a7f26695007/staubli_tx90_support",
-            "id": 238
+            "id": 239
         },
         {
             "name": "TX-90L",
@@ -22,7 +22,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/staubli_experimental/tree/256a71acea2161b64e12af1a6b925a7f26695007/staubli_tx90_support",
-            "id": 239
+            "id": 240
         },
         {
             "name": "TX-90XL",
@@ -34,7 +34,7 @@
             ],
             "variant": null,
             "source-link": "https://github.com/ros-industrial/staubli_experimental/tree/256a71acea2161b64e12af1a6b925a7f26695007/staubli_tx90_support",
-            "id": 240
+            "id": 241
         }
     ]
 }

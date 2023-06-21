@@ -6,26 +6,191 @@
             "manufacturer": "NASA",
             "xacro-generated": false,
             "urdf": [
-                "model/robots/forearm_left.urdf",
-                "model/robots/forearm_right.urdf",
-                "model/robots/imu_test.urdf",
-                "model/robots/test_bench.urdf",
-                "model/robots/valkyrie_A.urdf",
-                "model/robots/valkyrie_A_arm_mass_sims.urdf",
-                "model/robots/valkyrie_B.urdf",
-                "model/robots/valkyrie_B_arm_mass_sims.urdf",
-                "model/robots/valkyrie_C.urdf",
-                "model/robots/valkyrie_C_arm_mass_sims.urdf",
-                "model/robots/valkyrie_D.urdf",
-                "model/robots/valkyrie_D_arm_mass_sims.urdf",
-                "model/robots/valkyrie_sim.urdf",
-                "model/robots/valkyrie_sim_angled_legj1s.urdf",
-                "model/robots/valkyrie_sim_arm_mass_sims.urdf",
-                "model/robots/valkyrie_sim_gazebo_sync.urdf"
+                "model/robots/forearm_left.urdf"
+            ],
+            "variant": "forearm left",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 306
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/forearm_right.urdf"
+            ],
+            "variant": "forearm right",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 307
+        },
+        {
+            "name": "imu test",
+            "type": "unknown",
+            "manufacturer": "unknown",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/imu_test.urdf"
             ],
             "variant": null,
             "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
             "id": 123
+        },
+        {
+            "name": "test bench",
+            "type": "unknown",
+            "manufacturer": "unknown",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/test_bench.urdf"
+            ],
+            "variant": null,
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 124
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_A.urdf"
+            ],
+            "variant": "A",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 308
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_A_arm_mass_sims.urdf"
+            ],
+            "variant": "A arm mass sims",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 309
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_B.urdf"
+            ],
+            "variant": "B",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 310
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_B_arm_mass_sims.urdf"
+            ],
+            "variant": "B arm mass sims",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 311
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_C.urdf"
+            ],
+            "variant": "C",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 312
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_C_arm_mass_sims.urdf"
+            ],
+            "variant": "C arm mass sims",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 313
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_D.urdf"
+            ],
+            "variant": "D",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 314
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_D_arm_mass_sims.urdf"
+            ],
+            "variant": "D arm mass sims",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 315
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_sim.urdf"
+            ],
+            "variant": "sim",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 316
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_sim_angled_legj1s.urdf"
+            ],
+            "variant": "sim angled legj1s",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 317
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_sim_arm_mass_sims.urdf"
+            ],
+            "variant": "sim arm mass sims",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 318
+        },
+        {
+            "name": "Valkyrie",
+            "type": "humanoid robot",
+            "manufacturer": "NASA",
+            "xacro-generated": false,
+            "urdf": [
+                "model/robots/valkyrie_sim_gazebo_sync.urdf"
+            ],
+            "variant": "sim gazebo sync",
+            "source-link": "https://github.com/petercorke/robotics-toolbox-python/tree/07ad1259338d6dfd41af6e5e50973e315284a912/rtb-data/rtbdata/xacro/val_description",
+            "id": 319
         }
     ]
 }
