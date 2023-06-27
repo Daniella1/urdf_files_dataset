@@ -345,6 +345,11 @@ Source and meta information files describe the source of the URDF Collection, a 
         <td><tt><a href="scripts/paper_results/fig_9_cad_types_sources.py">fig_8_cad_types_sources</a></tt></td>
         <td><em>-</em></td>
     </tr>
+    <tr>
+        <td>Organization details</td>
+        <td><tt><a href="scripts/paper_results/organization_details.py">organization_details</a></tt></td>
+        <td><em>-</em></td>
+    </tr>
 </table>
 
 
