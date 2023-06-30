@@ -1,8 +1,8 @@
 # A URDF Dataset
 
-This repository contains a dataset of URDF Collections from various sources.
-All the URDF Collections can be found in the subdirectory _urdf\_files_.
-We have manually constructed a duplicates directory containing the robots with duplicate URDF Collections from different sources. This can be found in the _duplicates_ subdirectory.
+This repository contains a dataset of URDF Bundles from various sources.
+All the URDF Bundles can be found in the subdirectory _urdf\_files_.
+We have manually constructed a duplicates directory containing the robots with duplicate URDF Bundles from different sources. This can be found in the _duplicates_ subdirectory.
 Scripts for producing analysis results on the dataset, can be found in the _scripts_ subdirectory.
 
 ## Robots
@@ -432,19 +432,19 @@ The following table shows the information, which scripts to generate the informa
 
 ## Creating the dataset
 
-"variants" was defined by looking at the urdf file names and using them to define the variants of a robot.
-An example of how a variant was defined,
-drake/atlas/urdf has both 'atlas_convex_hull.urdf' and 'atlas_minimal_contact.urdf', and as this is the exact same physical robot, but with modifications to the urdf file, we have defined them as variants of the robot.
+"variant" is defined using the urdf file names to describe the type of URDF variant.
+An example of how a URDF variant is defined,
+drake/atlas/urdf has both 'atlas_convex_hull.urdf' and 'atlas_minimal_contact.urdf', and as this is the exact same physical robot, but with modifications to the urdf file, we have defined them as URDF variants of the robot.
 If there are robots such as ros-industrial/xacro_generated/abb/abb_irb52_support/urdf/ 'irb52_7_120.urdf' and 'irb52_7_145.urdf', we do not define them as different variants, as they are original robots with different characteristics, and have nothing to do with their urdf implementation.
 
-<!-- "Variants" are defined by a robot with various features, e.g. the same robot but with extended or different features, this could be the payload, workspace, force, etc.
+<!-- "URDF Variants" are defined by a robot with various features, e.g. the same robot but with extended or different features, this could be the payload, workspace, force, etc.
 An example of this is the
 If there are robots such as ros-industrial/xacro_generated/abb/abb_irb52_support/urdf/ 'irb52_7_120.urdf' and 'irb52_7_145.urdf' they are defined as robot: 'irb52 7' with the modifications '120' and '145'.
 
 Would the drake/allegro_hand_description/urdf/ be a modification or variation -->
 
 ### Contributing
-Create a pull request with the URDF Collection or source.
+Create a pull request with the URDF Bundle or source.
 
 
 
