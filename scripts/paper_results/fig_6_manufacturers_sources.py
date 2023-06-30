@@ -56,7 +56,7 @@ manufacturers_n_source_information.sort_values(['source'])
 df = manufacturers_n_source_information
 bars = alt.Chart(df).mark_bar().encode(
     y=alt.Y('manufacturer:N', sort='x',title=''),
-    x=alt.X("count:Q",title='number of robots'),
+    x=alt.X("count:Q",title='number of URDF Bundles of robot models'),
 
     color=alt.Color('source:N',sort=sorted_sources,
             scale=alt.Scale(
@@ -74,5 +74,5 @@ bars = alt.Chart(df).mark_bar().encode(
 order=alt.Order('color_source_sort_index:Q')) # for sorting the color in the chart https://stackoverflow.com/questions/66347857/sort-a-normalized-stacked-bar-chart-with-altair/66355902#66355902
 
 
-(bars).properties(title='Distribution of robots from different manufacturers in dataset').show()
+(bars).properties(title='Distribution of robot models from different manufacturers in dataset').show()
 
