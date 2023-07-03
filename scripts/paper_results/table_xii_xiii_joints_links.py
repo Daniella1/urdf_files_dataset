@@ -24,6 +24,8 @@ def _extract_meta_information(filename, meta_infos, cur_dir, source):
         link_names = []
         for urdf_file in urdf_paths:
             models_information = api.generate_model_information_schema(f"{cur_dir}/{urdf_file}") # list of URDFInformation
+            if models_information[0].filename is None:
+                continue
             for urdf_info in models_information:
                 if urdf_info.filename is not None:
                     n_joints += urdf_info.joint_information.n_joints
@@ -35,6 +37,8 @@ def _extract_meta_information(filename, meta_infos, cur_dir, source):
         link_names = [item for sublist in link_names for item in sublist]
 
         # add information to dataframe
+        if len(joint_names) == 0 and len(link_names) == 0: # if the URDF file could not be loaded due to issues
+            continue
         meta_infos = pd.concat([meta_infos, pd.Series({'name':name, 'type': type, 'manufacturer':manufacturer, 'urdf': urdf_paths, 'variant': variant, 'source':source,'n_links': n_links, 'n_joints': n_joints, 'joint_names': joint_names, 'link_names': link_names}).to_frame().T], ignore_index=True)
     return meta_infos
 
