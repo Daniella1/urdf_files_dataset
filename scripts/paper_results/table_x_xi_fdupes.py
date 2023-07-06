@@ -23,7 +23,7 @@ def _get_files_with_in_cur_subdir(dir, files):
 
     return list_of_file_paths
 
-def _get_meta_file_information(meta_file_path, path_name, path_parts, robots_so_far):
+def _get_meta_file_information(meta_file_path, path_parts, robots_so_far):
     with open(f"{meta_file_path}/meta-information.json", 'r') as f:
         data = json.load(f)
     n_robots = len(data['robots'])
@@ -34,7 +34,7 @@ def _get_meta_file_information(meta_file_path, path_name, path_parts, robots_so_
                     return r['name'].lower()
                 elif r['name'].lower() not in robots_so_far and len(robots_so_far) > 0:
                     return robots_so_far[0]
-        return path_name.lower()
+        return r['name'].lower()
     else:
         return data['robots'][0]['name'].lower()
 
@@ -76,8 +76,6 @@ def _extract_fdupes_information(filename):
                 # need to remove one of the duplicates from the sources?
             sources = set(sources)
 
-
-
             # if robot exists but number of sources is different, then we need to create a new robot
             
             for j in range(j, n_lines_dup+j):
@@ -99,7 +97,7 @@ def _extract_fdupes_information(filename):
                     
 
                 urdf_bundle = path_parts[urdf_dir_index]
-                urdf_bundle = _get_meta_file_information(robot_dir, urdf_bundle, path_parts, robots_so_far)
+                urdf_bundle = _get_meta_file_information(robot_dir, path_parts, robots_so_far)
                 robots_so_far.append(urdf_bundle)
 
             if urdf_bundle not in list(identical_files['robot']):
@@ -137,30 +135,39 @@ sources_correlation_df = pd.DataFrame(columns=all_sources,index=all_sources)
 sources_correlation_df.index = all_sources
 sources_correlation_df = sources_correlation_df.fillna(0)
 
+all_fdupes_combined = pd.DataFrame(columns=['robot','source','n_identical_files'])
+
 for filetype in filetypes:
     filename = f"scripts/fdupes_run/identical_files_{filetype}.txt"
     fdupes_information = _extract_fdupes_information(filename)
     # fdupes_information.to_csv(f"fdupe_urdf_file_res_{filetype}.csv",index=False)
+    all_fdupes_combined = pd.concat([all_fdupes_combined, fdupes_information], ignore_index=True) # Used when creating Table XI
 
-    # create Table X and Table XI
+    # create Table X
     for source in all_sources:
         source_robots = []
-        correlated_sources = {s: [] for s in all_sources}
         for index, row in fdupes_information.iterrows():
             if source in row['source']:
                 robot = row['robot']
-                list_correlated_sources = [s for s in all_sources if s in row['source'] and s != source]
-                for cs in list_correlated_sources:
-                    if robot not in correlated_sources[cs]:
-                        sources_correlation_df.loc[sources_correlation_df.index == source, cs] = sources_correlation_df.loc[sources_correlation_df.index == source, cs] +1
-                        correlated_sources[cs].append(robot)
-                 # extract other sources
                 if robot not in source_robots:
-                    source_filetype_df.loc[source_filetype_df.index == filetype,source] = source_filetype_df.loc[source_filetype_df.index == filetype,source] + 1
-                    source_robots.append(robot)
+                        source_filetype_df.loc[source_filetype_df.index == filetype,source] = source_filetype_df.loc[source_filetype_df.index == filetype,source] + 1
+                        source_robots.append(robot)
+
+# create Table XI
+for source in all_sources:
+    source_robots = []
+    correlated_sources = {s: [] for s in all_sources}
+    for index, row in all_fdupes_combined.iterrows():
+        if source in row['source']:
+            robot = row['robot']
+            list_correlated_sources = [s for s in all_sources if s in row['source'] and s != source]
+            for cs in list_correlated_sources:
+                if robot not in correlated_sources[cs]:
+                    sources_correlation_df.loc[sources_correlation_df.index == source, cs] = sources_correlation_df.loc[sources_correlation_df.index == source, cs] +1
+                    correlated_sources[cs].append(robot)
 
 source_filetype_df = source_filetype_df.transpose()
 source_filetype_df.to_csv("table_x_fdupes_filetypes.csv")
 sources_correlation_df.to_csv("table_xi_fdupes_sources.csv")
-  
-    
+ 
+

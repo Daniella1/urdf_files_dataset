@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 import json
 import numpy as np
-
+import subprocess
 
 
 # todo: check the meshes folder, if it is different for the robots or not
@@ -138,6 +138,9 @@ sources_correlation_df.index = all_sources
 sources_correlation_df = sources_correlation_df.fillna(0)
 
 for filetype in filetypes:
+    # extract fdupes information
+    subprocess.run(["script","-c",'fdupes -r . | grep -e ".' + filetype + '$" -e "^$" | uniq',f"{dir}/identical_files_{filetype}.txt"])
+
     filename = f"{dir}/identical_files_{filetype}.txt"
     fdupes_information = _extract_fdupes_information(filename)
     fdupes_information.to_csv(f"fdupe_urdf_file_res_{filetype}.csv",index=False)

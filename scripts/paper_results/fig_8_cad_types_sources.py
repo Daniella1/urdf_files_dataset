@@ -168,7 +168,7 @@ alt.Chart(df).mark_bar().encode(
     x=alt.X('sum(values):Q',
         axis=alt.Axis(
             grid=False,
-            title='number of CAD files')),
+            title='number of URDF Bundles using the different CAD file types')),
 
     # tell Altair which field to use to use as the set of columns to be represented in each group
     row=alt.Column('c2:N', title=None, sort=cols,),

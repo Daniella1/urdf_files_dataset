@@ -51,7 +51,7 @@ types_sources.sort_values(['source'])
 df = types_sources
 bars = alt.Chart(df).mark_bar().encode(
     y=alt.Y('type:N', sort='-x',title=''),
-    x=alt.X("count:Q",title='number of robots'), 
+    x=alt.X("count:Q",title='number of URDF Bundles'), 
     color=alt.Color('source:N',sort=sorted_sources,
             scale=alt.Scale(
                 range=['#96ceb4', '#ffcc5c','#ff6f69', '#AADBFF', '#51A8E1','#B97231'],
