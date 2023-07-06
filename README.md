@@ -332,17 +332,17 @@ Source and meta information files describe the source of the URDF Collection, a 
     </tr>
     <tr>
         <td>Figure 4</td>
-        <td><tt><a href="scripts/paper_results/fig_5_types_sources.py">fig_4_types_sources</a></tt></td>
+        <td><tt><a href="scripts/paper_results/fig_4_types_sources.py">fig_4_types_sources</a></tt></td>
         <td><em>-</em></td>
     </tr>
     <tr>
         <td>Figure 6</td>
-        <td><tt><a href="scripts/paper_results/fig_7_manufacturers_sources.py">fig_6_manufacturers_sources</a></tt></td>
+        <td><tt><a href="scripts/paper_results/fig_6_manufacturers_sources.py">fig_6_manufacturers_sources</a></tt></td>
         <td><em>-</em></td>
     </tr>
     <tr>
         <td>Figure 8</td>
-        <td><tt><a href="scripts/paper_results/fig_9_cad_types_sources.py">fig_8_cad_types_sources</a></tt></td>
+        <td><tt><a href="scripts/paper_results/fig_8_cad_types_sources.py">fig_8_cad_types_sources</a></tt></td>
         <td><em>-</em></td>
     </tr>
     <tr>
