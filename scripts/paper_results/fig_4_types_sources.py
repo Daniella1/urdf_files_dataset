@@ -40,7 +40,7 @@ for d in subdirs:
 types_sources = pd.DataFrame(dataset_information.groupby(['type','source']).count())
 types_sources = types_sources.reset_index().rename({'name':'count'},axis='columns')
 
-types_sources.to_csv("fig_5_types_sources.csv",index=False)
+types_sources.to_csv("fig_4_types_sources.csv",index=False)
 
 sorted_sources = ["ros-industrial","matlab","robotics-toolbox","drake","oems","random"]
 types_sources.source = types_sources.source.astype("category")

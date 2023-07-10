@@ -1,4 +1,5 @@
 from helper_functions import _get_files_with
+import pandas as pd
 
 dir = "urdf_files"
 urdf_files = _get_files_with(dir,"*.urdf")

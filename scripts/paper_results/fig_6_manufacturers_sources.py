@@ -44,7 +44,7 @@ manufacturer_n_robots = manufacturer_information['manufacturer'].value_counts()
 manufacturer_n_robots = manufacturer_n_robots.reset_index().rename({'index':'manufacturer', 'manufacturer':'count'}, axis = 'columns')
 
 manufacturer_n_robots.to_csv("manufacturer_n_robots.csv",index=False)
-manufacturers_n_source_information.to_csv("fig_7_manufacturers_n_source_information.csv",index=False)
+manufacturers_n_source_information.to_csv("fig_6_manufacturers_n_source_information.csv",index=False)
 
 
 
