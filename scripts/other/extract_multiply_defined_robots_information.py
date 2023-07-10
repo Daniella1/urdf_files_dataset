@@ -3,9 +3,9 @@ import pandas as pd
 import subprocess
 
 
-duplicates_filename = "duplicates.json" 
-with open(duplicates_filename, 'r') as f:
-    duplicates = json.load(f)
+multiply_defined_robots_filename = "multiply_defined.json" 
+with open(multiply_defined_robots_filename, 'r') as f:
+    multiply_defined_robots = json.load(f)
 
 
 ## initialise parser
@@ -18,14 +18,14 @@ def check_urdf(filename):
 
 ####
 
-duplicates_parsing_information = pd.DataFrame(columns=['name','variant','sources_passed','sources_failed', 'all_sources', 'failed_files'])
+multiply_defined_robots_parsing_information = pd.DataFrame(columns=['name','variant','sources_passed','sources_failed', 'all_sources', 'failed_files'])
 
 
-for robot in duplicates:
-    for variant in duplicates[robot]:
+for robot in multiply_defined_robots:
+    for variant in multiply_defined_robots[robot]:
         sources_passing = {'name':robot,'variant': variant,'sources_passed': [], 'sources_failed':[], 'all_sources': [],'failed_files': []}
-        for duplicate in duplicates[robot][variant]:
-            n_sources = len(duplicates[robot][variant])
+        for duplicate in multiply_defined_robots[robot][variant]:
+            n_sources = len(multiply_defined_robots[robot][variant])
             urdf_files = list(map(str.strip, duplicate['urdf_path'].strip('][').replace('"', '').split(',')))
             for urdf_file in urdf_files:
                 urdf_file = urdf_file.strip("WindowsPath('")
@@ -39,8 +39,8 @@ for robot in duplicates:
                     sources_passing['failed_files'].append(urdf_file)
                 sources_passing['all_sources'].append(source)
 
-        duplicates_parsing_information = pd.concat([duplicates_parsing_information, pd.Series(sources_passing).to_frame().T], ignore_index=True)
+        multiply_defined_robots_parsing_information = pd.concat([multiply_defined_robots_parsing_information, pd.Series(sources_passing).to_frame().T], ignore_index=True)
                 
 
-duplicates_parsing_information.to_csv("duplicates_parsing_information.csv",index=False)
+multiply_defined_robots_parsing_information.to_csv("multiply_defined_robots_parsing_information.csv",index=False)
 

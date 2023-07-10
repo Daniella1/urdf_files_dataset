@@ -1,9 +1,4 @@
 from pathlib import Path
-import os
-
-def _get_subdirectories(dir):
-    subdirectories = [f.path for f in os.scandir(dir) if f.is_dir()]
-    return subdirectories
 
 def _get_files_with(dir, files):
     list_of_file_paths = []

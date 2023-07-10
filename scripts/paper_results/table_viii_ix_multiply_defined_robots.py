@@ -70,7 +70,7 @@ for d in subdirs:
 original_robots = dataset_information[dataset_information['variant'].isna()]
 varianted_robots = dataset_information[dataset_information['variant'].notna()]
 multiply_defined_original_robots = (original_robots.groupby('name').filter(lambda g: len(g) > 1).drop_duplicates(subset=['name', 'source'], keep="first")).sort_values(by=['name'])
-multiply_defined_original_robots = (multiply_defined_original_robots.groupby('name').filter(lambda g: len(g) > 1).drop_duplicates(subset=['name', 'source'], keep="first")).sort_values(by=['name']) # to make sure it is only the duplicate robots)
+multiply_defined_original_robots = (multiply_defined_original_robots.groupby('name').filter(lambda g: len(g) > 1).drop_duplicates(subset=['name', 'source'], keep="first")).sort_values(by=['name']) # to make sure it is only the multiply_defined robots)
 multiply_defined_variant_robots = (varianted_robots.groupby('name').filter(lambda g: len(g) > 1).drop_duplicates(subset=['name', 'source'], keep="first")).sort_values(by=['name'])
 multiply_defined_variant_robots = (multiply_defined_variant_robots.groupby('name').filter(lambda g: len(g) > 1).drop_duplicates(subset=['name', 'source'], keep="first")).sort_values(by=['name'])
 multiply_defined_robots = pd.concat([multiply_defined_original_robots,multiply_defined_variant_robots])
@@ -103,41 +103,41 @@ for index, row in multiply_defined_robots.iterrows():
 
 multiply_defined_robots_df.to_csv("table_viii_multiply_defined_robots.csv")
 
-# duplicate_robots.to_csv("duplicate_robots.csv",index=False)
+# multiply_defined_robots.to_csv("multiply_defined_robots.csv",index=False)
 # n_multiply_defined_robots.to_csv("n_multiply_defined_robots.csv",index=False)
 
 
 meta_info_columns = ["name","variant"]
-duplicates_information_columns = meta_info_columns + ["source","n_urdf_files","n_joints","n_links","visual_meshes","collision_meshes","n_lines"]
-duplicates_comparisons_columns = meta_info_columns + ["sources","joints_diff","links_diff","mesh_diff","fk_diff","n_lines_diff","urdf_files"]
-duplicates_information = pd.DataFrame(columns=duplicates_information_columns)
-duplicates_comparisons = pd.DataFrame(columns=duplicates_comparisons_columns)
+multiply_defined_information_columns = meta_info_columns + ["source","n_urdf_files","n_joints","n_links","visual_meshes","collision_meshes","n_lines"]
+multiply_defined_comparisons_columns = meta_info_columns + ["sources","joints_diff","links_diff","mesh_diff","fk_diff","n_lines_diff","urdf_files"]
+multiply_defined_information = pd.DataFrame(columns=multiply_defined_information_columns)
+multiply_defined_comparisons = pd.DataFrame(columns=multiply_defined_comparisons_columns)
 
 # TODO fix this so that we don't need to create a file and read it
 d = multiply_defined_robots.groupby('name')['variant','data'].apply(lambda x: x.set_index('variant')['data'].to_dict()).to_json().replace("\\","")
-with open("duplicates.json", 'w') as f:
+with open("multiply_defined.json", 'w') as f:
     json.dump(eval(d), f)
-duplicates_filename = "duplicates.json" 
-with open(duplicates_filename, 'r') as f:
-    duplicates = json.load(f)
+multiply_defined_filename = "multiply_defined.json" 
+with open(multiply_defined_filename, 'r') as f:
+    multiply_defined = json.load(f)
 
-duplicates_information, duplicates_comparisons = api._get_duplicates_information(duplicates, ".", duplicates_information, duplicates_comparisons, None)
+multiply_defined_information, multiply_defined_comparisons = api._get_duplicates_information(multiply_defined, ".", multiply_defined_information, multiply_defined_comparisons, None)
 
 # delete created json file and results
-os.remove(duplicates_filename)
+os.remove(multiply_defined_filename)
 shutil.rmtree("results")
 
 
 multiply_defined_robots_feature_differences = pd.DataFrame(index=["n_joints","n_links","cad_file_type","forward_kin","n_lines"],columns=["n_robots"])
 multiply_defined_robots_feature_differences = multiply_defined_robots_feature_differences.fillna(0)
 
-multiply_defined_robots_feature_differences.loc["n_joints"] = duplicates_comparisons['joints_diff'].value_counts()[True]
-multiply_defined_robots_feature_differences.loc["n_links"] = duplicates_comparisons['links_diff'].value_counts()[True]
-multiply_defined_robots_feature_differences.loc["cad_file_type"] = duplicates_comparisons['mesh_diff'].value_counts()[True]
-multiply_defined_robots_feature_differences.loc["forward_kin"] = duplicates_comparisons['fk_diff'].value_counts()[True]
-multiply_defined_robots_feature_differences.loc["n_lines"] = duplicates_comparisons['n_lines_diff'].value_counts()[True]
+multiply_defined_robots_feature_differences.loc["n_joints"] = multiply_defined_comparisons['joints_diff'].value_counts()[True]
+multiply_defined_robots_feature_differences.loc["n_links"] = multiply_defined_comparisons['links_diff'].value_counts()[True]
+multiply_defined_robots_feature_differences.loc["cad_file_type"] = multiply_defined_comparisons['mesh_diff'].value_counts()[True]
+multiply_defined_robots_feature_differences.loc["forward_kin"] = multiply_defined_comparisons['fk_diff'].value_counts()[True]
+multiply_defined_robots_feature_differences.loc["n_lines"] = multiply_defined_comparisons['n_lines_diff'].value_counts()[True]
 
 multiply_defined_robots_feature_differences.to_csv("table_ix_multiply_defined_robots_feature_differences.csv")
 
-# duplicates_information.to_csv("duplicates_information.csv")
-# duplicates_comparisons.to_csv("duplicates_comparisons.csv")
+# multiply_defined_information.to_csv("multiply_defined_information.csv")
+# multiply_defined_comparisons.to_csv("multiply_defined_comparisons.csv")

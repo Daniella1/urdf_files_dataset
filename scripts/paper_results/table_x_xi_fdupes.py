@@ -8,7 +8,6 @@ import numpy as np
 # todo: check the meshes folder, if it is different for the robots or not
 
 filetypes = ["urdf","stl","dae","obj"]
-# filetypes = ["dae"]
 dir = "urdf_files/"
 all_sources = ["ros-industrial","matlab","robotics-toolbox","drake","oems","random"]
 
@@ -143,6 +142,9 @@ sources_correlation_df = sources_correlation_df.fillna(0)
 all_fdupes_combined = pd.DataFrame(columns=['robot','source','n_identical_files'])
 
 for filetype in filetypes:
+    # uncomment below, for running the 'fdupes' command
+    # subprocess.run(["script","-c",'fdupes -r . | grep -e ".' + filetype + '$" -e "^$" | uniq',f"{dir}/identical_files_{filetype}.txt"])
+
     filename = f"scripts/fdupes_run/identical_files_{filetype}.txt"
     fdupes_information = _extract_fdupes_information(filename)
     fdupes_information.to_csv(f"fdupe_urdf_file_res_{filetype}.csv",index=False)
