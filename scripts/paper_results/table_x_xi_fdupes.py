@@ -8,6 +8,7 @@ import numpy as np
 # todo: check the meshes folder, if it is different for the robots or not
 
 filetypes = ["urdf","stl","dae","obj"]
+# filetypes = ["dae"]
 dir = "urdf_files/"
 all_sources = ["ros-industrial","matlab","robotics-toolbox","drake","oems","random"]
 
@@ -30,7 +31,7 @@ def _get_meta_file_information(meta_file_path, path_parts, robots_so_far):
     if n_robots > 1:
         for p in path_parts:
             for r in data['robots']:
-                if r['name'].lower() in robots_so_far or r['name'].lower() in p.lower():
+                if r['name'].lower() in robots_so_far or p.lower() in r['name'].lower():
                     return r['name'].lower()
                 elif r['name'].lower() not in robots_so_far and len(robots_so_far) > 0:
                     return robots_so_far[0]
@@ -48,7 +49,8 @@ def _extract_fdupes_information(filename):
         lines = f.readlines()
 
     identical_files = pd.DataFrame(columns=['robot','source','n_identical_files'])
-    for i in range(len(lines)-1):
+    i = 0
+    while i < len(lines)-1:
         robots_so_far = []
         if "./" in lines[i] and "./" in lines[i+1]:
             # check if it is "./" for more than just two lines
@@ -70,6 +72,7 @@ def _extract_fdupes_information(filename):
                 sources.append(lines[k].split("/")[1])
             if len(set(sources)) != len(sources) and len(set(sources)) == 1:
                 # print(f"sources failed: {sources}")
+                i += n_lines_dup
                 continue
 
             # elif len(set(sources)) != len(sources) and len(set(sources)) > 1:
@@ -96,7 +99,6 @@ def _extract_fdupes_information(filename):
                     robot_dir_val = check_if_meta_information_file_in_dir(robot_dir)
                     
 
-                urdf_bundle = path_parts[urdf_dir_index]
                 urdf_bundle = _get_meta_file_information(robot_dir, path_parts, robots_so_far)
                 robots_so_far.append(urdf_bundle)
 
@@ -122,7 +124,10 @@ def _extract_fdupes_information(filename):
                 else:
                     identical_files = pd.concat([identical_files, pd.Series({'robot': urdf_bundle, 'source': str(sources), 'n_identical_files': 1}).to_frame().T], ignore_index=True)
 
-            i = j
+            i += n_lines_dup # update with number of duplicates
+        else:
+            i += 1
+        
     return identical_files
 
 # dataframe for table X
@@ -140,7 +145,7 @@ all_fdupes_combined = pd.DataFrame(columns=['robot','source','n_identical_files'
 for filetype in filetypes:
     filename = f"scripts/fdupes_run/identical_files_{filetype}.txt"
     fdupes_information = _extract_fdupes_information(filename)
-    # fdupes_information.to_csv(f"fdupe_urdf_file_res_{filetype}.csv",index=False)
+    fdupes_information.to_csv(f"fdupe_urdf_file_res_{filetype}.csv",index=False)
     all_fdupes_combined = pd.concat([all_fdupes_combined, fdupes_information], ignore_index=True) # Used when creating Table XI
 
     # create Table X
@@ -169,5 +174,5 @@ for source in all_sources:
 source_filetype_df = source_filetype_df.transpose()
 source_filetype_df.to_csv("table_x_fdupes_filetypes.csv")
 sources_correlation_df.to_csv("table_xi_fdupes_sources.csv")
- 
+
 
