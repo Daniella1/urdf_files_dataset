@@ -312,7 +312,7 @@ Source and meta information files describe the source of the URDF Collection, a 
     <tr>
         <td>Table XI</td>
         <td><tt><a href="scripts/paper_results/table_x_xi_fdupes.py">table_x_xi_fdupes</a></tt></td>
-        <td><em>table_xi_fdupes_sources</em></td>
+        <td><em>table_xi_fdupes_robots</em></td>
     </tr>
     <tr>
         <td>Table XII</td>
@@ -345,14 +345,14 @@ Source and meta information files describe the source of the URDF Collection, a 
         <td><em>-</em></td>
     </tr>
     <tr>
-        <td>Organization details</td>
-        <td><tt><a href="scripts/paper_results/organization_details.py">organization_details</a></tt></td>
+        <td>Contact information</td>
+        <td><tt><a href="scripts/paper_results/contact_information.py">contact_information</a></tt></td>
         <td><em>-</em></td>
     </tr>
 </table>
 
 
-#### Other
+<!--#### Other
 The following table shows the information, which scripts to generate the information, and the resulting CSV file that contains the results.
 
 <table>
@@ -363,17 +363,17 @@ The following table shows the information, which scripts to generate the informa
     </tr>
     <tr>
         <td>Sources and URDF files</td>
-        <td><tt><a href="scripts/extract_dataset_information.py">extract_dataset_information</a></tt></td>
+        <td><tt><a href="scripts/other/extract_dataset_information.py">extract_dataset_information</a></tt></td>
         <td><em>dataset_sources_n_robots</em></td>
     </tr>
     <tr>
         <td>Robot types</td>
-        <td><tt><a href="scripts/extract_dataset_information.py">extract_dataset_information</a></tt></td>
+        <td><tt><a href="scripts/other/extract_dataset_information.py">extract_dataset_information</a></tt></td>
         <td><em>types_information</em></td>
     </tr>
     <tr>
         <td>Manufacturers</td>
-        <td><tt><a href="scripts/extract_dataset_information.py">extract_dataset_information</a></tt></td>
+        <td><tt><a href="scripts/other/extract_dataset_information.py">extract_dataset_information</a></tt></td>
         <td><em>manufacturers_information</em></td>
     </tr>
     <tr>
@@ -382,19 +382,9 @@ The following table shows the information, which scripts to generate the informa
         <td><em>folder_structure_information</em></td>
     </tr>
     <tr>
-        <td>Source xacro generated</td>
-        <td><tt><a href="scripts/extract_xacro_information.py">extract_xacro_information</a></tt></td>
-        <td><em>source_xacro_information</em></td>
-    </tr>
-    <tr>
-        <td>Manufacturer xacro generated</td>
-        <td><tt><a href="scripts/extract_xacro_information.py">extract_xacro_information</a></tt></td>
-        <td><em>manufacturer_xacro_information</em></td>
-    </tr>
-    <tr>
-        <td>Duplicate robots</td>
-        <td><tt><a href="scripts/extract_duplicates_information.py">extract_duplicates_information</a></tt></td>
-        <td><em>duplicates_parsing_information</em></td>
+        <td>Multiply defined robots</td>
+        <td><tt><a href="scripts/other/extract_multiply_defined_robots_information.py">extract_multiply_defined_robots_information</a></tt></td>
+        <td><em>extract_multiply_defined_robots_information</em></td>
     </tr>
     <tr>
         <td>Identical files</td>
@@ -426,7 +416,7 @@ The following table shows the information, which scripts to generate the informa
         <td><tt><a href="scripts/get_model_structure_information.py">get_model_structure_information</a></tt></td>
         <td><em>source_model_name_information</em></td>
     </tr>
-</table>
+</table> -->
 
 
 ## Creating the dataset
