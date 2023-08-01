@@ -282,67 +282,77 @@ Source and meta information files describe the source of the URDF Collection, a 
     <tr>
         <td>Table II</td>
         <td><tt><a href="scripts/paper_results/table_ii_sources_n_robots.py">table_ii_sources_n_robots</a></tt></td>
-        <td><em>table_ii_sources_n_robots</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_ii_sources_n_robots.csv">table_ii_sources_n_robots</em></td>
+    </tr>
+    <tr>
+        <td>Table III</td>
+        <td><tt>Manual process</a></tt></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_iii_iv_manufacturer_urdf_search.csv">table_iii_iv_manufacturer_urdf_search</em></td>
+    </tr>
+    <tr>
+        <td>Table IV</td>
+        <td><tt>Manual process</a></tt></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_iii_iv_manufacturer_urdf_search.csv">table_iii_iv_manufacturer_urdf_search</em></td>
     </tr>
     <tr>
         <td>Table VI</td>
         <td><tt><a href="scripts/paper_results/table_vi_xacro_sources.py">table_vi_xacro_sources</a></tt></td>
-        <td><em>table_vi_xacro_sources</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_vi_xacro_sources.csv">table_vi_xacro_sources</em></td>
     </tr>
     <tr>
         <td>Table VII</td>
         <td><tt><a href="scripts/paper_results/table_vii_urdf_parsing_errors.py">table_vii_urdf_parsing_errors</a></tt></td>
-        <td><em>table_vii_parsing_errors</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_vii_parsing_errors.csv">table_vii_parsing_errors</em></td>
     </tr>
     <tr>
         <td>Table VIII</td>
         <td><tt><a href="scripts/paper_results/table_viii_ix_multiply_defined_robots.py">table_viii_ix_multiply_defined_robots</a></tt></td>
-        <td><em>table_viii_multiply_defined_robots</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_viii_multiply_defined_robots.csv">table_viii_multiply_defined_robots</em></td>
     </tr>
     <tr>
         <td>Table IX</td>
         <td><tt><a href="scripts/paper_results/table_viii_ix_multiply_defined_robots.py">table_viii_ix_multiply_defined_robots</a></tt></td>
-        <td><em>table_ix_multiply_defined_robots_feature_differences</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_ix_multiply_defined_robots_feature_differences.csv">table_ix_multiply_defined_robots_feature_differences</em></td>
     </tr>
     <tr>
         <td>Table X</td>
         <td><tt><a href="scripts/paper_results/table_x_xi_fdupes.py">table_x_xi_fdupes</a></tt></td>
-        <td><em>table_x_fdupes_filetypes</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_x_fdupes_filetypes.csv">table_x_fdupes_filetypes</em></td>
     </tr>
     <tr>
         <td>Table XI</td>
         <td><tt><a href="scripts/paper_results/table_x_xi_fdupes.py">table_x_xi_fdupes</a></tt></td>
-        <td><em>table_xi_fdupes_robots</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_xi_fdupes_robots.csv">table_xi_fdupes_robots</em></td>
     </tr>
     <tr>
         <td>Table XII</td>
         <td><tt><a href="scripts/paper_results/table_xii_xiii_joints_links.py">table_xii_xiii_joints_links</a></tt></td>
-        <td><em>table_xii_avg_links_joints</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_xii_avg_links_joints.csv">table_xii_avg_links_joints</em></td>
     </tr>
     <tr>
         <td>Table XIII</td>
         <td><tt><a href="scripts/paper_results/table_xii_xiii_joints_links.py">table_xii_xiii_joints_links</a></tt></td>
-        <td><em>table_xiii_world_flange_links_joints</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_xiii_world_flange_links_joints.csv">table_xiii_world_flange_links_joints</em></td>
     </tr>
     <tr>
         <td>Table XV</td>
         <td><tt><a href="scripts/paper_results/table_xv_urdf_parsers.py">table_xv_urdf_parsers</a></tt></td>
-        <td><em>table_xv_urdf_parsers</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_xv_urdf_parsers.csv">table_xv_urdf_parsers</em></td>
     </tr>
     <tr>
         <td>Figure 4</td>
         <td><tt><a href="scripts/paper_results/fig_4_types_sources.py">fig_4_types_sources</a></tt></td>
-        <td><em>-</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_charts/fig_4_types_sources.csv">fig_4_types_sources</em></td>
     </tr>
     <tr>
         <td>Figure 6</td>
         <td><tt><a href="scripts/paper_results/fig_6_manufacturers_sources.py">fig_6_manufacturers_sources</a></tt></td>
-        <td><em>-</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_charts/fig_6_manufacturers_n_source_information.csv">fig_6_manufacturers_n_source_information</em></td>
     </tr>
     <tr>
         <td>Figure 8</td>
         <td><tt><a href="scripts/paper_results/fig_8_cad_types_sources.py">fig_8_cad_types_sources</a></tt></td>
-        <td><em>-</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_charts/fig_8_cad_mesh_information.csv">fig_8_cad_mesh_information.csv</em></td>
     </tr>
     <tr>
         <td>Contact information</td>
