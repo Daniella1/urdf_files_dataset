@@ -1,8 +1,7 @@
 # A URDF Dataset
 
-This repository contains a dataset of URDF Bundles from various sources.
+This repository contains a dataset of URDF Bundles from various sources, presented in the paper "Understanding URDF: A Dataset And Analysis".
 All the URDF Bundles can be found in the subdirectory _urdf\_files_.
-We have manually constructed a duplicates directory containing the robots with duplicate URDF Bundles from different sources. This can be found in the _duplicates_ subdirectory.
 Scripts for producing analysis results on the dataset, can be found in the _scripts_ subdirectory.
 
 ## Robots
