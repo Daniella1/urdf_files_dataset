@@ -1,6 +1,6 @@
 # A URDF Dataset
 
-This repository contains a dataset of URDF Bundles from various sources, presented in the paper "Understanding URDF: A Dataset And Analysis".
+This repository contains a dataset of URDF Bundles from various sources, presented in the paper ["Understanding URDF: A Dataset And Analysis"](https://arxiv.org/abs/2308.00514).
 All the URDF Bundles can be found in the subdirectory _urdf\_files_.
 Scripts for producing analysis results on the dataset, can be found in the _scripts_ subdirectory.
 
