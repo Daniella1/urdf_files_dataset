@@ -1,3 +1,7 @@
+<p align="center">
+    <a href='https://github.com/MShawon/github-clone-count-badge'><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/Daniella1/cf62212a6a62187c2266356838f803ab/raw/clone.json&logo=github'></a>
+</p>
+
 # A URDF Dataset
 
 This repository contains a dataset of URDF Bundles from various sources, presented in the paper ["Understanding URDF: A Dataset And Analysis"](https://arxiv.org/abs/2308.00514).
@@ -455,3 +459,19 @@ We are not sure if the names of the following robots are correct:
 * Jaco Jxxxxxxx from robotics-toolbox, matlab, oems
 * Kinova Gen3 V12 from matlab
 
+## URDF Dataset Paper and Citation Info
+
+Check out the preprint on [arXiv](https://arxiv.org/abs/2308.00514).
+
+If the dataset helped you in your research, please cite
+
+```
+@misc{tola2023understanding,
+      title={Understanding URDF: A Dataset and Analysis}, 
+      author={Daniella Tola and Peter Corke},
+      year={2023},
+      eprint={2308.00514},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+```
