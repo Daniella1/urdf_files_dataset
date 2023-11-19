@@ -135,9 +135,8 @@ source_filetype_df.index = filetypes
 source_filetype_df = source_filetype_df.fillna(0)
 
 # dataframe for table XI
-sources_correlation_df = pd.DataFrame(columns=all_sources,index=all_sources)
-sources_correlation_df.index = all_sources
-sources_correlation_df = sources_correlation_df.fillna(0)
+selected_robots = ["pr2","panda"]
+selected_robots_identical_files_df = pd.DataFrame(columns=["robot","filetype","sources","#identical files"])
 
 all_fdupes_combined = pd.DataFrame(columns=['robot','source','n_identical_files'])
 
@@ -160,21 +159,17 @@ for filetype in filetypes:
                         source_filetype_df.loc[source_filetype_df.index == filetype,source] = source_filetype_df.loc[source_filetype_df.index == filetype,source] + 1
                         source_robots.append(robot)
 
-# create Table XI
-for source in all_sources:
-    source_robots = []
-    correlated_sources = {s: [] for s in all_sources}
-    for index, row in all_fdupes_combined.iterrows():
-        if source in row['source']:
-            robot = row['robot']
-            list_correlated_sources = [s for s in all_sources if s in row['source'] and s != source]
-            for cs in list_correlated_sources:
-                if robot not in correlated_sources[cs]:
-                    sources_correlation_df.loc[sources_correlation_df.index == source, cs] = sources_correlation_df.loc[sources_correlation_df.index == source, cs] +1
-                    correlated_sources[cs].append(robot)
+    # create Table XI    
+    for robot in selected_robots:
+        res = fdupes_information.loc[fdupes_information.robot == robot]
+        for index, row in res.iterrows():
+            selected_robots_identical_files_df = pd.concat([selected_robots_identical_files_df,pd.Series({"robot":robot,"filetype":filetype,"sources":row.source,"#identical files":row.n_identical_files}).to_frame().T],ignore_index=True)
+    
 
 source_filetype_df = source_filetype_df.transpose()
 source_filetype_df.to_csv("table_x_fdupes_filetypes.csv")
-sources_correlation_df.to_csv("table_xi_fdupes_sources.csv")
+
+selected_robots_identical_files_df = selected_robots_identical_files_df.sort_values(by="robot",ascending=False)
+selected_robots_identical_files_df.to_csv("table_xi_fdupes_robots.csv",index=False)
 
 

@@ -1,8 +1,16 @@
+
+
+<p align="center">
+    <a href='https://github.com/MShawon/github-clone-count-badge'><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/Daniella1/08225ee7388f8ad3f2c2b2c5a48c961d/raw/clone.json&logo=github'></a>
+    <img alt="ViewCount" src="https://views.whatilearened.today/views/github/Daniella1/urdf_files_dataset.svg">
+    <br>
+    Counting since 20-10-2023
+</p>
+
 # A URDF Dataset
 
-This repository contains a dataset of URDF Bundles from various sources.
+This repository contains a dataset of URDF Bundles from various sources, presented in the paper ["Understanding URDF: A Dataset And Analysis"](https://arxiv.org/abs/2308.00514).
 All the URDF Bundles can be found in the subdirectory _urdf\_files_.
-We have manually constructed a duplicates directory containing the robots with duplicate URDF Bundles from different sources. This can be found in the _duplicates_ subdirectory.
 Scripts for producing analysis results on the dataset, can be found in the _scripts_ subdirectory.
 
 ## Robots
@@ -283,77 +291,87 @@ Source and meta information files describe the source of the URDF Collection, a 
     <tr>
         <td>Table II</td>
         <td><tt><a href="scripts/paper_results/table_ii_sources_n_robots.py">table_ii_sources_n_robots</a></tt></td>
-        <td><em>table_ii_sources_n_robots</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_ii_sources_n_robots.csv">table_ii_sources_n_robots</em></td>
+    </tr>
+    <tr>
+        <td>Table III</td>
+        <td><tt>Manual process</a></tt></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_iii_iv_manufacturer_urdf_search.csv">table_iii_iv_manufacturer_urdf_search</em></td>
+    </tr>
+    <tr>
+        <td>Table IV</td>
+        <td><tt>Manual process</a></tt></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_iii_iv_manufacturer_urdf_search.csv">table_iii_iv_manufacturer_urdf_search</em></td>
     </tr>
     <tr>
         <td>Table VI</td>
         <td><tt><a href="scripts/paper_results/table_vi_xacro_sources.py">table_vi_xacro_sources</a></tt></td>
-        <td><em>table_vi_xacro_sources</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_vi_xacro_sources.csv">table_vi_xacro_sources</em></td>
     </tr>
     <tr>
         <td>Table VII</td>
         <td><tt><a href="scripts/paper_results/table_vii_urdf_parsing_errors.py">table_vii_urdf_parsing_errors</a></tt></td>
-        <td><em>table_vii_parsing_errors</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_vii_parsing_errors.csv">table_vii_parsing_errors</em></td>
     </tr>
     <tr>
         <td>Table VIII</td>
         <td><tt><a href="scripts/paper_results/table_viii_ix_multiply_defined_robots.py">table_viii_ix_multiply_defined_robots</a></tt></td>
-        <td><em>table_viii_multiply_defined_robots</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_viii_multiply_defined_robots.csv">table_viii_multiply_defined_robots</em></td>
     </tr>
     <tr>
         <td>Table IX</td>
         <td><tt><a href="scripts/paper_results/table_viii_ix_multiply_defined_robots.py">table_viii_ix_multiply_defined_robots</a></tt></td>
-        <td><em>table_ix_multiply_defined_robots_feature_differences</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_ix_multiply_defined_robots_feature_differences.csv">table_ix_multiply_defined_robots_feature_differences</em></td>
     </tr>
     <tr>
         <td>Table X</td>
         <td><tt><a href="scripts/paper_results/table_x_xi_fdupes.py">table_x_xi_fdupes</a></tt></td>
-        <td><em>table_x_fdupes_filetypes</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_x_fdupes_filetypes.csv">table_x_fdupes_filetypes</em></td>
     </tr>
     <tr>
         <td>Table XI</td>
         <td><tt><a href="scripts/paper_results/table_x_xi_fdupes.py">table_x_xi_fdupes</a></tt></td>
-        <td><em>table_xi_fdupes_sources</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_xi_fdupes_robots.csv">table_xi_fdupes_robots</em></td>
     </tr>
     <tr>
         <td>Table XII</td>
         <td><tt><a href="scripts/paper_results/table_xii_xiii_joints_links.py">table_xii_xiii_joints_links</a></tt></td>
-        <td><em>table_xii_avg_links_joints</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_xii_avg_links_joints.csv">table_xii_avg_links_joints</em></td>
     </tr>
     <tr>
         <td>Table XIII</td>
         <td><tt><a href="scripts/paper_results/table_xii_xiii_joints_links.py">table_xii_xiii_joints_links</a></tt></td>
-        <td><em>table_xiii_world_flange_links_joints</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_xiii_world_flange_links_joints.csv">table_xiii_world_flange_links_joints</em></td>
     </tr>
     <tr>
         <td>Table XV</td>
         <td><tt><a href="scripts/paper_results/table_xv_urdf_parsers.py">table_xv_urdf_parsers</a></tt></td>
-        <td><em>table_xv_urdf_parsers</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_tables/table_xv_urdf_parsers.csv">table_xv_urdf_parsers</em></td>
     </tr>
     <tr>
         <td>Figure 4</td>
         <td><tt><a href="scripts/paper_results/fig_4_types_sources.py">fig_4_types_sources</a></tt></td>
-        <td><em>-</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_charts/fig_4_types_sources.csv">fig_4_types_sources</em></td>
     </tr>
     <tr>
         <td>Figure 6</td>
         <td><tt><a href="scripts/paper_results/fig_6_manufacturers_sources.py">fig_6_manufacturers_sources</a></tt></td>
-        <td><em>-</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_charts/fig_6_manufacturers_n_source_information.csv">fig_6_manufacturers_n_source_information</em></td>
     </tr>
     <tr>
         <td>Figure 8</td>
         <td><tt><a href="scripts/paper_results/fig_8_cad_types_sources.py">fig_8_cad_types_sources</a></tt></td>
-        <td><em>-</em></td>
+        <td><em><a href="https://github.com/Daniella1/urdf_dataset_results_material/blob/main/csv_files_for_charts/fig_8_cad_mesh_information.csv">fig_8_cad_mesh_information.csv</em></td>
     </tr>
     <tr>
-        <td>Organization details</td>
-        <td><tt><a href="scripts/paper_results/organization_details.py">organization_details</a></tt></td>
+        <td>Contact information</td>
+        <td><tt><a href="scripts/paper_results/contact_information.py">contact_information</a></tt></td>
         <td><em>-</em></td>
     </tr>
 </table>
 
 
-#### Other
+<!--#### Other
 The following table shows the information, which scripts to generate the information, and the resulting CSV file that contains the results.
 
 <table>
@@ -364,17 +382,17 @@ The following table shows the information, which scripts to generate the informa
     </tr>
     <tr>
         <td>Sources and URDF files</td>
-        <td><tt><a href="scripts/extract_dataset_information.py">extract_dataset_information</a></tt></td>
+        <td><tt><a href="scripts/other/extract_dataset_information.py">extract_dataset_information</a></tt></td>
         <td><em>dataset_sources_n_robots</em></td>
     </tr>
     <tr>
         <td>Robot types</td>
-        <td><tt><a href="scripts/extract_dataset_information.py">extract_dataset_information</a></tt></td>
+        <td><tt><a href="scripts/other/extract_dataset_information.py">extract_dataset_information</a></tt></td>
         <td><em>types_information</em></td>
     </tr>
     <tr>
         <td>Manufacturers</td>
-        <td><tt><a href="scripts/extract_dataset_information.py">extract_dataset_information</a></tt></td>
+        <td><tt><a href="scripts/other/extract_dataset_information.py">extract_dataset_information</a></tt></td>
         <td><em>manufacturers_information</em></td>
     </tr>
     <tr>
@@ -383,19 +401,9 @@ The following table shows the information, which scripts to generate the informa
         <td><em>folder_structure_information</em></td>
     </tr>
     <tr>
-        <td>Source xacro generated</td>
-        <td><tt><a href="scripts/extract_xacro_information.py">extract_xacro_information</a></tt></td>
-        <td><em>source_xacro_information</em></td>
-    </tr>
-    <tr>
-        <td>Manufacturer xacro generated</td>
-        <td><tt><a href="scripts/extract_xacro_information.py">extract_xacro_information</a></tt></td>
-        <td><em>manufacturer_xacro_information</em></td>
-    </tr>
-    <tr>
-        <td>Duplicate robots</td>
-        <td><tt><a href="scripts/extract_duplicates_information.py">extract_duplicates_information</a></tt></td>
-        <td><em>duplicates_parsing_information</em></td>
+        <td>Multiply defined robots</td>
+        <td><tt><a href="scripts/other/extract_multiply_defined_robots_information.py">extract_multiply_defined_robots_information</a></tt></td>
+        <td><em>extract_multiply_defined_robots_information</em></td>
     </tr>
     <tr>
         <td>Identical files</td>
@@ -427,7 +435,7 @@ The following table shows the information, which scripts to generate the informa
         <td><tt><a href="scripts/get_model_structure_information.py">get_model_structure_information</a></tt></td>
         <td><em>source_model_name_information</em></td>
     </tr>
-</table>
+</table> -->
 
 
 ## Creating the dataset
@@ -456,3 +464,19 @@ We are not sure if the names of the following robots are correct:
 * Jaco Jxxxxxxx from robotics-toolbox, matlab, oems
 * Kinova Gen3 V12 from matlab
 
+## URDF Dataset Paper and Citation Info
+
+Check out the preprint on [arXiv](https://arxiv.org/abs/2308.00514).
+
+If the dataset helped you in your research, please cite
+
+```
+@misc{tola2023understanding,
+      title={Understanding URDF: A Dataset and Analysis}, 
+      author={Daniella Tola and Peter Corke},
+      year={2023},
+      eprint={2308.00514},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+```
