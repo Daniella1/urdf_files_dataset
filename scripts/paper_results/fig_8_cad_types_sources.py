@@ -168,7 +168,7 @@ alt.Chart(df).mark_bar().encode(
     x=alt.X('sum(values):Q',
         axis=alt.Axis(
             grid=False,
-            title='number of URDF Bundles using the different CAD file types')),
+            title='number of URDF Bundles using the different CAD formats')),
 
     # tell Altair which field to use to use as the set of columns to be represented in each group
     row=alt.Column('c2:N', title=None, sort=cols,),
@@ -190,4 +190,10 @@ alt.Chart(df).mark_bar().encode(
     .configure_view(
         # remove grid lines around column clusters
         strokeOpacity=0    
-    ).show()
+    ).configure_axis(
+    labelFontSize=15,
+    titleFontSize=15
+).configure_legend(
+titleFontSize=12,
+labelFontSize=12
+).show()
