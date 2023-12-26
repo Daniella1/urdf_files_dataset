@@ -101,7 +101,7 @@ for index, row in multiply_defined_robots.iterrows():
             multiply_defined_robots_df.loc[src,"erroneous robots"] += 1
 
 
-multiply_defined_robots_df.to_csv("table_viii_multiply_defined_robots.csv")
+# multiply_defined_robots_df.to_csv("table_viii_multiply_defined_robots.csv")
 
 # multiply_defined_robots.to_csv("multiply_defined_robots.csv",index=False)
 # n_multiply_defined_robots.to_csv("n_multiply_defined_robots.csv",index=False)
@@ -137,7 +137,7 @@ multiply_defined_robots_feature_differences.loc["cad_file_type"] = multiply_defi
 multiply_defined_robots_feature_differences.loc["forward_kin"] = multiply_defined_comparisons['fk_diff'].value_counts()[True]
 multiply_defined_robots_feature_differences.loc["n_lines"] = multiply_defined_comparisons['n_lines_diff'].value_counts()[True]
 
-multiply_defined_robots_feature_differences.to_csv("table_ix_multiply_defined_robots_feature_differences.csv")
+multiply_defined_robots_feature_differences.to_csv("table_vii_multiply_defined_robots_feature_differences.csv")
 
 # multiply_defined_information.to_csv("multiply_defined_information.csv")
 # multiply_defined_comparisons.to_csv("multiply_defined_comparisons.csv")

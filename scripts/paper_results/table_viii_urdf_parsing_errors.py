@@ -89,7 +89,7 @@ for index, row in df_errors.iterrows():
         quanitified_errors.loc[error,"sources"] = str(row['source'])
 
 
-quanitified_errors.to_csv("table_vii_parsing_errors.csv")
+quanitified_errors.to_csv("table_viii_parsing_errors.csv")
 df_errors.to_csv("ros_parsing_errors.csv", index=False)
 df_warnings.to_csv("ros_parsing_warnings.csv", index=False)
 

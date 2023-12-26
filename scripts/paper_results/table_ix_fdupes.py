@@ -166,10 +166,10 @@ for filetype in filetypes:
             selected_robots_identical_files_df = pd.concat([selected_robots_identical_files_df,pd.Series({"robot":robot,"filetype":filetype,"sources":row.source,"#identical files":row.n_identical_files}).to_frame().T],ignore_index=True)
     
 
-source_filetype_df = source_filetype_df.transpose()
-source_filetype_df.to_csv("table_x_fdupes_filetypes.csv")
+# source_filetype_df = source_filetype_df.transpose()
+# source_filetype_df.to_csv("table_x_fdupes_filetypes.csv")
 
 selected_robots_identical_files_df = selected_robots_identical_files_df.sort_values(by="robot",ascending=False)
-selected_robots_identical_files_df.to_csv("table_xi_fdupes_robots.csv",index=False)
+selected_robots_identical_files_df.to_csv("table_ix_fdupes_robots.csv",index=False)
 
 

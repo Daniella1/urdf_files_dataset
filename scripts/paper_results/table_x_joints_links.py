@@ -52,30 +52,11 @@ for source in sources:
     for meta_file in meta_files:
         meta_file_dir = os.path.dirname(meta_file).replace('\\','/').replace(src_dir,'')
         meta_infos = _extract_meta_information(meta_file, meta_infos, f"{src_dir}/{meta_file_dir}", source)
-    
-
-##### TABLE XII avg links and joints
-# get the number of links and joints for each type of robot
-robot_types = ["robotic arm","end effector", "mobile robot","humanoid robot","dual arm robot","mobile manipulator", "quadrupedal robot"]
-robot_type_model_information = pd.DataFrame(columns=["Robot type","Avg. #links","Avg. #joints"])
-for robot_type in robot_types:
-    n_links = list(meta_infos.loc[meta_infos['type'] == robot_type, 'n_links'])
-    n_joints = list(meta_infos.loc[meta_infos['type'] == robot_type, 'n_joints'])
-    
-    assert len(n_links) == len(n_joints), "n_links is not equal to n_joints"
-    n_robots = len(n_links)
-
-    if n_robots != 0: # jsut for testing purposes
-        avg_links = sum(n_links)/n_robots
-        avg_joints = sum(n_joints)/n_robots
-
-        robot_type_model_information = pd.concat([robot_type_model_information, pd.Series({'Robot type':robot_type, 'Avg. #links':avg_links, 'Avg. #joints': avg_joints}).to_frame().T], ignore_index=True)
-
-robot_type_model_information.to_csv("table_xii_avg_links_joints.csv",index=False)
 
 
 
-##### TABLE XIII words world and flange
+
+##### TABLE X words world and flange
 # check the number of joints and links named 'world' and 'flange' from the different sources
 words_to_check = ['world','flange']
 source_model_name_information = pd.DataFrame(columns=["source"] + words_to_check)
@@ -96,4 +77,4 @@ for source in sources:
 
     source_model_name_information = pd.concat([source_model_name_information, pd.Series(word_count_info).to_frame().T], ignore_index=True)
 
-source_model_name_information[["source","world","flange"]].to_csv("table_xiii_world_flange_links_joints.csv",index=False) # extract only columns for the table
+source_model_name_information[["source","world","flange"]].to_csv("table_x_world_flange_links_joints.csv",index=False) # extract only columns for the table
