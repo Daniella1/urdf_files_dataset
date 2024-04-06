@@ -466,17 +466,19 @@ We are not sure if the names of the following robots are correct:
 
 ## URDF Dataset Paper and Citation Info
 
-Check out the preprint on [arXiv](https://arxiv.org/abs/2308.00514).
+Check out the preprint on [arXiv](https://arxiv.org/abs/2308.00514), and the [published paper](https://ieeexplore.ieee.org/abstract/document/10478618).
 
 If the dataset helped you in your research, please cite
 
 ```
-@misc{tola2023understanding,
-      title={Understanding URDF: A Dataset and Analysis}, 
-      author={Daniella Tola and Peter Corke},
-      year={2023},
-      eprint={2308.00514},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
+@ARTICLE{URDFDataset,
+  author={Tola, Daniella and Corke, Peter},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Understanding URDF: A Dataset and Analysis}, 
+  year={2024},
+  volume={9},
+  number={5},
+  pages={4479-4486},
+  doi={10.1109/LRA.2024.3381482}
 }
 ```
